@@ -412,97 +412,67 @@
 
 
 <!-- Portfolio Start -->
-        <div class="portfolio" id="portfolio">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>Was ich kann</p>
-                    <h2>Mein Portfolio</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <ul id="portfolio-filter">
-                            <!-- <li data-filter="*" class="filter-active">All</li> -->
-                            <li data-filter=".filter-1">Lebenslauf</li>
-                            <li data-filter=".filter-2">Qualifikationsprofil</li>
-                            <li data-filter=".filter-3">Design Portfolio</li>
-                        </ul>
-                    </div>
-                </div>
-                <!--
-                <div class="row portfolio-container">
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-1.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>eCommerce Website</h3>
-                                <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-2.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Product Landing Page</h3>
-                                <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-3.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>JavaScript quiz game</h3>
-                                <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-4.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>JavaScript drawing</h3>
-                                <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-5.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Social Mobile Apps</h3>
-                                <a class="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-6.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Company Website</h3>
-                                <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-                -->
+<div class="portfolio" id="portfolio">
+    <div class="container">
+        <!-- Abschnittsüberschrift -->
+        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p>Was ich kann</p>
+            <h2>Mein Portfolio</h2>
+        </div>
+
+        <!-- Button-Reihe für Downloads -->
+        <div class="row">
+            <div class="col-12 text-center">
+                <!-- Download-Button: Lebenslauf -->
+                <a href="downloads/lebenslauf.pdf" class="btn" download>
+                    <i class="fas fa-download me-2"></i>Mein Lebenslauf
+                </a>
+
+                <!-- Download-Button: Qualifikationsprofil -->
+                <a href="downloads/qualifikationsprofil.pdf" class="btn" download>
+                    <i class="fas fa-download me-2"></i>Qualifikationsprofil
+                </a>
+
+                <!-- Download-Button: Design Portfolio -->
+                <a href="downloads/design-portfolio.pdf" class="btn" download>
+                    <i class="fas fa-download me-2"></i>Design Portfolio
+                </a>
             </div>
         </div>
-        <!-- Portfolio End -->
+
+        <!-- Optional: Ursprünglicher Filter (auskommentiert) -->
+        <!--
+        <ul id="portfolio-filter">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-1">Lebenslauf</li>
+            <li data-filter=".filter-2">Qualifikationsprofil</li>
+            <li data-filter=".filter-3">Design Portfolio</li>
+        </ul>
+        -->
+
+        <!-- Optional: Portfolio-Galerie (auskommentiert) -->
+        <!--
+        <div class="row portfolio-container">
+            <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                <div class="portfolio-wrap">
+                    <div class="portfolio-img">
+                        <img src="img/portfolio-1.jpg" alt="eCommerce Website">
+                    </div>
+                    <div class="portfolio-text">
+                        <h3>eCommerce Website</h3>
+                        <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Weitere Portfolio-Elemente folgen hier... -->
+        </div>
+        -->
+    </div>
+</div>
+<!-- Portfolio End -->
+
         
-        <!-- Testimonial Start -->
+<!-- Testimonial Start -->
         <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
             <div class="container">
                 <div class="testimonial-icon">
@@ -515,7 +485,7 @@
                         </div>
                         <div class="testimonial-text">
                             <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                                Lorem ipsum dolor sit amet elit.
                             </p>
                             <h3>Customer Name</h3>
                             <h4>Profession</h4>
