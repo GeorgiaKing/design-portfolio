@@ -1,0 +1,176 @@
+/*******************************/
+/********* Service CSS *********/
+/*******************************/
+.service {
+    position: relative;
+    width: 100%;
+    padding: 4rem 0;
+    background: var(--bg-primary, #FAFAFA); /* Light Default, Dark auto-an */
+}
+
+.section-header {
+    margin-bottom: 3rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2x2-Grid */
+    gap: 2rem;
+}
+
+.service-card {
+    background: var(--bg-secondary, #ffffff); /* Light White, Dark dunkler türkis wie Banner */
+    border-radius: 20px; /* Rounded für Modernität */
+    padding: 2rem;
+    box-shadow: var(--shadow, 0 4px 15px rgba(0, 191, 165, 0.08)); /* Subtiler türkis-Schatten */
+    transition: all 0.4s ease;
+    border: 1px solid var(--border, rgba(0, 191, 165, 0.1));
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: var(--text-primary, #424242); /* Text an Mode anpassen */
+}
+
+.service-card:focus-visible {
+    outline: 2px solid var(--accent, #00BFA5);
+    outline-offset: 2px;
+}
+
+.service-card:hover {
+    transform: translateY(-8px) scale(1.02); /* Dynamischer Lift + Scale für UX */
+    box-shadow: 0 12px 35px rgba(0, 191, 165, 0.2);
+    border-color: var(--accent, #00BFA5);
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(to right, var(--accent, #00BFA5), var(--accent-light, #B2EBF2)); /* Türkis-Top-Bar */
+}
+
+.service-icon {
+    margin-bottom: 1rem;
+}
+
+.service-icon i {
+    font-size: 3rem;
+    color: var(--accent, #00BFA5); /* Türkis-Icons */
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .service-icon i {
+    transform: rotate(10deg) scale(1.1); /* Verspielter Spin + Scale */
+    color: var(--accent-dark, #00695C); /* Dunkler auf Hover (Dark Mode angepasst) */
+}
+
+.service-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary, #424242);
+}
+
+.service-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: var(--text-secondary, #666666);
+}
+
+.service-impact {
+    opacity: 0; /* Versteckt bis Hover */
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+.service-impact span {
+    display: inline-block;
+    background: var(--accent, #00BFA5);
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.service-card:hover .service-impact {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Dropcaps: Global, erster Buchstabe fett pro Wort */
+.dropcap-text {
+    line-height: 1.6;
+}
+
+.bold-first-letter {
+    font-weight: bold;
+}
+
+/* Responsive: Mobile-First, Cards stacken */
+@media (max-width: 991.98px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .service {
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .service-card {
+        padding: 1.5rem;
+    }
+    .service-icon i {
+        font-size: 2.5rem;
+    }
+    .service-desc {
+        font-size: 0.95rem;
+    }
+}
+
+/* Reduced Motion: Acc-freundlich */
+@media (prefers-reduced-motion: reduce) {
+    .service-card,
+    .service-icon i,
+    .service-impact {
+        transition-duration: 0.01ms !important;
+    }
+    .service-card:hover {
+        transform: none;
+    }
+    .service-impact {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* Dark Mode: Dunkler türkis wie Banner (konsistent) */
+[data-theme="dark"] .service {
+    background: rgba(0, 105, 92, 0.1); /* Leichter dunkler türkis */
+}
+
+[data-theme="dark"] .service-card {
+    background: #00695C; /* Dunkler türkis Bg wie Banner */
+    border-color: rgba(128, 222, 234, 0.3); /* Heller türkis Border */
+    color: #e0e0e0; /* Heller Text */
+}
+
+[data-theme="dark"] .service-card h3 {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .service-desc {
+    color: #b0b0b0;
+}
+
+[data-theme="dark"] .service-impact span {
+    background: #80deea; /* Heller türkis für Kontrast */
+    color: #1a1a1a;
+}

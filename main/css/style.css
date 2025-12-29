@@ -1,0 +1,58 @@
+/* Haupt-CSS: Importiert modulare Files für bessere Wartung */
+
+/* General */
+@import 'general.css';
+
+/* Navigation */
+@import 'navbar.css';
+
+/* Hero */
+@import 'hero.css';
+
+/* Impressum */
+@import 'impressum.css';
+
+/* Insights */
+@import 'insights.css';
+
+/* Section Headers */
+@import 'section-header.css';
+
+/* About */
+@import 'about.css';
+
+/* Experience/Timeline */
+@import 'experience.css';
+
+/* Services */
+@import 'service.css';
+
+/* projects-focus */
+@import 'projects-focus.css';
+
+/* Portfolio */
+@import 'portfolio.css';
+
+/* Banner */
+@import 'banner.css';
+
+/* Pricing (falls genutzt) */
+@import 'price.css';
+
+/* Team */
+@import 'team.css';
+
+/* Testimonials */
+@import 'testimonial.css';
+
+/* Contact */
+@import 'contact.css';
+
+/* Datenschutz */
+@import 'datenschutz.css';
+
+/* Blog */
+@import 'blog.css';
+
+/* Footer */
+@import 'footer.css';

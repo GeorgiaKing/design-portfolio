@@ -1,0 +1,283 @@
+/*******************************/
+/******* Experience CSS ********/
+/*******************************/
+.experience {
+    position: relative;
+    padding: 4rem 0;
+    background: var(--bg-primary, #FAFAFA); /* Light Default, Dark anpassen */
+}
+
+.section-header {
+    margin-bottom: 3rem;
+}
+
+.experience-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--border, rgba(0, 191, 165, 0.1));
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-secondary, #666666);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-btn.active,
+.tab-btn:hover,
+.tab-btn:focus-visible {
+    color: var(--accent, #00BFA5);
+    border-bottom-color: var(--accent, #00BFA5);
+    outline: none;
+}
+
+.tab-btn:focus-visible {
+    box-shadow: 0 -3px 0 var(--accent, #00BFA5); /* Focus für Acc */
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.timeline-grid {
+    position: relative;
+    max-width: 70rem; /* Breiter für mehr Abstand */
+    margin: 0 auto;
+}
+
+.timeline-grid::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--accent, #00BFA5), var(--accent-light, #B2EBF2)); /* Türkis-Linie */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+    z-index: 1;
+}
+
+.timeline-card {
+    position: relative;
+    width: 38%; /* Etwas kleiner für mehr Abstand */
+    margin-bottom: 3rem;
+    background: var(--bg-secondary, #ffffff); /* Mode-an */
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow, 0 4px 12px rgba(0, 191, 165, 0.05));
+    transition: all 0.3s ease;
+    border: 1px solid var(--border, rgba(0, 191, 165, 0.1));
+    cursor: pointer;
+    color: var(--text-primary, #424242);
+}
+
+.timeline-card.left {
+    left: -2rem;
+    margin-right: 5rem; /* Mehr Abstand zur Linie (symmetrisch) */
+}
+
+.timeline-card.right {
+    left: 57%; /* 50% + 12% für Balance und Abstand */
+    margin-left: 5rem; /* Gleich wie links */
+}
+
+.timeline-card:focus-visible {
+    outline: 2px solid var(--accent, #00BFA5);
+    outline-offset: 2px;
+}
+
+.timeline-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 191, 165, 0.15);
+    border-color: var(--accent, #00BFA5);
+}
+
+.timeline-dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: var(--bg-secondary, #ffffff);
+    border: 3px solid var(--accent, #00BFA5);
+    border-radius: 50%;
+    top: 1rem;
+    right: -8px; /* Symmetrisch zur Linie */
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.timeline-card.right .timeline-dot {
+    left: -8px; /* Symmetrisch */
+    right: auto;
+}
+
+.timeline-card:hover .timeline-dot {
+    background: var(--accent, #00BFA5);
+    transform: scale(1.2);
+}
+
+.timeline-date {
+    position: absolute;
+    top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent, #00BFA5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 2;
+    white-space: nowrap; /* Verhindert Umbruch */
+    padding: 0.25rem 0.5rem; /* Leichter Padding für Balance */
+    background: var(--bg-secondary, #ffffff); /* Bg für Sichtbarkeit */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-card.left .timeline-date {
+    left: calc(100% + 1.5rem); /* Mehr Abstand, außerhalb Linie */
+    text-align: left;
+}
+
+.timeline-card.right .timeline-date {
+    right: calc(100% + 1.5rem); /* Symmetrisch, außerhalb */
+    text-align: right;
+}
+
+.timeline-content {
+    padding: 1rem;
+    position: relative;
+    z-index: 3;
+}
+
+.timeline-content h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary, #424242);
+}
+
+.timeline-content h4 {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--text-secondary, #666666);
+}
+
+.timeline-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-primary, #424242);
+    margin: 0;
+}
+
+/* Dropcaps: Global, erster Buchstabe fett pro Wort */
+.dropcap-text {
+    line-height: 1.6;
+}
+
+.bold-first-letter {
+    font-weight: bold;
+}
+
+/* Responsive: Mobile-First, Timeline stackt */
+@media (max-width: 991.98px) {
+    .timeline-grid::after {
+        left: 1rem;
+    }
+    .timeline-card {
+        width: 100%;
+        left: 0 !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding-left: 3rem;
+    }
+    .timeline-card.left, .timeline-card.right {
+        padding-right: 0;
+    }
+    .timeline-dot {
+        left: 0.5rem;
+        right: auto;
+    }
+    .timeline-date {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .experience {
+        padding: 3rem 0;
+    }
+    .timeline-content h3 {
+        font-size: 1.125rem;
+    }
+    .timeline-content p {
+        font-size: 0.95rem;
+    }
+}
+
+/* Reduced Motion: Animation behalten, aber Acc-freundlich */
+@media (prefers-reduced-motion: reduce) {
+    .timeline-card,
+    .timeline-dot {
+        transition-duration: 0.01ms !important;
+    }
+    .timeline-card:hover {
+        transform: none;
+    }
+    .timeline-dot:hover {
+        transform: none;
+    }
+}
+
+/* Dark Mode: Dunkler türkis wie Banner (konsistent) */
+[data-theme="dark"] .experience {
+    background: rgba(0, 105, 92, 0.1); /* Leichter dunkler türkis */
+}
+
+[data-theme="dark"] .timeline-grid::after {
+    background: linear-gradient(to bottom, var(--accent, #4dd0e1), var(--accent-light, #80deea));
+}
+
+[data-theme="dark"] .timeline-card {
+    background: #00695C; /* Dunkler türkis Bg */
+    border-color: rgba(128, 222, 234, 0.3);
+    color: var(--text-primary, #e0e0e0);
+}
+
+[data-theme="dark"] .timeline-card h3 {
+    color: var(--text-primary, #e0e0e0);
+}
+
+[data-theme="dark"] .timeline-card h4 {
+    color: var(--text-secondary, #b0b0b0);
+}
+
+[data-theme="dark"] .timeline-card p {
+    color: var(--text-primary, #e0e0e0);
+}
+
+[data-theme="dark"] .timeline-dot {
+    background: #00695C;
+    border-color: var(--accent-light, #80deea);
+}
+
+[data-theme="dark"] .timeline-date {
+    color: var(--accent-light, #80deea);
+    background: #00695C; /* Bg für Sichtbarkeit */
+}

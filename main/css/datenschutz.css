@@ -1,0 +1,88 @@
+/*******************************/
+/***** Datenschutz Seite CSS *****/
+/*******************************/
+.datenschutz-page {
+    padding: 7rem 0 5rem;
+    background: var(--bg-primary, #FAFAFA);
+    min-height: 100vh;
+}
+
+.datenschutz-content {
+    background: var(--bg-secondary, #ffffff);
+    padding: 3.5rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow, 0 6px 20px rgba(0,191,165,0.08));
+    border: 1px solid var(--border);
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+    color: var(--text-primary);
+}
+
+.datenschutz-content h1 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: var(--accent, #00BFA5);
+}
+
+.datenschutz-content h2 {
+    font-size: 1.8rem;
+    margin: 3rem 0 1rem;
+    color: var(--accent, #00BFA5);
+}
+
+.datenschutz-content p, 
+.datenschutz-content ul {
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary, #666666);
+}
+
+.datenschutz-content a {
+    color: var(--accent, #00BFA5);
+    text-decoration: underline;
+}
+
+.intro-text {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.closing-text {
+    margin-top: 4rem;
+    font-style: italic;
+    text-align: right;
+    color: var(--text-secondary);
+}
+
+/* Dark Mode */
+[data-theme="dark"] .datenschutz-page {
+    background: rgba(0,105,92,0.1);
+}
+
+[data-theme="dark"] .datenschutz-content {
+    background: #00695c;
+    border-color: rgba(128,222,234,0.3);
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .datenschutz-content h2,
+[data-theme="dark"] .datenschutz-content h3 {
+    color: #80deea;
+}
+
+[data-theme="dark"] .datenschutz-content p {
+    color: #b0b0b0;
+}
+
+[data-theme="dark"] .intro-text,
+[data-theme="dark"] .closing-text {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .datenschutz-content a {
+    color: #80deea;
+}

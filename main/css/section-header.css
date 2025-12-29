@@ -1,0 +1,80 @@
+/*******************************/
+/******* Section Header ********/
+/*******************************/
+.section-header {
+    position: relative;
+    margin-bottom: 45px;
+    text-align: left; /* oder center, je nach Section */
+}
+
+.section-header p {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 6px 15px 6px 22px;        /* Platz für den Punkt links */
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border-radius: 8px;               /* leicht abgerundet – wirkt moderner */
+
+    background: var(--header-label-bg, #ffffff);
+    color: var(--header-label-text, #076C60);
+}
+
+/* Nur noch der kleine Punkt links – keine durchgehende Linie mehr */
+.section-header p::after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background: var(--header-dot, #076C60);
+    border-radius: 50%;
+}
+
+/* ::before komplett entfernt → keine Linie mehr */
+
+/* Großer Titel */
+.section-header h2 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+    .section-header h2 { font-size: 32px; }
+    .section-header p { 
+        font-size: 15px;
+        padding: 5px 12px 5px 20px;
+    }
+}
+
+/* LIGHT MODE (Standard) */
+:root {
+    --header-label-bg:   #ffffff;
+    --header-label-text: #076C60;
+    --header-dot:        #076C60;
+}
+
+/* DARK MODE – clean & edel */
+[data-theme="dark"] {
+    --header-label-bg:   rgba(77, 208, 225, 0.15);   /* transparenter Glow */
+    --header-label-text: #80deea;
+    --header-dot:        #80deea;
+}
+
+/* Noch schöner im Dark Mode (optional aktivieren) */
+[data-theme="dark"] .section-header p {
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(128, 222, 234, 0.2);
+}
+
+[data-theme="dark"] .section-header p::after {
+    box-shadow: 0 0 10px rgba(128, 222, 234, 0.6);
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title data-i18n="impressum-title">Impressum – Georgia König</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Georgia König Impressum">
+    <meta name="description" content="Impressum und rechtliche Hinweise von Georgia König, UX-Designerin und Accessibility Expertin">
+
+        <!-- FAVICONS – perfekt für 2025 -->
+        <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="android-chrome" sizes="192x192" href="favicon_io/android-chrome-192x192.png">
+        <link rel="android-chrome" sizes="512x512" href="favicon_io/android-chrome-512x512.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+        <meta name="theme-color" content="#00BFA5">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+    <!-- Navbar – unverändert -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light" role="navigation" aria-label="Hauptnavigation">
+        <div class="container-fluid">
+        <a href="index.html" class="navbar-brand" aria-label="Zur Startseite – Georgia König">
+            <img src="img/logo-gk.svg" alt="Georgia König Logo" height="32">
+        </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto" role="menubar">
+                <li class="nav-item"><a href="index.html#home" class="nav-link">Start</a></li>
+                <li class="nav-item"><a href="index.html#about" class="nav-link">Über mich</a></li>
+                <li class="nav-item"><a href="index.html#service" class="nav-link">Dienstleistungen</a></li>
+                <li class="nav-item"><a href="index.html#experience" class="nav-link">Werdegang</a></li>
+                <li class="nav-item"><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="index.html#review" class="nav-link">Referenzen</a></li>
+                <li class="nav-item"><a href="index.html#contact" class="nav-link">Kontakt</a></li>
+                <li class="nav-item"><a href="index.html#insights" class="nav-link">Insights</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                </ul>
+                </ul>
+
+                <div class="navbar-toggles">
+                    <button class="lang-btn" aria-label="Switch to English">EN</button>
+                    <button class="lang-btn active" aria-label="Switch to German">DE</button>
+                    <button class="mode-toggle" onclick="toggleMode()" aria-label="Dark/Light Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Impressum Inhalt – jetzt nur noch data-i18n! -->
+    <section class="hero-impressum" id="impressum">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="impressum-content">
+
+                        <h1 class="dropcap-text" data-i18n="impressum-title">Impressum</h1>
+
+                        <div class="impressum-section">
+                            <h2 class="dropcap-text" data-i18n="impressum-angaben">Angaben gemäß § 5 TMG</h2>
+                            <p class="dropcap-text" data-i18n-html="impressum-address">Georgia König<br>Neue Straße 5<br>74523 Schwäbisch Hall</p>
+
+                            <h2 class="dropcap-text" data-i18n="impressum-contact">Kontakt</h2>
+                            <p class="dropcap-text" data-i18n-html="impressum-email">E-Mail: <a href="mailto:kontakt@georgia-koenig.de">kontakt@georgia-koenig.de</a></p>
+                        </div>
+
+                        <div class="impressum-section">
+                            <h2 class="dropcap-text" data-i18n="impressum-disclaimer">Haftungsausschluss (Disclaimer)</h2>
+
+                            <h3 class="dropcap-text" data-i18n="impressum-liability-content">Haftung für Inhalte</h3>
+                            <p class="dropcap-text" data-i18n="impressum-liability-content-text">Die Inhalte...</p>
+
+                            <h3 class="dropcap-text" data-i18n="impressum-liability-links">Haftung für Links</h3>
+                            <p class="dropcap-text" data-i18n="impressum-liability-links-text">Mein Angebot...</p>
+
+                            <h3 class="dropcap-text" data-i18n="impressum-dispute">Streitschlichtung</h3>
+                            <p class="dropcap-text" data-i18n-html="impressum-dispute-text">Die Europäische Kommission...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer Start -->
+<footer class="footer" role="contentinfo" aria-label="Fußzeile – Kontakt, Links und rechtliche Informationen">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-column">
+                <h3 class="footer-title" data-i18n="footer-about">Über mich</h3>
+                <p class="footer-text">Georgia König – UX-Designerin & IT-Beraterin mit Leidenschaft für Accessibility und Digitalstrategie. Lass uns gemeinsam innovative Lösungen schaffen.</p>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title" data-i18n="footer-contact">Kontakt</h3>
+                <p class="footer-text"><a href="mailto:georgia.koenig@example.com" class="footer-link">kontakt@georgia-koenig.de</a></p>
+                <p class="footer-text"><a href="tel:+4915150242010" class="footer-link">+49 1515 0242 010</a></p>
+                <p class="footer-text">Schwäbisch Hall, Deutschland</p>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title" data-i18n="footer-links">Schnelllinks</h3>
+                <ul class="footer-links">
+                    <li><a href="#about" class="footer-link" data-i18n="nav-about">Über mich</a></li>
+                    <li><a href="#experience" class="footer-link" data-i18n="nav-experience">Werdegang</a></li>
+                    <li><a href="#portfolio" class="footer-link" data-i18n="nav-portfolio">Portfolio</a></li>
+                    <li><a href="#review" class="footer-link" data-i18n="nav-review">Referenzen</a></li>
+                    <li><a href="#insights" class="footer-link" data-i18n="nav-insights">Insights & Inspiration</a></li>
+                    <li><a href="#contact" class="footer-link" data-i18n="nav-contact">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title" data-i18n="footer-social">Social Media</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/georgiakoenig" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profil">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                        <a href="https://x.com/georgiakoenig" target="_blank" rel="noopener noreferrer" aria-label="X Profil">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1227" width="15" height="15" aria-hidden="true" fill="currentColor">
+                                <path d="M714 519L1160 0H1008L672 410 366 0H0L460 574 0 1227H152L494 793 828 1227H1200L714 519z"/>
+                            </svg>
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-legal">
+                <a href="impressum.html" class="footer-link" data-i18n="footer-legal-1">Impressum</a> | <a href="datenschutz.html" class="footer-link" data-i18n="footer-legal-2">Datenschutz</a>
+            </div>
+            <p class="footer-copyright" data-i18n="footer-copyright">&copy; 2025 Georgia König. Alle Rechte vorbehalten.</p>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+
+    <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="loader" class="show"><div class="loader"></div></div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

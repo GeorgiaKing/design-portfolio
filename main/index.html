@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title data-i18n="hero-title">Georgia König</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Georgia König" name="keywords">
+        <meta content="Georgia König's Portfolio" name="description">
+        <!-- Favicon -->
+        <!-- FAVICONS – perfekt für 2025 -->
+        <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="android-chrome" sizes="192x192" href="favicon_io/android-chrome-192x192.png">
+        <link rel="android-chrome" sizes="512x512" href="favicon_io/android-chrome-512x512.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+        <meta name="theme-color" content="#00BFA5">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+
+    <!-- WhatsApp Button – fest rechts unten, perfekt zum Design -->
+<a href="https://wa.me/4915150242010?text=Hallo Georgia, ich komme von deiner Website und würde gerne mit dir über ein Projekt sprechen!" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Schreib mir auf WhatsApp"
+   title="Schreib mir auf WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Schreib mir!</span>
+</a>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+
+<!-- Nav Bar Start -->
+<nav class="navbar navbar-expand-lg bg-light navbar-light" role="navigation" aria-label="Hauptnavigation">
+    <div class="container-fluid">
+        <a href="index.html" class="navbar-brand" aria-label="Zur Startseite – Georgia König">
+            <img src="img/logo-gk.svg" alt="Georgia König Logo" height="32">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navigation umschalten">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto" role="menubar">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" aria-current="page" role="menuitem" data-i18n="nav-home">Start</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" role="menuitem" data-i18n="nav-about">Über mich</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#service" class="nav-link" role="menuitem" data-i18n="nav-service">Dienstleistungen</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" role="menuitem" data-i18n="nav-experience">Werdegang</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link" role="menuitem" data-i18n="nav-portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#review" class="nav-link" role="menuitem" data-i18n="nav-review">Referenzen</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" role="menuitem" data-i18n="nav-contact">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#insights" class="nav-link" role="menuitem" data-i18n="nav-insights">Insights</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="blog.html" class="nav-link" role="menuitem" data-i18n="nav-blog">Blog</a>
+                </li>
+            </ul>
+            <div class="navbar-toggles">
+                <button class="lang-btn" aria-label="Switch to English">EN</button>
+                <button class="lang-btn active" aria-label="Switch to German">DE</button>
+                <button class="mode-toggle" aria-label="Toggle Mode" onclick="toggleMode()" title="Light/Dark Mode">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Nav Bar End -->
+
+
+<!-- Hero Start -->
+<section class="hero" id="home" role="banner" aria-label="Willkommensbereich – Georgia König, UX-Expertin">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-7">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="hero-subtitle dropcap-text">Hallo, ich bin</p>
+                        <h1 class="hero-title dropcap-text">Georgia König</h1>
+                        <h2 class="hero-typed" aria-live="polite" aria-label="Aktuelle Rolle:"></h2> <!-- Leer, Cursor inline -->
+                        <div class="typed-text" aria-hidden="true">UX Designerin, Digitale Teilhabeberatung, Accessibility Consultant, IT Master</div>
+                        <p class="hero-meta dropcap-text">Schwäbisch Hall | 12+ Jahre Erfahrung in barrierefreiem Design</p>
+                    </div>
+                    <div class="hero-btns">
+                        <a href="#portfolio" class="btn btn-primary" role="button" aria-label="Portfolio entdecken">Portfolio entdecken</a>
+                        <a href="#contact" class="btn btn-secondary" role="button" aria-label="Kontakt aufnehmen">Kontakt</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5 d-none d-md-block">
+                <div class="hero-image">
+                    <img src="img/hero_small.jpg" class="hero-img" alt="Georgia König, selbstbewusste Frau Ende 30 mit Brille und Undercut, lächelt kreativ – bereit für UX-Projekte.">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero End -->
+
+
+<!-- "About Me" Start -->
+<section class="about wow fadeInUp" data-wow-delay="0.1s" id="about" role="region" aria-label="Über mich – Story und Fähigkeiten">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-story">
+                    <div class="section-header text-left">
+                        <p class="dropcap-text" data-i18n="about-header">Was ich mitbringe</p>
+                        <h2 class="dropcap-text" data-i18n="about-title">12 Jahre in der Informatik</h2>
+                    </div>
+                    <div class="about-text dropcap-text">
+                        <p data-i18n="about-text1">
+                            Die Informatik hat mich schon als Kind fasziniert. Sieben Jahre Studium und vier Jahre Arbeitserfahrung später
+                            will ich mich - als Selbständige - nun spannenden und barrierearmen Projekten widmen.
+                        </p>
+                        <p data-i18n="about-text2">
+                            Ist deins vielleicht eines davon? Melde dich und wir finden es heraus!
+                        </p>
+                    </div>
+                    <a href="#contact" class="btn btn-primary" role="button" aria-label="Gespräch vereinbaren" data-i18n="about-btn">Lass uns reden</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="skills-grid" role="list" aria-label="Fähigkeiten als interaktive Karten">
+                    <div class="skill-card" role="listitem" tabindex="0" aria-label="User Experience Design: 85%">
+                        <div class="skill-icon">
+                            <i class="fas fa-palette" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="dropcap-text">User Experience Design</h3>
+                        <div class="skill-bar">
+                            <div class="progress-bar" style="width: 85%;"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-card" role="listitem" tabindex="0" aria-label="Barrierefreiheit: 90%">
+                        <div class="skill-icon">
+                            <i class="fas fa-universal-access" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="dropcap-text">Barrierefreiheit</h3>
+                        <div class="skill-bar">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-card" role="listitem" tabindex="0" aria-label="Nutzerforschung: 90%">
+                        <div class="skill-icon">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="dropcap-text">Nutzerforschung</h3>
+                        <div class="skill-bar">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-card" role="listitem" tabindex="0" aria-label="Anforderungsanalyse: 80%">
+                        <div class="skill-icon">
+                            <i class="fas fa-chart-line" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="dropcap-text">Anforderungsanalyse</h3>
+                        <div class="skill-bar">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-card" role="listitem" tabindex="0" aria-label="Mentoring: 85%">
+                        <div class="skill-icon">
+                            <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="dropcap-text">Mentoring</h3>
+                        <div class="skill-bar">
+                            <div class="progress-bar" style="width: 85%;"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-card" role="listitem" tabindex="0" aria-label="Webentwicklung: 85%">
+                        <div class="skill-icon">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="dropcap-text">Webentwicklung</h3>
+                        <div class="skill-bar">
+                            <div class="progress-bar" style="width: 85%;"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About End -->
+
+
+<!-- Service Start -->
+<section class="service" id="service" role="region" aria-label="Dienstleistungen – Meine Angebote">
+    <div class="container">
+        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p class="dropcap-text" data-i18n="service-header">Was ich mache</p>
+            <h2 class="dropcap-text" data-i18n="service-title">Meine Dienstleistungen</h2>
+        </div>
+
+        <div class="services-grid" role="list" aria-label="Dienstleistungen als interaktive Karten">
+            <!-- Card 1 -->
+            <div class="service-card wow fadeInUp"
+                 data-wow-delay="0.1s"
+                 role="listitem"
+                 tabindex="0"
+                 aria-label="User Experience Design – Digitale Erlebnisse optimieren">
+                <div class="service-icon">
+                    <i class="fas fa-palette" aria-hidden="true"></i>
+                </div>
+                <h3 class="dropcap-text" data-i18n="service-ux">User Experience Design</h3>
+                <p class="dropcap-text service-desc" data-i18n="service-ux-desc">
+                    Bist du bereit, digitale Erlebnisse zu schaffen, die einfach überzeugen?
+                </p>
+                <div class="service-impact">
+                    <span data-i18n="service-ux-impact">+40% Usability-Boost</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="service-card wow fadeInUp"
+                 data-wow-delay="0.2s"
+                 role="listitem"
+                 tabindex="0"
+                 aria-label="Webseitenbau – Ideen ins Netz bringen">
+                <div class="service-icon">
+                    <i class="fas fa-laptop-code" aria-hidden="true"></i>
+                </div>
+                <h3 class="dropcap-text" data-i18n="service-web">Webseitenbau</h3>
+                <p class="dropcap-text service-desc" data-i18n="service-web-desc">
+                    Bist du bereit, deine Ideen endlich ins Netz zu bringen?
+                </p>
+                <div class="service-impact">
+                    <span data-i18n="service-web-impact">Responsive &amp; SEO-optimiert</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="service-card wow fadeInUp"
+                 data-wow-delay="0.3s"
+                 role="listitem"
+                 tabindex="0"
+                 aria-label="Digitale Barrierefreiheit – Für alle zugänglich">
+                <div class="service-icon">
+                    <i class="fas fa-universal-access" aria-hidden="true"></i>
+                </div>
+                <h3 class="dropcap-text" data-i18n="service-access">Digitale Barrierefreiheit</h3>
+                <p class="dropcap-text service-desc" data-i18n="service-access-desc">
+                    Bist du bereit, deine digitalen Inhalte für alle Nutzer:innen zu öffnen?
+                </p>
+                <div class="service-impact">
+                    <span data-i18n="service-access-impact">WCAG-AA konform</span>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="service-card wow fadeInUp"
+                 data-wow-delay="0.4s"
+                 role="listitem"
+                 tabindex="0"
+                 aria-label="Digitale Strategie – Nutzerbedürfnisse verstehen">
+                <div class="service-icon">
+                    <i class="fas fa-compass" aria-hidden="true"></i>
+                </div>
+                <h3 class="dropcap-text" data-i18n="service-strategy">Digitale Strategie</h3>
+                <p class="dropcap-text service-desc" data-i18n="service-strategy-desc">
+                    Bist du bereit, zu erfahren, was deine Nutzer:innen wirklich denken und brauchen?
+                </p>
+                <div class="service-impact">
+                    <span data-i18n="service-strategy-impact">User Research integriert</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Service End -->
+
+
+
+<!-- Banner Start -->
+<section class="banner wow zoomIn" data-wow-delay="0.1s" role="region" aria-label="Kostenlose Analyse – Starte dein Projekt">
+    <div class="container">
+        <div class="banner-content">
+            <div class="section-header text-center">
+                <p class="dropcap-text" data-i18n="banner-header">Kostenlose Analyse deiner Webseite</p>
+                <h2 class="dropcap-text" data-i18n="banner-title">Digitale Barrierefreiheit beginnt mit einem Gespräch</h2>
+            </div>
+            <div class="banner-text dropcap-text">
+                <p data-i18n="banner-text">
+                    Du möchtest erfahren, wie zugänglich deine Webseite wirklich ist? In einem kostenlosen Erstgespräch analysiere ich eine Seite deiner Wahl und zeige dir zentrale Barrieren auf.
+                    Du erhältst konkrete Hinweise zur Optimierung – damit deine Inhalte für alle Menschen erreichbar werden. Weniger Barrieren bedeutet mehr Gewinn für alle.
+                </p>
+                <a href="#contact" class="btn btn-primary" role="button" aria-label="Gespräch vereinbaren" data-i18n="banner-btn">Jetzt Gespräch vereinbaren</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner End -->
+
+
+<!-- Experience Start -->
+<section class="experience" id="experience" role="region" aria-label="Werdegang – Beruflich und schulisch">
+    <div class="container">
+        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p class="dropcap-text" data-i18n="experience-header">Mein Weg</p>
+            <h2 class="dropcap-text" data-i18n="experience-title">Werdegang – Von Studium zur Expertin</h2>
+        </div>
+        <div class="experience-tabs" role="tablist" aria-label="Werdegang-Tabs">
+            <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="professional" onclick="switchTab('professional')" data-i18n="exp-tab-pro">Beruflich</button>
+            <button class="tab-btn" role="tab" aria-selected="false" aria-controls="education" onclick="switchTab('education')" data-i18n="exp-tab-edu">Schulisch</button>
+        </div>
+        <div class="tab-content active" id="professional" role="tabpanel" aria-labelledby="professional-tab">
+            <div class="timeline-grid" role="list" aria-label="Beruflicher Werdegang">
+                <div class="timeline-card left wow slideInLeft" data-wow-delay="0.1s" role="listitem" tabindex="0">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date dropcap-text">2025 – heute</div>
+                    <div class="timeline-content">
+                        <h3 class="dropcap-text">Würfelgarten</h3>
+                        <h4 class="dropcap-text">Spielewarenverkäuferin & Barista</h4>
+                        <p class="dropcap-text">Der Würfelgarten ist ein Spielwarenladen-Juwel mit angeschlossenem Café. Parallel zu meiner Tätigkeit in Teilzeit bereite ich meine Selbstständigkeit vor.</p>
+                    </div>
+                </div>
+                <div class="timeline-card right wow slideInRight" data-wow-delay="0.2s" role="listitem" tabindex="0">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date dropcap-text">2024 – 2025</div>
+                    <div class="timeline-content">
+                        <h3 class="dropcap-text">UX Designer</h3>
+                        <h4 class="dropcap-text">Novatec Consulting GmbH, Stuttgart</h4>
+                        <p class="dropcap-text">Ich habe einen neuen Fokus in meiner Beratungstätigkeit gesetzt und diverse Kundenprojekte unterstützt.</p>
+                    </div>
+                </div>
+                <div class="timeline-card left wow slideInLeft" data-wow-delay="0.3s" role="listitem" tabindex="0">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date dropcap-text">2023 – 2024</div>
+                    <div class="timeline-content">
+                        <h3 class="dropcap-text">IT Consultant</h3>
+                        <h4 class="dropcap-text">Novatec Consulting GmbH, Stuttgart</h4>
+                        <p class="dropcap-text">Mit der ersten Beförderung in der Tasche sammelte ich weitere Erfahrungen und Erfolge in diversen Kundenprojekten.</p>
+                    </div>
+                </div>
+                <div class="timeline-card right wow slideInRight" data-wow-delay="0.4s" role="listitem" tabindex="0">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date dropcap-text">2020 – 2022</div>
+                    <div class="timeline-content">
+                        <h3 class="dropcap-text">Junior IT Consultant</h3>
+                        <h4 class="dropcap-text">Novatec Consulting GmbH, Stuttgart</h4>
+                        <p class="dropcap-text">Nach dem Master-Studium Human-centered Computing startete ich als Festangestellte meine IT-Karriere.</p>
+                    </div>
+                </div>
+                <div class="timeline-card left wow slideInLeft" data-wow-delay="0.5s" role="listitem" tabindex="0">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date dropcap-text">2017 – 2020</div>
+                    <div class="timeline-content">
+                        <h3 class="dropcap-text">Werkstudentin</h3>
+                        <h4 class="dropcap-text">Novatec Consulting GmbH, Stuttgart</h4>
+                        <p class="dropcap-text">Ich habe bei der Novatec parallel zum Studium meine berufliche Laufbahn begonnen und dort sowohl meine Bachelor- als auch Masterthesis verfasst.</p>
+                    </div>
+                </div>
+                <div class="timeline-card right wow slideInRight" data-wow-delay="0.6s" role="listitem" tabindex="0">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date dropcap-text">2016</div>
+                    <div class="timeline-content">
+                        <h3 class="dropcap-text">Werkstudentin</h3>
+                        <h4 class="dropcap-text">TeamViewer GmbH, Göppingen</h4>
+                        <p class="dropcap-text">Mein Praxissemester habe ich in der Abteilung "Qualitätssicherung" verbracht und viel über Software Testing und Testautomatisierung gelernt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-content" id="education" role="tabpanel" aria-labelledby="education-tab">
+            <div class="timeline-grid" role="list" aria-label="Schulischer Werdegang">
+                <div class="timeline-card left wow slideInLeft" data-wow-delay="0.1s" role="listitem" tabindex="0">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date dropcap-text">2017 – 2020</div>
+                    <div class="timeline-content">
+                        <h3 class="dropcap-text">Human-centered Computing</h3>
+                        <h4 class="dropcap-text">Hochschule Reutlingen, Campus Reutlingen</h4>
+                        <p class="dropcap-text">Abschluss: Master of Science</p>
+                        <p class="dropcap-text">Thesis-Titel: 'DevOps-o-Mate' - Konzeption eines Systems für Continuous Improvement im Kontext von DevOps</p>
+                    </div>
+                </div>
+                <div class="timeline-card right wow slideInRight" data-wow-delay="0.2s" role="listitem" tabindex="0">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date dropcap-text">2013 – 2017</div>
+                    <div class="timeline-content">
+                        <h3 class="dropcap-text">Medien- und Kommunikationsinformatik</h3>
+                        <h4 class="dropcap-text">Hochschule Reutlingen, Campus Reutlingen</h4>
+                        <p class="dropcap-text">Abschluss: Bachelor of Science</p>
+                        <p class="dropcap-text">Thesis-Titel: Entwicklung eines didaktischen Konzepts für die Vermittlung von DevOps-Inhalten.</p>
+                    </div>
+                </div>
+                <div class="timeline-card left wow slideInLeft" data-wow-delay="0.3s" role="listitem" tabindex="0">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date dropcap-text">2010 – 2013</div>
+                    <div class="timeline-content">
+                        <h3 class="dropcap-text">Sozialwissenschaftliches Gymnasium</h3>
+                        <h4 class="dropcap-text">Richard-von-Weizsäcker-Schule, Öhringen</h4>
+                        <p class="dropcap-text">Abschluss: Fachhochschulreife</p>
+                    </div>
+                </div>
+                <div class="timeline-card right wow slideInRight" data-wow-delay="0.4s" role="listitem" tabindex="0">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date dropcap-text">2006 – 2010</div>
+                    <div class="timeline-content">
+                        <h3 class="dropcap-text">Realschulabschluss</h3>
+                        <h4 class="dropcap-text">Georg-Wagner-Realschule, Künzelsau</h4>
+                        <p class="dropcap-text">Abschluss: Mittlere Reife</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Experience End -->
+
+
+<!-- Portfolio Start -->
+<section class="portfolio" id="portfolio" role="region" aria-label="Portfolio – Downloads und Qualifikationen">
+    <div class="container">
+        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p class="dropcap-text" data-i18n="portfolio-header">Was ich kann</p>
+            <h2 class="dropcap-text" data-i18n="portfolio-title">Mein Portfolio</h2>
+        </div>
+        <div class="portfolio-grid" role="list" aria-label="Portfolio-Downloads als Karten">
+            <div class="portfolio-card" role="listitem" tabindex="0" aria-label="Lebenslauf herunterladen – Georgia König 2025">
+                <div class="portfolio-icon">
+                    <i class="fas fa-file-alt" aria-hidden="true"></i>
+                </div>
+                <h3 class="dropcap-text" data-i18n="portfolio-cv">Mein Lebenslauf</h3>
+                <p class="dropcap-text portfolio-desc" data-i18n="portfolio-cv-desc">Überblick über meinen beruflichen Weg, Qualifikationen und Erfolge – perfekt für erste Eindrücke.</p>
+                <a href="downloads/Georgia_Koenig_Lebenslauf_2025.pdf" class="btn btn-primary download-btn" download role="button" aria-label="Lebenslauf PDF herunterladen" data-i18n="portfolio-cv-btn">
+                    <i class="fas fa-download" aria-hidden="true"></i> Download PDF
+                </a>
+            </div>
+            <div class="portfolio-card" role="listitem" tabindex="0" aria-label="Qualifikationsprofil herunterladen – Georgia König 2025">
+                <div class="portfolio-icon">
+                    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                </div>
+                <h3 class="dropcap-text" data-i18n="portfolio-qual">Qualifikationsprofil</h3>
+                <p class="dropcap-text portfolio-desc" data-i18n="portfolio-qual-desc">Detaillierte Übersicht meiner Skills in UX, Accessibility und Digitalstrategie – mit Beispielen und Impact.</p>
+                <a href="downloads/Georgia_Koenig_Qualifikationsprofil_2025.pdf" class="btn btn-primary download-btn" download role="button" aria-label="Qualifikationsprofil PDF herunterladen" data-i18n="portfolio-qual-btn">
+                    <i class="fas fa-download" aria-hidden="true"></i> Download PDF
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio End -->
+
+
+<!-- Testimonial Start -->
+<section class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review" role="region" aria-label="Referenzen – Klientenstimmen">
+    <div class="container">
+        <div class="section-header text-center">
+            <p class="dropcap-text" data-i18n="review-header">Was Klient:innen sagen</p>
+            <h2 class="dropcap-text" data-i18n="review-title">Referenzen</h2>
+        </div>
+        <div class="testimonial-wrapper">
+            <button class="nav-arrow prev" aria-label="Vorherige Referenz anzeigen"><i class="fas fa-chevron-left"></i></button>
+            <div class="owl-carousel testimonials-carousel" role="region" aria-label="Referenzen-Carousel">
+                <div class="testimonial-item" role="listitem">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left" aria-hidden="true"></i>
+                            <p class="dropcap-text">"Als ich Georgia bat, eine Webseite für uns zu erstellen, war sie sofort dabei. In ein paar Terminen hatte sie eine Domain gekauft, eine personalisierte Webseite erstellt und mich als Laien darin geschult, unsere Daten regelmäßig zu aktualisieren. Ohne ihr Engagement hätten wir das Thema noch viel länger aufgeschoben."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h3 class="dropcap-text">Initiative "Christen helfen in Rumänien"</h3>
+                            <a href="https://www.rumaenienhilfe-baiersbronn.de/" class="link-to-site" role="button" aria-label="Zur Webseite">Zur Webseite</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item" role="listitem">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left" aria-hidden="true"></i>
+                            <p class="dropcap-text">"Georgia König berät kompetent und empathisch. Sie ist mit logischem Verstand, Kreativität und Flexibilität bei der Sache und findet gemeinsam mit der Kundschaft erfolgversprechende Lösungen. Klare Empfehlung!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h3 class="dropcap-text">Heike</h3>
+                            <a href="https://www.wellness-wanderung.de/" class="link-to-site" role="button" aria-label="Zur Webseite">Zur Webseite</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item" role="listitem">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left" aria-hidden="true"></i>
+                            <p class="dropcap-text">"Als Informatik-Laie war ich sehr froh, dass Georgia mir mit viel Geduld und guten Erklärungen geholfen hat, endlich im Internet vertreten zu sein."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h3 class="dropcap-text">Christine</h3>
+                            <a href="https://www.wandern-mit-christine.de/" class="link-to-site" role="button" aria-label="Zur Webseite">Zur Webseite</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="nav-arrow next" aria-label="Nächste Referenz anzeigen"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+</section>
+<!-- Testimonial End -->
+
+
+<!-- Insights & Inspiration Start -->
+<section class="insights-section wow fadeInUp" data-wow-delay="0.1s" id="insights" role="region" aria-label="Insights & Inspiration – Tipps und Inspiration">
+    <div class="container">
+        <div class="section-header text-center">
+            <p class="dropcap-text" data-i18n="insights-header">Wissen teilen</p>
+            <h2 class="dropcap-text" data-i18n="insights-title">Insights & Inspiration</h2>
+        </div>
+        <div class="insights-grid">
+            <div class="insight-card" role="listitem" tabindex="0" aria-label="Artikel: Barrierefreiheit in der Praxis">
+                <div class="insight-image" style="background: url('img/insight-1.jpg') center/cover;"></div>
+                <div class="insight-content">
+                    <h3 class="dropcap-text" data-i18n="insights-barrier">Barrierefreiheit in der Praxis</h3>
+                    <p class="dropcap-text" data-i18n="insights-barrier-desc">Lerne, wie du Websites für alle zugänglich machst – Schritt-für-Schritt-Anleitung.</p>
+                    <a href="insights/accessibility-guide.html" class="btn btn-insight" role="button" aria-label="Mehr über Barrierefreiheit in der Praxis" data-i18n="insights-barrier-btn">Lesen</a>
+                </div>
+            </div>
+            <div class="insight-card" role="listitem" tabindex="0" aria-label="Artikel: Trends im UX-Design 2025">
+                <div class="insight-image" style="background: url('img/insight-2.jpg') center/cover;"></div>
+                <div class="insight-content">
+                    <h3 class="dropcap-text" data-i18n="insights-trends">Trends im UX-Design 2025</h3>
+                    <p class="dropcap-text" data-i18n="insights-trends-desc">Die neuesten Entwicklungen, die dein Design auf das nächste Level bringen.</p>
+                    <a href="insights/ux-trends-2025.html" class="btn btn-insight" role="button" aria-label="Mehr über Trends im UX-Design 2025" data-i18n="insights-trends-btn">Lesen</a>
+                </div>
+            </div>
+            <div class="insight-card" role="listitem" tabindex="0" aria-label="Artikel: Accessibility-Tools">
+                <div class="insight-image" style="background: url('img/insight-3.jpg') center/cover;"></div>
+                <div class="insight-content">
+                    <h3 class="dropcap-text" data-i18n="insights-tools">Accessibility-Tools</h3>
+                    <p class="dropcap-text" data-i18n="insights-tools-desc">Die besten Tools, um deine Projekte barrierefrei zu gestalten.</p>
+                    <a href="insights/accessibility-tools.html" class="btn btn-insight" role="button" aria-label="Mehr über Accessibility-Tools" data-i18n="insights-tools-btn">Lesen</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Insights & Inspiration End -->
+
+<section class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+    <div class="container">
+        <div class="section-header text-center">
+            <p class="dropcap-text" data-i18n="contact-header">Lass uns verbinden</p>
+            <h2 class="dropcap-text" data-i18n="contact-title">Kontakt</h2>
+        </div>
+
+        <div class="contact-grid">
+            <!-- Links: Kontakt-Infos -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    <a href="mailto:kontakt@georgia-koenig.de" class="contact-link">kontakt@georgia-koenig.de</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone" aria-hidden="true"></i>
+                    <a href="tel:+4915150242010" class="contact-link">+49 1515 0242 010</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    <a href="https://www.linkedin.com/in/georgiakoenig" target="_blank" rel="noopener" class="contact-link">linkedin.com/in/georgiakoenig</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-x" aria-hidden="true"></i>
+                    <a href="https://x.com/georgiakoenig" target="_blank" rel="noopener" class="contact-link">@georgiakoenig</a>
+                </div>
+            </div>
+
+            <!-- Rechts: Formular -->
+            <div class="contact-form">
+            <form id="contactForm" action="contact.php" method="POST" novalidate>
+                <div id="success"></div>
+                
+                <input type="text" id="name" name="name"
+                    class="form-control"
+                    placeholder="Dein Name"
+                    required>
+
+                <input type="email" id="email" name="email"
+                    class="form-control"
+                    placeholder="Deine E-Mail"
+                    required>
+
+                <input type="text" id="subject" name="subject"
+                    class="form-control"
+                    placeholder="Betreff"
+                    required>
+
+                <textarea id="message" name="message"
+                        class="form-control"
+                        rows="5"
+                        placeholder="Deine Nachricht an mich..."
+                        required></textarea>
+
+                <button type="submit"
+                        class="btn btn-primary"
+                        id="sendMessageButton">
+                    Nachricht senden
+                </button>
+            </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer Start -->
+<footer class="footer" role="contentinfo" aria-label="Fußzeile – Kontakt, Links und rechtliche Informationen">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-column">
+                <h3 class="footer-title" data-i18n="footer-about">Über mich</h3>
+                <p class="footer-text">Georgia König – UX-Designerin & IT-Beraterin mit Leidenschaft für Accessibility und Digitalstrategie. Lass uns gemeinsam innovative Lösungen schaffen.</p>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title" data-i18n="footer-contact">Kontakt</h3>
+                <p class="footer-text"><a href="mailto:georgia.koenig@example.com" class="footer-link">kontakt@georgia-koenig.de</a></p>
+                <p class="footer-text"><a href="tel:+4915150242010" class="footer-link">+49 1515 0242 010</a></p>
+                <p class="footer-text">Schwäbisch Hall, Deutschland</p>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title" data-i18n="footer-links">Schnelllinks</h3>
+                <ul class="footer-links">
+                    <li><a href="#about" class="footer-link" data-i18n="nav-about">Über mich</a></li>
+                    <li><a href="#experience" class="footer-link" data-i18n="nav-experience">Werdegang</a></li>
+                    <li><a href="#portfolio" class="footer-link" data-i18n="nav-portfolio">Portfolio</a></li>
+                    <li><a href="#review" class="footer-link" data-i18n="nav-review">Referenzen</a></li>
+                    <li><a href="#insights" class="footer-link" data-i18n="nav-insights">Insights & Inspiration</a></li>
+                    <li><a href="#contact" class="footer-link" data-i18n="nav-contact">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title" data-i18n="footer-social">Social Media</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/georgiakoenig" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profil">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                        <a href="https://x.com/georgiakoenig" target="_blank" rel="noopener noreferrer" aria-label="X Profil">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1227" width="15" height="15" aria-hidden="true" fill="currentColor">
+                                <path d="M714 519L1160 0H1008L672 410 366 0H0L460 574 0 1227H152L494 793 828 1227H1200L714 519z"/>
+                            </svg>
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-legal">
+                <a href="impressum.html" class="footer-link" data-i18n="footer-legal-1">Impressum</a> | <a href="datenschutz.html" class="footer-link" data-i18n="footer-legal-2">Datenschutz</a>
+            </div>
+            <p class="footer-copyright" data-i18n="footer-copyright">&copy; 2025 Georgia König. Alle Rechte vorbehalten.</p>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+
+
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+        <!-- Template Javascript -->
+        <script src="js/ui-core.js"></script>
+        <script src="js/dropcaps-theme.js"></script>
+        <script src="js/i18n.js"></script>
+        <script src="js/carousels-tabs.js"></script>
+        <script src="js/navigation-blog.js"></script>
+
+    </body>
+</html>

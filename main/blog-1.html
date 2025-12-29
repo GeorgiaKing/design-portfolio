@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title data-i18n="blog-1-title">Barrierefreiheit in der Praxis: So machst du deine Website inklusiv</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Praktische Tipps für barrierefreies Webdesign – WCAG einfach erklärt">
+        <!-- FAVICONS – perfekt für 2025 -->
+        <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="android-chrome" sizes="192x192" href="favicon_io/android-chrome-192x192.png">
+        <link rel="android-chrome" sizes="512x512" href="favicon_io/android-chrome-512x512.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+        <meta name="theme-color" content="#00BFA5">
+
+    <!-- Fonts & CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light" role="navigation" aria-label="Hauptnavigation">
+        <div class="container-fluid">
+        <a href="index.html" class="navbar-brand" aria-label="Zur Startseite – Georgia König">
+            <img src="img/logo-gk.svg" alt="Georgia König Logo" height="32">
+        </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navigation ein- oder ausklappen">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto" role="menubar">
+                <li class="nav-item"><a href="index.html#home" class="nav-link">Start</a></li>
+                <li class="nav-item"><a href="index.html#about" class="nav-link">Über mich</a></li>
+                <li class="nav-item"><a href="index.html#service" class="nav-link">Dienstleistungen</a></li>
+                <li class="nav-item"><a href="index.html#experience" class="nav-link">Werdegang</a></li>
+                <li class="nav-item"><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="index.html#review" class="nav-link">Referenzen</a></li>
+                <li class="nav-item"><a href="index.html#contact" class="nav-link">Kontakt</a></li>
+                <li class="nav-item"><a href="index.html#insights" class="nav-link">Insights</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                </ul>
+
+                <div class="navbar-toggles">
+                    <button class="lang-btn" aria-label="Switch to English">EN</button>
+                    <button class="lang-btn active" aria-label="Switch to German">DE</button>
+                    <button class="mode-toggle" onclick="toggleMode()" aria-label="Dark/Light Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero für Einzel-Artikel -->
+    <header class="hero-blog hero-blog-article" role="banner" aria-label="Blogartikel – Barrierefreiheit in der Praxis">
+        <div class="container text-center text-white">
+            <h1 class="display-4 dropcap-text" data-i18n="blog-1-title">
+                Barrierefreiheit in der Praxis: So machst du deine Website inklusiv
+            </h1>
+        </div>
+    </header>
+
+    <!-- Hauptinhalt -->
+    <main class="blog-single" role="main" id="main-content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+
+                    <article class="wow fadeInUp" aria-labelledby="article-title">
+                        <!-- Titel im Artikel -->
+                        <h1 id="article-title" class="dropcap-text" data-i18n="blog-1-title">
+                            Barrierefreiheit in der Praxis: So machst du deine Website inklusiv
+                        </h1>
+
+                        <!-- Meta-Infos -->
+                        <p class="blog-meta">
+                            <span data-i18n="blog-date-1">15. März 2025</span>
+                            &nbsp;·&nbsp;
+                            <span data-i18n="blog-author">von Georgia König</span>
+                        </p>
+
+                        <!-- Aufmacherbild -->
+                        <figure class="mb-4">
+                            <img src="img/blog-1-full.jpg" alt="Menschen arbeiten gemeinsam an einer barrierefreien Website" class="img-fluid rounded">
+                        </figure>
+
+                        <!-- Inhalt – wird von i18n mit HTML befüllt -->
+                        <div class="blog-content dropcap-text" data-i18n-html="blog-1-content">
+                            <!-- Fallback-Inhalt, falls JS deaktiviert ist -->
+                            <p>Barrierefreiheit ist kein Nice-to-have – sie ist ein Muss. In diesem Artikel zeige ich dir Schritt für Schritt, wie du deine Website inklusiver gestalten kannst.</p>
+                            <h2>Warum Barrierefreiheit?</h2>
+                            <p>Menschen mit Einschränkungen müssen digitale Angebote genauso nutzen können wie alle anderen. Barrierefreiheit ist außerdem in vielen Fällen rechtlich vorgeschrieben – und sie verbessert die Usability für <i>alle</i> Nutzer:innen.</p>
+                            <h2>Typische Barrieren auf Websites</h2>
+                            <p>Zu geringe Kontraste, fehlende Alternativtexte, nicht erreichbare Inhalte per Tastatur, unklare Fokuszustände – die Liste ist lang. Die gute Nachricht: Mit ein paar gezielten Anpassungen lassen sich viele Probleme schnell beheben.</p>
+                            <h2>Wie du starten kannst</h2>
+                            <ul>
+                                <li>Prüfe Kontraste nach WCAG.</li>
+                                <li>Füge sinnvolle Alternativtexte zu Bildern hinzu.</li>
+                                <li>Stelle sicher, dass alle interaktiven Elemente per Tastatur erreichbar sind.</li>
+                                <li>Nutze klare Überschriften-Strukturen (h1–h3).</li>
+                            </ul>
+                            <p>Wenn du magst, unterstütze ich dich gerne bei einer ersten Analyse deiner Website.</p>
+                        </div>
+
+                        <!-- Zurück-zum-Blog-Button -->
+                        <div class="mt-5">
+                            <a href="blog.html" class="btn btn-outline-primary" data-i18n="blog-back">
+                                ← Zurück zum Blog
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo" aria-label="Fußzeile – Kontakt, Links und rechtliche Informationen">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h3 class="footer-title" data-i18n="footer-about">Über mich</h3>
+                    <p class="footer-text">
+                        Georgia König – UX-Designerin &amp; IT-Beraterin mit Leidenschaft für Accessibility und Digitalstrategie.
+                        Lass uns gemeinsam innovative Lösungen schaffen.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title" data-i18n="footer-contact">Kontakt</h3>
+                    <p class="footer-text">
+                        <a href="mailto:kontakt@georgia-koenig.de" class="footer-link">kontakt@georgia-koenig.de</a>
+                    </p>
+                    <p class="footer-text">
+                        <a href="tel:+4915150242010" class="footer-link">+49 1515 0242 010</a>
+                    </p>
+                    <p class="footer-text">Schwäbisch Hall, Deutschland</p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title" data-i18n="footer-links">Schnelllinks</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#about" class="footer-link" data-i18n="nav-about">Über mich</a></li>
+                        <li><a href="index.html#experience" class="footer-link" data-i18n="nav-experience">Werdegang</a></li>
+                        <li><a href="index.html#portfolio" class="footer-link" data-i18n="nav-portfolio">Portfolio</a></li>
+                        <li><a href="index.html#review" class="footer-link" data-i18n="nav-review">Referenzen</a></li>
+                        <li><a href="index.html#insights" class="footer-link" data-i18n="nav-insights">Insights &amp; Inspiration</a></li>
+                        <li><a href="index.html#contact" class="footer-link" data-i18n="nav-contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title" data-i18n="footer-social">Social Media</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/georgiakoenig" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profil">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/georgiakoenig" target="_blank" rel="noopener noreferrer" aria-label="X Profil">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <a href="impressum.html" class="footer-link" data-i18n="footer-legal-1">Impressum</a> |
+                    <a href="datenschutz.html" class="footer-link" data-i18n="footer-legal-2">Datenschutz</a>
+                </div>
+                <p class="footer-copyright" data-i18n="footer-copyright">
+                    © 2025 Georgia König. Alle Rechte vorbehalten.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back-to-top & Loader -->
+    <a href="#" class="btn back-to-top" aria-label="Zurück nach oben">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+    <div id="loader" class="show"><div class="loader"></div></div>
+
+    <!-- Scripts (gleich wie bei blog.html, damit main.js überall läuft) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

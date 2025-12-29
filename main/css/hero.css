@@ -1,0 +1,209 @@
+/*******************************/
+/********** Hero CSS ***********/
+/*******************************/
+.hero {
+    position: relative;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 120px 0 80px 0;
+    overflow: hidden;
+    background: 
+        linear-gradient(135deg, var(--hero-overlay-start), var(--hero-overlay-end)),
+        url(../img/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    transition: background 0.7s ease; /* Sanfter Wechsel beim Dark/Light */
+}
+
+.hero .container-fluid { padding: 0; }
+.hero .hero-content { padding-left: 0; display: flex; flex-direction: column; justify-content: center; }
+.hero .hero-text { color: var(--hero-text, #ffffff); }
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+    color: var(--hero-subtitle, rgba(255,255,255,0.9));
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    color: var(--hero-title, #ffffff);
+}
+
+.hero-typed {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: var(--hero-typed-color, #B2EBF2);
+    line-height: 1.2;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    min-height: 0;
+    vertical-align: baseline;
+}
+
+.typed-text { display: none; }
+
+.hero-meta {
+    font-size: 0.875rem;
+    color: var(--hero-meta, rgba(255,255,255,0.8));
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
+.hero-btns .btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+.hero-btns .btn-primary {
+    background: var(--btn-primary-bg, #ffffff);
+    color: var(--btn-primary-text, #00BFA5);
+    box-shadow: 0 4px 15px var(--btn-shadow, rgba(0,191,165,0.3));
+}
+.hero-btns .btn-primary:hover,
+.hero-btns .btn-primary:focus-visible {
+    background: var(--btn-primary-hover, #00BFA5);
+    color: var(--btn-primary-hover-text, #ffffff);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px var(--btn-shadow-hover, rgba(0,191,165,0.4));
+    outline: 2px solid var(--btn-focus, #00BFA5);
+    outline-offset: 2px;
+}
+
+.hero-btns .btn-secondary {
+    background: transparent;
+    color: var(--btn-secondary-text, #ffffff);
+    border: 2px solid var(--btn-secondary-border, #ffffff);
+}
+.hero-btns .btn-secondary:hover,
+.hero-btns .btn-secondary:focus-visible {
+    background: var(--btn-secondary-hover, #ffffff);
+    color: var(--btn-secondary-hover-text, #00BFA5);
+    outline: 2px solid var(--btn-secondary-hover, #ffffff);
+    outline-offset: 2px;
+}
+
+.hero-image { text-align: right; padding-right: 1rem; }
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px var(--img-shadow, rgba(0,0,0,0.2));
+    transition: all 0.3s ease;
+}
+.hero-img:hover,
+.hero-img:focus-within {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 40px var(--img-shadow-hover, rgba(0,191,165,0.2));
+}
+
+/* Dein originaler Cursor – 100% unangetastet und jetzt auch im Dark Mode perfekt */
+.typed-cursor {
+    display: inline-block !important;
+    font-size: 1.4em !important;
+    line-height: 1em !important;
+    transform: translateY(-1.9em) !important; /* Deine präzise Positionierung bleibt! */
+    margin-left: 3px;
+    font-weight: 300;
+    color: var(--hero-typed-color, #B2EBF2) !important; /* Passt sich dem Modus an */
+}
+.typed-cursor.typed-cursor--blink {
+    animation: typedjsBlink 0.7s infinite;
+}
+@keyframes typedjsBlink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Responsive – unverändert */
+@media (max-width: 991.98px) {
+    .hero { padding: 80px 0 60px; text-align: center; }
+    .hero-title { font-size: 3rem; }
+    .hero-typed { font-size: 1.5rem; }
+    .hero-btns { justify-content: center; }
+    .hero-image { padding-right: 0; margin-top: 2rem; }
+}
+@media (max-width: 767.98px) {
+    .hero { padding: 60px 0 40px; }
+    .hero-title { font-size: 2.5rem; }
+    .hero-subtitle { font-size: 1.125rem; }
+    .hero-btns .btn { padding: 0.875rem 1.5rem; font-size: 0.875rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero *, .hero-img:hover, .typed-cursor {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        transform: none !important;
+    }
+}
+
+/* LIGHT MODE (Default) – deine Originalfarben */
+:root {
+    --hero-overlay-start: rgba(0, 191, 165, 0.85);
+    --hero-overlay-end:   rgba(178, 235, 242, 0.7);
+    --hero-text:          #ffffff;
+    --hero-subtitle:      rgba(255,255,255,0.9);
+    --hero-title:         #ffffff;
+    --hero-typed-color:   #B2EBF2;
+    --hero-meta:          rgba(255,255,255,0.8);
+
+    --btn-primary-bg:     #ffffff;
+    --btn-primary-text:   #00BFA5;
+    --btn-primary-hover:  #00BFA5;
+    --btn-primary-hover-text: #ffffff;
+    --btn-shadow:         rgba(0,191,165,0.3);
+    --btn-shadow-hover:   rgba(0,191,165,0.4);
+
+    --btn-secondary-text: #ffffff;
+    --btn-secondary-border: #ffffff;
+    --btn-secondary-hover: #ffffff;
+    --btn-secondary-hover-text: #00BFA5;
+
+    --btn-focus:          #00BFA5;
+    --img-shadow:         rgba(0,0,0,0.2);
+    --img-shadow-hover:   rgba(0,191,165,0.2);
+}
+
+/* DARK MODE – wunderschön abgestimmt auf dein Türkis-Design */
+[data-theme="dark"] {
+    --hero-overlay-start: rgba(0, 105, 92, 0.98);     /* Tiefes, elegantes Türkis */
+    --hero-overlay-end:   rgba(77, 208, 225, 0.75);   /* Leichtes Cyan als Akzent */
+    --hero-text:          #e0e0e0;
+    --hero-subtitle:      rgba(224,224,224,0.9);
+    --hero-title:         #ffffff;
+    --hero-typed-color:   #80deea;                   /* Helltürkis – perfekt lesbar */
+    --hero-meta:          rgba(224,224,224,0.7);
+
+    --btn-primary-bg:     #004d40;
+    --btn-primary-text:   #ffffff;
+    --btn-primary-hover:  #00BFA5;
+    --btn-primary-hover-text: #ffffff;
+
+    --btn-secondary-text: #e0e0e0;
+    --btn-secondary-border: #80deea;
+    --btn-secondary-hover: #80deea;
+    --btn-secondary-hover-text: #1a1a1a;
+
+    --btn-focus:          #80deea;
+    --img-shadow:         rgba(0,0,0,0.4);
+    --img-shadow-hover:   rgba(0,191,165,0.3);
+}

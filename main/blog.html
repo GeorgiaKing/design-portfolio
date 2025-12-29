@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title data-i18n="blog-page-title">Blog – Georgia König</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Insights zu Barrierefreiheit, UX-Design und digitaler Inklusion">
+        <!-- FAVICONS – perfekt für 2025 -->
+        <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="android-chrome" sizes="192x192" href="favicon_io/android-chrome-192x192.png">
+        <link rel="android-chrome" sizes="512x512" href="favicon_io/android-chrome-512x512.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+        <meta name="theme-color" content="#00BFA5">
+
+    <!-- Fonts & CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
+</head>
+
+<!-- WhatsApp Button – fest rechts unten, perfekt zum Design -->
+<a href="https://wa.me/4915150242010?text=Hallo Georgia, ich komme von deiner Website und würde gerne mit dir über ein Projekt sprechen!" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Schreib mir auf WhatsApp"
+   title="Schreib mir auf WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Schreib mir!</span>
+</a>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light" role="navigation" aria-label="Hauptnavigation">
+        <div class="container-fluid">
+        <a href="index.html" class="navbar-brand" aria-label="Zur Startseite – Georgia König">
+            <img src="img/logo-gk.svg" alt="Georgia König Logo" height="32">
+        </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-label="Navigation ein-/ausklappen">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto" role="menubar">
+                <li class="nav-item"><a href="index.html#home" class="nav-link">Start</a></li>
+                <li class="nav-item"><a href="index.html#about" class="nav-link">Über mich</a></li>
+                <li class="nav-item"><a href="index.html#service" class="nav-link">Dienstleistungen</a></li>
+                <li class="nav-item"><a href="index.html#experience" class="nav-link">Werdegang</a></li>
+                <li class="nav-item"><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="index.html#review" class="nav-link">Referenzen</a></li>
+                <li class="nav-item"><a href="index.html#contact" class="nav-link">Kontakt</a></li>
+                <li class="nav-item"><a href="index.html#insights" class="nav-link">Insights</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                </ul>
+                <div class="navbar-toggles">
+                    <button class="lang-btn" aria-label="Switch to English">EN</button>
+                    <button class="lang-btn active" aria-label="Switch to German">DE</button>
+                    <button class="mode-toggle" onclick="toggleMode()" aria-label="Dark/Light Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero-blog">
+        <div class="container text-center text-white">
+            <h1 class="display-3 dropcap-text" data-i18n="blog-hero-title">Mein Blog</h1>
+            <p class="lead dropcap-text" data-i18n="blog-hero-subtitle">
+                Aktuelle Insights zu Barrierefreiheit, UX-Design und digitaler Teilhabe
+            </p>
+        </div>
+        </div>
+
+    <!-- BLOG GRID -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2 class="dropcap-text" data-i18n="blog-latest">Neueste Beiträge</h2>
+            </div>
+
+            <div class="row portfolio-container">
+
+                <!-- Artikel 1 -->
+                <div class="col-12 col-sm-6 col-lg-4 portfolio-item wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <img src="img/blog-1.jpg" class="img-fluid" alt="Barrierefreiheit">
+                        <div class="portfolio-info">
+                            <h4 class="dropcap-text" data-i18n="blog-1-title">Barrierefreiheit in der Praxis</h4>
+                            <p class="dropcap-text" data-i18n="blog-1-excerpt">
+                                Von Kontrast bis Tastaturbedienung…
+                            </p>
+                            <div class="portfolio-links">
+                                <a href="blog-1.html" class="btn btn-primary btn-sm" data-i18n="blog-read-more">Lesen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artikel 2 -->
+                <div class="col-12 col-sm-6 col-lg-4 portfolio-item wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <img src="img/blog-2.jpg" class="img-fluid" alt="UX Trends">
+                        <div class="portfolio-info">
+                            <h4 class="dropcap-text" data-i18n="blog-2-title">UX-Design Trends 2025</h4>
+                            <p class="dropcap-text" data-i18n="blog-2-excerpt">
+                                Voice UI, AI und emotionale Interfaces…
+                            </p>
+                            <div class="portfolio-links">
+                                <a href="blog-2.html" class="btn btn-primary btn-sm" data-i18n="blog-read-more">Lesen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artikel 3 -->
+                <div class="col-12 col-sm-6 col-lg-4 portfolio-item wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="portfolio-wrap">
+                        <img src="img/blog-3.jpg" class="img-fluid" alt="Accessibility Fehler">
+                        <div class="portfolio-info">
+                            <h4 class="dropcap-text" data-i18n="blog-3-title">Die 7 größten Accessibility-Fehler</h4>
+                            <p class="dropcap-text" data-i18n="blog-3-excerpt">
+                                Diese Fallen sehen 90 % der Websites…
+                            </p>
+                            <div class="portfolio-links">
+                                <a href="blog-3.html" class="btn btn-primary btn-sm" data-i18n="blog-read-more">Lesen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-12 col-sm-6 col-lg-4 portfolio-item wow fadeInUp">
+                    <div class="portfolio-wrap">
+                        <img src="img/blog-4.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4 class="dropcap-text">Neuer Titel</h4>
+                            <p class="dropcap-text">Kurzer Teaser...</p>
+                            <div class="portfolio-links">
+                                <a href="blog-4.html" class="btn btn-primary btn-sm">Lesen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+            <!-- Footer Start -->
+            <footer class="footer" role="contentinfo" aria-label="Fußzeile – Kontakt, Links und rechtliche Informationen">
+                <div class="container">
+                    <div class="footer-top">
+                        <div class="footer-column">
+                            <h3 class="footer-title" data-i18n="footer-about">Über mich</h3>
+                            <p class="footer-text">Georgia König – UX-Designerin & IT-Beraterin mit Leidenschaft für Accessibility und Digitalstrategie. Lass uns gemeinsam innovative Lösungen schaffen.</p>
+                        </div>
+                        <div class="footer-column">
+                            <h3 class="footer-title" data-i18n="footer-contact">Kontakt</h3>
+                            <p class="footer-text"><a href="mailto:georgia.koenig@example.com" class="footer-link">kontakt@georgia-koenig.de</a></p>
+                            <p class="footer-text"><a href="tel:+4915150242010" class="footer-link">+49 1515 0242 010</a></p>
+                            <p class="footer-text">Schwäbisch Hall, Deutschland</p>
+                        </div>
+                        <div class="footer-column">
+                            <h3 class="footer-title" data-i18n="footer-links">Schnelllinks</h3>
+                            <ul class="footer-links">
+                                <li><a href="#about" class="footer-link" data-i18n="nav-about">Über mich</a></li>
+                                <li><a href="#experience" class="footer-link" data-i18n="nav-experience">Werdegang</a></li>
+                                <li><a href="#portfolio" class="footer-link" data-i18n="nav-portfolio">Portfolio</a></li>
+                                <li><a href="#review" class="footer-link" data-i18n="nav-review">Referenzen</a></li>
+                                <li><a href="#insights" class="footer-link" data-i18n="nav-insights">Insights & Inspiration</a></li>
+                                <li><a href="#contact" class="footer-link" data-i18n="nav-contact">Kontakt</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3 class="footer-title" data-i18n="footer-social">Social Media</h3>
+                                <div class="social-links">
+                                    <a href="https://www.linkedin.com/in/georgiakoenig" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profil">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+
+                                    <a href="https://x.com/georgiakoenig" target="_blank" rel="noopener noreferrer" aria-label="X Profil">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1227" width="15" height="15" aria-hidden="true" fill="currentColor">
+                                            <path d="M714 519L1160 0H1008L672 410 366 0H0L460 574 0 1227H152L494 793 828 1227H1200L714 519z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer-legal">
+                            <a href="impressum.html" class="footer-link" data-i18n="footer-legal-1">Impressum</a> | <a href="datenschutz.html" class="footer-link" data-i18n="footer-legal-2">Datenschutz</a>
+                        </div>
+                        <p class="footer-copyright" data-i18n="footer-copyright">&copy; 2025 Georgia König. Alle Rechte vorbehalten.</p>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer End -->
+
+    <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="loader" class="show"><div class="loader"></div></div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

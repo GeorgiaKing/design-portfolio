@@ -1,0 +1,140 @@
+/*******************************/
+/********* Banner CSS **********/
+/*******************************/
+.banner {
+    position: relative;
+    width: 100%;
+    margin: 4rem 0;
+    padding: 5rem 0;
+    background: linear-gradient(135deg, var(--accent, #00BFA5), var(--accent-light, #B2EBF2)); /* Türkis-Gradient, Dark-Anpassung via Vars */
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 50rem; /* Zentral, wie Card */
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1); /* Leicht transparent für Tiefe */
+    border-radius: 20px; /* Rounded Card */
+    padding: 3rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Schatten für Pop */
+    backdrop-filter: blur(10px); /* Modern-Blur */
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.banner-content:hover {
+    transform: translateY(-4px); /* Leichter Lift für Interaktion */
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.section-header {
+    margin-bottom: 2rem;
+}
+
+.banner .section-header p {
+    color: #ffffff;
+    background: transparent; /* Kein Bg in Dark/Light */
+    opacity: 0.9;
+}
+
+.banner .section-header p::after {
+    display: none;
+}
+
+.banner .section-header h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.banner-text p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    color: #ffffff;
+    opacity: 0.95;
+}
+
+.banner-text .btn {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    background: #ffffff;
+    color: var(--accent, #00BFA5);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+.banner-text .btn:hover,
+.banner-text .btn:focus-visible {
+    background: var(--accent, #00BFA5);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 191, 165, 0.4);
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+/* Dropcaps: Global, erster Buchstabe fett pro Wort */
+.dropcap-text {
+    line-height: 1.6;
+}
+
+.bold-first-letter {
+    font-weight: bold;
+}
+
+/* Responsive: Mobile-First, Card stackt */
+@media (max-width: 991.98px) {
+    .banner {
+        margin: 3rem 0;
+        padding: 4rem 1rem;
+    }
+    .banner-content {
+        padding: 2rem 1.5rem;
+        max-width: 100%;
+    }
+    .banner .section-header h2 {
+        font-size: 2rem;
+    }
+    .banner-text p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .banner {
+        padding: 3rem 1rem;
+    }
+    .banner-content {
+        padding: 1.5rem;
+    }
+    .banner-text .btn {
+        padding: 0.875rem 2rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* Reduced Motion: Acc-freundlich */
+@media (prefers-reduced-motion: reduce) {
+    .banner-content,
+    .banner-text .btn {
+        transition-duration: 0.01ms !important;
+    }
+    .banner-content:hover {
+        transform: none;
+    }
+}
+
+/* Dark Mode Anpassung (via Vars) */
+[data-theme="dark"] .banner {
+    background: linear-gradient(135deg, #00695C, #00897B); /* Dunkler türkis */
+}
+
+[data-theme="dark"] .banner-content {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.1);
+}

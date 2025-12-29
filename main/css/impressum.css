@@ -1,0 +1,118 @@
+/*******************************/
+/******** Impressum CSS ********/
+/*******************************/
+.hero-impressum {
+    padding: 6rem 0;
+    background: var(--bg-primary, #FAFAFA);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.impressum-content {
+    background: var(--bg-secondary, #ffffff);
+    border-radius: 20px;
+    padding: 3rem;
+    box-shadow: var(--shadow, 0 4px 15px rgba(0, 191, 165, 0.08));
+    border: 1px solid var(--border, rgba(0, 191, 165, 0.1));
+    color: var(--text-primary, #424242);
+}
+
+.impressum-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--accent, #00BFA5);
+    text-align: center;
+}
+
+.impressum-section {
+    margin-bottom: 2.5rem;
+}
+
+.impressum-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary, #424242);
+}
+
+.impressum-section h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--accent, #00BFA5);
+}
+
+.impressum-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: var(--text-secondary, #666666);
+}
+
+.impressum-section a {
+    color: var(--accent, #00BFA5);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.impressum-section a:hover {
+    text-decoration: underline;
+}
+
+/* Bilingual Toggle: Tabs oben */
+.impressum-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.impressum-toggle-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-secondary, #666666);
+    background: transparent;
+    border: 1px solid var(--border, rgba(0, 191, 165, 0.1));
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.impressum-toggle-btn.active,
+.impressum-toggle-btn:hover {
+    color: var(--accent, #00BFA5);
+    background: var(--accent, #00BFA5);
+    color: #ffffff;
+}
+
+/* Responsive: Mobile-First */
+@media (max-width: 991.98px) {
+    .hero-impressum {
+        padding: 4rem 0;
+    }
+    .impressum-content {
+        padding: 2rem;
+        margin: 0 1rem;
+    }
+    .impressum-content h1 {
+        font-size: 2rem;
+    }
+    .impressum-toggle {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+/* Reduced Motion: Acc-freundlich */
+@media (prefers-reduced-motion: reduce) {
+    .impressum-toggle-btn {
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Dark Mode: Dunkler türkis wie Banner */
+[data-theme="dark"] .hero-impressum {
+    background: rgba(0, 105, 92)}

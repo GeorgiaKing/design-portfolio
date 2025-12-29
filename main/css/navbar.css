@@ -1,0 +1,261 @@
+/**********************************/
+/*********** Nav Bar CSS **********/
+/**********************************/
+.navbar {
+    position: relative;
+    transition: all 0.3s ease;
+    z-index: 999;
+    font-family: 'Inter', sans-serif; /* Modern-Font für UX-Feel */
+}
+
+.navbar.nav-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 10px var(--shadow-color, rgba(0, 191, 165, 0.1));
+    backdrop-filter: blur(10px); /* Modern-Blur-Effekt */
+    background: var(--navbar-bg, rgba(255, 255, 255, 0.95));
+}
+
+.navbar .navbar-brand {
+    margin: 0;
+    font-size: 2rem; /* Kleiner für Modernität */
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px; /* Weniger Spacing */
+    transition: all 0.3s ease;
+    color: var(--brand-color, #00BFA5);
+}
+
+.navbar .navbar-brand img {
+    max-width: 100%;
+    max-height: 40px;
+}
+
+.navbar .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+    border-radius: 8px; /* Leicht rounded für Verspieltheit */
+    background: var(--dropdown-bg, #ffffff);
+    box-shadow: 0 4px 12px var(--dropdown-shadow, rgba(0, 0, 0, 0.1));
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:focus {
+    padding: 12px 20px; /* Mehr Padding für Touch/Acc */
+    color: var(--nav-link-color, #424242);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px; /* Subtile Runden für Hover */
+    transition: all 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:focus-visible {
+    color: var(--nav-link-hover, #00BFA5);
+    background: var(--nav-link-hover-bg, rgba(0, 191, 165, 0.05));
+    outline: 2px solid var(--nav-link-focus, #00BFA5);
+    outline-offset: 2px;
+}
+
+.navbar-toggler {
+    border: 1px solid var(--toggler-border, #00BFA5);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.navbar-toggler:focus-visible {
+    outline: 2px solid var(--toggler-focus, #00BFA5);
+    outline-offset: 2px;
+}
+
+.navbar-toggler[aria-expanded="true"] {
+    background-color: var(--toggler-active, #00BFA5);
+}
+
+/* Toggles-Gruppe: Mehr Gap (2rem), justify-content: space-between für ausbalancierten Freiraum */
+.navbar-toggles {
+    display: flex;
+    gap: 2rem; /* Mehr Platz dazwischen für Ruhe */
+    align-items: center;
+    justify-content: space-between; /* Verteilt Toggles, füllt Freiraum natürlich */
+    margin-left: auto; /* Push nach rechts */
+    padding-right: 2rem; /* Freiraum am Ende, ruhig & ausbalanciert */
+    min-width: 150px; /* Min-Breite für Verteilung */
+}
+
+.lang-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--lang-btn-text, #424242);
+    background: var(--lang-btn-bg, #FAFAFA);
+    border: 1px solid var(--lang-btn-border, #e0e0e0);
+    border-radius: 20px; /* Rounded Pill für Verspieltheit */
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.lang-btn.active,
+.lang-btn:hover,
+.lang-btn:focus-visible {
+    color: var(--lang-btn-hover-text, #ffffff);
+    background: var(--lang-btn-hover-bg, #00BFA5);
+    border-color: var(--lang-btn-hover-border, #00BFA5);
+    outline: none;
+}
+
+.lang-btn:focus-visible {
+    box-shadow: 0 0 0 3px var(--lang-btn-focus, rgba(0, 191, 165, 0.2));
+}
+
+.mode-toggle {
+    background: none;
+    border: 1px solid var(--mode-toggle-border, #e0e0e0);
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: var(--mode-toggle-text, #424242);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.mode-toggle:hover,
+.mode-toggle:focus-visible {
+    background: var(--mode-toggle-hover-bg, #00BFA5);
+    color: var(--mode-toggle-hover-text, #ffffff);
+    border-color: var(--mode-toggle-hover-border, #00BFA5);
+    outline: none;
+}
+
+.mode-toggle:focus-visible {
+    box-shadow: 0 0 0 3px var(--mode-toggle-focus, rgba(0, 191, 165, 0.2));
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        position: absolute;
+        width: 100%;
+        padding: 1rem 3rem; /* Weniger Padding für Clean */
+        background: transparent !important;
+        border-bottom: 1px solid var(--navbar-border, rgba(0, 191, 165, 0.2));
+        z-index: 9;
+    }
+
+    .navbar.nav-sticky {
+        padding: 0.5rem 3rem;
+        background: var(--navbar-sticky-bg, rgba(255, 255, 255, 0.95)) !important;
+    }
+
+    .navbar .navbar-brand {
+        color: var(--brand-color);
+    }
+
+    .navbar.nav-sticky .navbar-brand {
+        color: var(--brand-sticky-color, #00BFA5);
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 12px 20px;
+        color: var(--nav-link-color);
+    }
+
+    .navbar-light.nav-sticky .navbar-nav .nav-link {
+        color: var(--nav-link-sticky-color, #424242);
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-link.active {
+        color: var(--nav-link-hover-dark, #ffffff);
+    }
+
+    .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
+    .navbar-light.nav-sticky .navbar-nav .nav-link.active {
+        color: var(--nav-link-hover, #00BFA5);
+    }
+
+    /* Toggles: Mehr Gap, space-between für ausbalancierten Freiraum */
+    .navbar-toggles {
+        gap: 2rem;
+        min-width: 180px; /* Etwas breiter für Verteilung */
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        padding: 1rem;
+        background: var(--navbar-mobile-bg, #ffffff) !important;
+        box-shadow: 0 2px 10px var(--navbar-mobile-shadow, rgba(0, 0, 0, 0.1));
+    }
+
+    .navbar .navbar-brand {
+        color: var(--brand-color);
+    }
+
+    .navbar .navbar-nav {
+        margin-top: 1rem;
+    }
+
+    .navbar a.nav-link {
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid var(--nav-link-separator, rgba(0, 191, 165, 0.1));
+    }
+
+    .navbar .dropdown-menu {
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .navbar-toggles {
+        margin-top: 1rem;
+        justify-content: space-between; /* Verteilt auf Mobile */
+        gap: 1rem; /* Kleinerer Gap */
+        min-width: 140px;
+        padding-right: 0;
+    }
+}
+
+/* Reduced Motion: Für Acc-Sensible */
+@media (prefers-reduced-motion: reduce) {
+    .navbar * {
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Dark Mode Anpassungen */
+[data-theme="dark"] {
+    --navbar-bg: rgba(0, 105, 92, 0.95);
+    --navbar-sticky-bg: rgba(0, 105, 92, 0.98);
+    --navbar-mobile-bg: #004d40;
+    --navbar-border: rgba(128, 222, 234, 0.2);
+    --navbar-mobile-shadow: rgba(0, 0, 0, 0.3);
+    --shadow-color: rgba(0, 191, 165, 0.15);
+    --brand-color: #80deea;
+    --brand-sticky-color: #80deea;
+    --dropdown-bg: #005f55;
+    --dropdown-shadow: rgba(0, 0, 0, 0.2);
+    --nav-link-color: #e0e0e0;
+    --nav-link-sticky-color: #e0e0e0;
+    --nav-link-hover: #4dd0e1;
+    --nav-link-hover-bg: rgba(77, 208, 225, 0.1);
+    --nav-link-hover-dark: #80deea;
+    --nav-link-focus: #4dd0e1;
+    --nav-link-separator: rgba(128, 222, 234, 0.1);
+    --toggler-border: #80deea;
+    --toggler-focus: #4dd0e1;
+    --toggler-active: #4dd0e1;
+    --lang-btn-text: #e0e0e0;
+    --lang-btn-bg: #004d40;
+    --lang-btn-border: #80deea;
+    --lang-btn-hover-text: #1a1a1a;
+    --lang-btn-hover-bg: #80deea;
+    --lang-btn-hover-border: #80deea;
+    --lang-btn-focus: rgba(128, 222, 234, 0.2);
+    --mode-toggle-text: #e0e0e0;
+    --mode-toggle-border: #80deea;
+    --mode-toggle-hover-bg: #4dd0e1;
+    --mode-toggle-hover-text: #1a1a1a;
+    --mode-toggle-hover-border: #4dd0e1;
+    --mode-toggle-focus: rgba(77, 208, 225, 0.2);
+}

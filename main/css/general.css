@@ -1,0 +1,281 @@
+/*******************************/
+/********* General CSS *********/
+/*******************************/
+
+/* Dark/Light Mode: CSS-Variablen für skalierbare Farben */
+:root {
+    --bg-primary: #FAFAFA; /* Light Bg */
+    --bg-secondary: #ffffff;
+    --text-primary: #424242;
+    --text-secondary: #666666;
+    --accent: #00BFA5; /* Türkis */
+    --accent-light: #B2EBF2;
+    --shadow: 0 4px 12px rgba(0, 191, 165, 0.1);
+    --border: rgba(0, 191, 165, 0.1);
+    --loader-bg: #ffffff;
+    --loader-border: #dddddd;
+    --loader-accent: #076C60; /* Übergang zu türkis */
+}
+
+[data-theme="dark"] {
+    --bg-primary: #1a1a1a; /* Dark Bg */
+    --bg-secondary: #2d2d2d;
+    --text-primary: #e0e0e0;
+    --text-secondary: #b0b0b0;
+    --accent: #4dd0e1; /* Heller türkis für Dark */
+    --accent-light: #80deea;
+    --shadow: 0 4px 12px rgba(0, 191, 165, 0.2);
+    --border: rgba(0, 191, 165, 0.2);
+    --loader-bg: #1a1a1a;
+    --loader-border: #4a4a4a;
+    --loader-accent: #4dd0e1; /* Heller in Dark */
+}
+
+/* Body: Wende Vars an (überschreibt alte Regeln) */
+body {
+    color: var(--text-primary);
+    background: var(--bg-primary);
+    font-family: 'Inter', sans-serif; /* Global Inter für Modernität */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth Switch */
+}
+
+/* Überschreibt alte h1-h6-Regel */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary);
+}
+
+/* Überschreibt alte a-Regel */
+a {
+    color: var(--accent);
+    transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: var(--accent-light);
+    outline: none;
+    text-decoration: none;
+}
+
+/* Globale Anpassungen für Sections (z.B. Cards, Progress) */
+.card, .service-card, .skill-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+}
+
+.progress {
+    background: var(--text-secondary);
+}
+
+.progress-bar {
+    background: linear-gradient(to right, var(--accent), var(--accent-light));
+}
+
+/* Mode-Toggle-Styling */
+.mode-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.mode-toggle:hover,
+.mode-toggle:focus-visible {
+    background: var(--accent);
+    color: #ffffff;
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+[data-theme="dark"] .mode-toggle i {
+    color: var(--accent-light);
+}
+
+/* Btn: Vars für Mode (überschreibt alte Regel) */
+.btn {
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: var(--accent, #076C60); /* Türkis/Übergang */
+    border: 2px solid transparent;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 50px var(--accent, #076C60);
+    transition: ease-out 0.3s;
+}
+
+.btn:hover {
+    color: var(--accent, #076C60);
+    background: transparent;
+    box-shadow: inset 0 0 0 0 var(--accent, #076C60);
+    border-color: var(--accent, #076C60);
+}
+
+.btn:focus,
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(var(--accent-rgb, 0, 191, 165), 0.25); /* Focus-Ring mit Var */
+}
+
+.container-fluid {
+    max-width: 1366px;
+}
+
+/* Loader: Vars für Mode */
+#loader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--loader-bg, #ffffff);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .3s ease-out, visibility 0s linear .3s;
+    -o-transition: opacity .3s ease-out, visibility 0s linear .3s;
+    transition: opacity .3s ease-out, visibility 0s linear .3s;
+    z-index: 999;
+}
+
+#loader.show {
+    -webkit-transition: opacity .6s ease-out, visibility 0s linear 0s;
+    -o-transition: opacity .6s ease-out, visibility 0s linear 0s;
+    transition: opacity .6s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+#loader .loader {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border: 5px solid var(--loader-border, #dddddd);
+    border-top: 5px solid var(--loader-accent, #076C60);
+    border-radius: 50%;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    width: 44px;
+    height: 44px;
+    padding: 8px 0;
+    text-align: center;
+    line-height: 1;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    z-index: 9;
+    background: var(--accent, #076C60);
+    color: #ffffff;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+    background: var(--accent-light, #B2EBF2);
+    color: var(--text-primary, #424242);
+    transform: translateY(-2px);
+}
+
+[data-theme="dark"] .navbar-brand svg rect {
+    fill: #1a1a1a;
+}
+
+/* WhatsApp Button – fest rechts unten, mega schön & zum Design passend */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 25px;
+    background: #00BFA5;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 32px;
+    box-shadow: 0 6px 20px rgba(0, 191, 165, 0.4);
+    z-index: 1000;
+    transition: all 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ffffff;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.15);
+    background: #008b7a;
+    box-shadow: 0 10px 30px rgba(0, 191, 165, 0.5);
+    color: white;
+    text-decoration: none;
+}
+
+/* Kleiner Tooltip "Schreib mir!" beim Hover */
+.whatsapp-tooltip {
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.whatsapp-float:hover .whatsapp-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.whatsapp-float .whatsapp-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #333;
+}
+
+/* Dark Mode – noch schöner mit Glow */
+[data-theme="dark"] .whatsapp-float {
+    background: #00BFA5;
+    border-color: #004d40;
+    box-shadow: 0 6px 20px rgba(0, 191, 165, 0.5);
+}
+
+[data-theme="dark"] .whatsapp-float:hover {
+    background: #00e0c0;
+    box-shadow: 0 10px 30px rgba(0, 191, 165, 0.6);
+}

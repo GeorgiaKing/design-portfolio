@@ -1,0 +1,205 @@
+/*******************************/
+/******** Portfolio CSS ********/
+/*******************************/
+.portfolio {
+    position: relative;
+    padding: 4rem 0;
+    background: var(--bg-primary, #FAFAFA); /* Light Default, Dark anpassen */
+}
+
+.section-header {
+    margin-bottom: 3rem;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2x2-Grid für Balance */
+    gap: 2rem;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.portfolio-card {
+    background: var(--bg-secondary, #ffffff); /* Mode-an */
+    border-radius: 20px; /* Rounded für Modernität */
+    padding: 2.5rem;
+    box-shadow: var(--shadow, 0 4px 15px rgba(0, 191, 165, 0.08)); /* Subtiler türkis-Schatten */
+    transition: all 0.4s ease;
+    border: 1px solid var(--border, rgba(0, 191, 165, 0.1));
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: var(--text-primary, #424242);
+}
+
+.portfolio-card.placeholder {
+    border-style: dashed;
+    opacity: 0.7;
+    cursor: default;
+}
+
+.portfolio-card.placeholder:hover {
+    transform: none;
+}
+
+.portfolio-card:focus-visible {
+    outline: 2px solid var(--accent, #00BFA5);
+    outline-offset: 2px;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-8px) scale(1.02); /* Dynamischer Lift + Scale für UX */
+    box-shadow: 0 12px 35px rgba(0, 191, 165, 0.2);
+    border-color: var(--accent, #00BFA5);
+}
+
+.portfolio-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(to right, var(--accent, #00BFA5), var(--accent-light, #B2EBF2)); /* Türkis-Top-Bar */
+}
+
+.portfolio-icon {
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-icon i {
+    font-size: 3.5rem;
+    color: var(--accent, #00BFA5); /* Türkis-Icons */
+    transition: all 0.3s ease;
+}
+
+.portfolio-card:hover .portfolio-icon i {
+    transform: rotate(5deg) scale(1.1); /* Leichter Spin für Verspieltheit */
+    color: var(--accent-dark, #00695C);
+}
+
+.portfolio-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary, #424242);
+}
+
+.portfolio-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary, #666666);
+}
+
+.download-btn {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    background: var(--accent, #00BFA5);
+    color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 191, 165, 0.3);
+    text-decoration: none;
+}
+
+.download-btn:hover,
+.download-btn:focus-visible {
+    background: var(--accent-light, #B2EBF2);
+    color: var(--text-primary, #424242);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 191, 165, 0.4);
+    outline: 2px solid var(--accent, #00BFA5);
+    outline-offset: 2px;
+}
+
+.portfolio-card.placeholder .btn {
+    background: transparent;
+    color: var(--accent, #00BFA5);
+    border: 2px solid var(--accent, #00BFA5);
+}
+
+.portfolio-card.placeholder .btn:hover {
+    background: var(--accent, #00BFA5);
+    color: #ffffff;
+}
+
+/* Dropcaps: Global, erster Buchstabe fett pro Wort */
+.dropcap-text {
+    line-height: 1.6;
+}
+
+.bold-first-letter {
+    font-weight: bold;
+}
+
+/* Responsive: Mobile-First, Cards stacken */
+@media (max-width: 991.98px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .portfolio {
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .portfolio-card {
+        padding: 2rem;
+    }
+    .portfolio-icon i {
+        font-size: 3rem;
+    }
+    .portfolio-desc {
+        font-size: 0.95rem;
+    }
+}
+
+/* Reduced Motion: Acc-freundlich */
+@media (prefers-reduced-motion: reduce) {
+    .portfolio-card,
+    .portfolio-icon i {
+        transition-duration: 0.01ms !important;
+    }
+    .portfolio-card:hover {
+        transform: none;
+    }
+}
+
+/* Dark Mode: Dunkler türkis wie Banner (konsistent) */
+[data-theme="dark"] .portfolio {
+    background: rgba(0, 105, 92, 0.1); /* Leichter dunkler türkis */
+}
+
+[data-theme="dark"] .portfolio-card {
+    background: #00695C; /* Dunkler türkis Bg */
+    border-color: rgba(128, 222, 234, 0.3);
+    color: var(--text-primary, #e0e0e0);
+}
+
+[data-theme="dark"] .portfolio-card h3 {
+    color: var(--text-primary, #e0e0e0);
+}
+
+[data-theme="dark"] .portfolio-desc {
+    color: var(--text-secondary, #b0b0b0);
+}
+
+[data-theme="dark"] .download-btn {
+    background: var(--accent, #4dd0e1);
+    color: #1a1a1a;
+}
+
+[data-theme="dark"] .download-btn:hover {
+    background: var(--accent-light, #80deea);
+    color: #1a1a1a;
+}
+
+[data-theme="dark"] .portfolio-icon i {
+    color: #80deea;
+    text-shadow: 0 0 10px rgba(128, 222, 234, 0.3);
+}

@@ -1,0 +1,138 @@
+/*******************************/
+/******** Blog CSS *************/
+/*******************************/
+.hero-blog {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/hero-bg.jpg') center/cover fixed;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.blog-section {
+    padding: 120px 0 180px;
+    background: var(--bg-primary, #f8f9fa);
+    min-height: 100vh;
+}
+
+/* Blog-Karten */
+.portfolio-container .portfolio-wrap {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,191,165,0.1);
+    transition: all 0.4s ease;
+    height: 100%;
+}
+
+.portfolio-container .portfolio-wrap:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,191,165,0.2);
+}
+
+.portfolio-container .portfolio-wrap img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.portfolio-container .portfolio-wrap:hover img {
+    transform: scale(1.05);
+}
+
+.portfolio-info {
+    padding: 1.8rem;
+    background: var(--bg-secondary, #ffffff);
+    text-align: center;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 250px);
+}
+
+.portfolio-info h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    color: var(--text-primary, #333333) !important;
+}
+
+.portfolio-info p {
+    font-size: 1rem;
+    color: var(--text-secondary, #555555) !important;
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.portfolio-links .btn-primary {
+    background: var(--accent, #00BFA5);
+    color: white;
+    padding: 0.75rem 1.8rem;
+    border-radius: 30px;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0,191,165,0.3);
+}
+
+.portfolio-links .btn-primary:hover {
+    background: #008b7a;
+    transform: translateY(-2px);
+}
+
+/* Grid Abstände */
+.portfolio-container {
+    margin: 0 -15px;
+}
+
+.portfolio-item {
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+/* Alte Template-Breite killen, damit col-*-Klassen greifen */
+.blog-section .portfolio-container .portfolio-item {
+    width: auto !important;
+    float: none !important;
+}
+
+/* 3 Spalten ab 992px (verstärkt das Verhalten noch einmal) */
+@media (min-width: 992px) {
+    .portfolio-container .col-lg-4 {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+    }
+}
+
+
+/* Dark Mode */
+[data-theme="dark"] .portfolio-info {
+    background: #00695c;
+}
+
+[data-theme="dark"] .portfolio-info h4 {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .portfolio-info p {
+    color: #b0d0d5 !important;
+}
+
+[data-theme="dark"] .portfolio-links .btn-primary {
+    background: #80deea;
+    color: #1a1a1a;
+}
+
+[data-theme="dark"] .portfolio-links .btn-primary:hover {
+    background: #4dd0e1;
+    color: white;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+    .hero-blog h1 { font-size: 3rem; }
+    .blog-section { padding: 80px 0 120px; }
+}

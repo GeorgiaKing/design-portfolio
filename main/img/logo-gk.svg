@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 42 22"
+     role="img"
+     aria-labelledby="gkLogoTitle gkLogoDesc">
+  <title id="gkLogoTitle">Logo Georgia König</title>
+  <desc id="gkLogoDesc">GK-Monogramm in ultrakleiner Kapsel</desc>
+
+  <!-- Ultrakleine Kapsel -->
+  <rect x="1" y="1" width="40" height="20" rx="10"
+        fill="#ffffff"
+        stroke="#00BFA5"
+        stroke-width="2" />
+
+  <!-- GK -->
+  <text x="21" y="15"
+        text-anchor="middle"
+        font-family="Montserrat, system-ui"
+        font-size="12"
+        font-weight="700"
+        fill="#00BFA5">
+    GK
+  </text>
+</svg>

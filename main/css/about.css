@@ -1,0 +1,241 @@
+/*******************************/
+/********** About CSS **********/
+/*******************************/
+.about {
+    position: relative;
+    width: 100%;
+    margin: -3rem 0 3rem 0;
+    padding: 4rem 0;
+    background: linear-gradient(to bottom, var(--bg-primary, #FAFAFA), rgba(var(--accent-rgb, 0, 191, 165), 0.1)); /* Leichter türkis-Gradient, Dark angepasst */
+}
+
+.about .col-lg-6 {
+    padding: 0;
+}
+
+.section-header {
+    margin-bottom: 2rem;
+}
+
+.about-story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2rem;
+}
+
+.about .about-text p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary, #424242); /* Var für Dark-Anpassung */
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3x2-Grid für 6 Cards */
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.skill-card {
+    background: var(--bg-secondary, #ffffff); /* Light White, Dark #00695C wie Banner */
+    border-radius: 16px; /* Rounded Cards für Verspieltheit */
+    padding: 1.5rem;
+    box-shadow: var(--shadow, 0 4px 12px rgba(0, 191, 165, 0.05)); /* Subtiler türkis-Schatten */
+    transition: all 0.3s ease;
+    border: 1px solid var(--border, rgba(0, 191, 165, 0.1));
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: var(--text-primary, #424242); /* Var für Sichtbarkeit in Dark */
+}
+
+.skill-card:focus-visible {
+    outline: 2px solid var(--accent, #00BFA5);
+    outline-offset: 2px;
+}
+
+.skill-card:hover {
+    transform: translateY(-4px); /* Lift-Effekt für UX */
+    box-shadow: 0 8px 25px rgba(0, 191, 165, 0.15);
+    border-color: var(--accent, #00BFA5);
+}
+
+.skill-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(to right, var(--accent, #00BFA5), var(--accent-light, #B2EBF2)); /* Türkis-Top-Bar */
+}
+
+.skill-icon {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.skill-icon i {
+    font-size: 2.5rem;
+    color: var(--accent, #00BFA5); /* Türkis-Icons, sichtbar in Dark */
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover .skill-icon i {
+    transform: scale(1.1);
+    color: var(--accent-dark, #00695C); /* Dunkler türkis auf Hover */
+}
+
+.skill-card h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--text-primary, #424242); /* Var für Dark */
+}
+
+.skill-bar {
+    height: 0.5rem;
+    background: var(--text-secondary, #e0e0e0); /* Anpassung für Dark */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(to right, var(--accent, #00BFA5), var(--accent-light, #B2EBF2)); /* Türkis-Gradient */
+    border-radius: 10px;
+    transition: width 1.5s ease; /* Smooth Anim */
+}
+
+.skill-percent {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    color: var(--accent, #00BFA5); /* Sichtbar in Dark */
+    font-size: 0.875rem;
+}
+
+/* Dropcaps: Global, erster Buchstabe fett pro Wort */
+.dropcap-text {
+    line-height: 1.6;
+}
+
+.bold-first-letter {
+    font-weight: bold;
+}
+
+/* Responsive: Mobile-First, Cards stacken zu 1-Spalte */
+@media (max-width: 991.98px) {
+    .about {
+        margin: -2rem 0 2rem 0;
+        padding: 3rem 0;
+        text-align: center;
+    }
+    .about-story {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+    .about .about-text p {
+        font-size: 1rem;
+    }
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .about .about-text p {
+        font-size: 0.95rem;
+    }
+    .skill-card {
+        padding: 1rem;
+    }
+    .skill-icon i {
+        font-size: 2rem;
+    }
+}
+
+/* Reduced Motion: Acc-freundlich */
+@media (prefers-reduced-motion: reduce) {
+    .skill-card,
+    .skill-icon i {
+        transition-duration: 0.01ms !important;
+    }
+    .skill-card:hover {
+        transform: none;
+    }
+    .progress-bar {
+        transition: none;
+    }
+}
+
+/* Dark Mode: Dunkler türkis wie Banner (konsistent, sichtbar) */
+[data-theme="dark"] .about {
+    background: rgba(0, 105, 92, 0.1); /* Leichter dunkler türkis */
+}
+
+[data-theme="dark"] .about-story {
+    color: var(--text-primary, #e0e0e0);
+}
+
+[data-theme="dark"] .skill-card {
+    background: #00695C; /* Dunkler türkis Bg wie Banner */
+    border-color: rgba(128, 222, 234, 0.3); /* Heller türkis Border */
+    color: var(--text-primary, #e0e0e0); /* Heller Text */
+}
+
+[data-theme="dark"] .skill-card h3 {
+    color: var(--text-primary, #e0e0e0);
+}
+
+[data-theme="dark"] .skill-bar {
+    background: var(--text-secondary, #4a4a4a);
+}
+
+[data-theme="dark"] .skill-percent {
+    color: var(--accent-light, #80deea); /* Heller für Kontrast */
+}
+
+/* Spawn-Animation für Skill-Cards beim Laden */
+.skill-card {
+    animation: fadeInUp 1s ease-out forwards; /* Standard-Animation beim Laden */
+    opacity: 0; /* Start unsichtbar */
+    transform: translateY(20px); /* Start leicht unten */
+}
+
+/* Wow.js übersteuert die Animation nur beim Scrollen */
+.wow .skill-card {
+    animation: none; /* Wow.js initialisiert sie */
+    opacity: 1; /* Sichtbar, wenn Wow aktiv */
+}
+
+/* FadeInUp-Animation definieren */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover-Animation bleibt erhalten (bestehende Logik) */
+.skill-card:hover {
+    transform: translateY(-4px); /* Lift-Effekt */
+    box-shadow: 0 8px 25px rgba(0, 191, 165, 0.15);
+    border-color: var(--accent, #00BFA5);
+}
+
+/* Sicherstellen, dass Animation nur einmal läuft */
+.skill-card.animated {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
