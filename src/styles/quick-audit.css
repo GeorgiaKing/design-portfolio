@@ -1187,9 +1187,9 @@
 
 .hightech-powered-text {
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 650;
   letter-spacing: 0.1em;
-  color: var(--muted);
+  color: var(--ink);
   text-transform: uppercase;
   display: inline-flex;
   align-items: center;
@@ -1199,30 +1199,36 @@
 .wabiy-glitch-brand {
   font-weight: 800;
   letter-spacing: -0.01em;
-  background: linear-gradient(135deg, var(--accent) 0%, #10b981 50%, #06b6d4 100%);
+  background: linear-gradient(135deg, #146d52 0%, #1b4d44 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
-  text-shadow: 0 0 16px rgba(16, 185, 129, 0.35);
 }
 
-/* Cybernetic spinning asterisk */
-.hightech-star {
-  font-size: 13px;
-  color: var(--accent);
-  display: inline-block;
-  line-height: 1;
-  animation: rotateStar 7s linear infinite;
-  filter: drop-shadow(0 0 6px rgba(16, 185, 129, 0.6));
+:root[data-theme='dark'] .wabiy-glitch-brand {
+  background: linear-gradient(135deg, #34d399 0%, #67e8f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 16px rgba(16, 185, 129, 0.3);
 }
 
-@keyframes rotateStar {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Crisp Wabiy Logo Mark inside Powered Badge */
+.hightech-wabiy-logo {
+  display: block;
+  width: 24px;
+  height: 18px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 4px rgba(20, 109, 82, 0.2));
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), filter 0.25s ease;
+}
+
+:root[data-theme='dark'] .hightech-wabiy-logo {
+  filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.35));
+}
+
+.hightech-powered-badge:hover .hightech-wabiy-logo {
+  transform: scale(1.08);
 }
 
 /* ============================================================
@@ -1314,8 +1320,8 @@
     opacity: 0.8;
   }
 
-  .hightech-star {
-    animation: none;
+  .hightech-powered-badge:hover .hightech-wabiy-logo {
+    transform: none;
   }
 
   .hightech-results-dashboard {

@@ -829,7 +829,16 @@ export default function QuickAudit({
                 <span className="mono hightech-powered-text">
                   POWERED BY <strong className="wabiy-glitch-brand">wabiy</strong>
                 </span>
-                <span className="hightech-star" aria-hidden="true">✳</span>
+                <img
+                  src="/images/brand/wabiy-logo.png"
+                  alt=""
+                  width="24"
+                  height="18"
+                  aria-hidden="true"
+                  className="hightech-wabiy-logo"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
             </div>
           </div>
