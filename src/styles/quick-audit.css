@@ -89,61 +89,105 @@
   flex: 1;
 }
 
+.audit-field-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin-bottom: 8px;
+}
+
+.audit-visible-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.audit-field-hint {
+  font-size: 11.5px;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+}
+
 .audit-input-bar {
   display: flex;
   align-items: stretch;
-  gap: 12px;
-  background: var(--surface-2);
-  border: 1.5px solid var(--line);
-  border-radius: 12px;
-  padding: 7px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.03);
-  transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-.audit-input-bar:focus-within {
-  border-color: var(--accent);
-  box-shadow: 0 8px 28px rgba(20, 109, 82, 0.12);
-  background: var(--surface);
+  gap: 10px;
 }
 
 .audit-input-wrapper {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   flex: 1;
   min-width: 0;
-  padding-left: 12px;
+  min-height: 52px;
+  background: var(--bg);
+  border: 2px solid color-mix(in srgb, var(--ink) 45%, var(--line));
+  border-radius: 12px;
+  padding: 0 14px 0 12px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.audit-input-wrapper:hover {
+  border-color: color-mix(in srgb, var(--accent) 65%, var(--line));
+}
+
+.audit-input-wrapper:focus-within {
+  border-color: var(--accent);
+  background: var(--surface);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
 }
 
 .input-prefix-icon {
-  color: var(--muted);
+  color: var(--accent);
   flex-shrink: 0;
+  display: grid;
+  place-items: center;
+}
+
+.input-protocol-prefix {
+  font-size: 13.5px;
+  color: var(--muted);
+  padding-right: 8px;
+  border-right: 1px solid var(--line);
+  flex-shrink: 0;
+  user-select: none;
 }
 
 .audit-input {
   width: 100%;
+  min-width: 0;
   border: none;
   background: transparent;
   color: var(--ink);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
-  padding: 10px 0;
+  padding: 12px 0;
   outline: none;
+}
+
+.audit-input:focus,
+.audit-input:focus-visible {
+  outline: none;
+  box-shadow: none;
 }
 
 .audit-input::placeholder {
   color: var(--muted);
-  opacity: 0.7;
+  opacity: 0.85;
 }
 
 .audit-submit-btn {
   flex-shrink: 0;
-  min-height: 46px;
-  padding: 11px 22px;
-  font-size: 14px;
+  min-height: 52px;
+  padding: 12px 22px;
+  font-size: 14.5px;
   gap: 10px;
-  border-radius: 8px;
+  border-radius: 12px;
   white-space: nowrap;
 }
 
@@ -1213,11 +1257,11 @@
 
   .audit-input-bar {
     flex-direction: column;
-    padding: 8px;
+    gap: 10px;
   }
 
   .audit-input-wrapper {
-    padding-left: 4px;
+    width: 100%;
   }
 
   .audit-submit-btn {

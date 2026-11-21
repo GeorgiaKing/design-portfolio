@@ -577,27 +577,26 @@ export default function ContactForm({
             </div>
           </div>
 
-          <div className="form-row">
-            {/* Phone Field (Optional) */}
-            <div className="form-group">
-              <label htmlFor={`${idPrefix}-phone`} className="form-label">
-                <span>{renderReadingAid(t.phoneLabel)}</span>
-                <span className="optional-hint">{t.phoneOptional}</span>
-              </label>
-              <input
-                type="tel"
-                id={`${idPrefix}-phone`}
-                name="phone"
-                value={formData.phone}
-                onChange={handleChange}
-                placeholder={t.phonePlaceholder}
-                autoComplete="tel"
-                className="form-input"
-              />
-            </div>
+          {/* Phone Field (Optional) */}
+          <div className="form-group">
+            <label htmlFor={`${idPrefix}-phone`} className="form-label">
+              <span>{renderReadingAid(t.phoneLabel)}</span>
+              <span className="optional-hint">{t.phoneOptional}</span>
+            </label>
+            <input
+              type="tel"
+              id={`${idPrefix}-phone`}
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+              placeholder={t.phonePlaceholder}
+              autoComplete="tel"
+              className="form-input"
+            />
+          </div>
 
-            {/* Topic Select (Modern Accessible Custom Select) */}
-            <div className="form-group">
+          {/* Topic Select (Modern Accessible Custom Select) */}
+          <div className="form-group">
               <label
                 id={`${idPrefix}-topic-label`}
                 htmlFor={`${idPrefix}-topic-button`}
@@ -727,7 +726,6 @@ export default function ContactForm({
                 )}
               </div>
             </div>
-          </div>
 
           {/* Message Field */}
           <div className="form-group">

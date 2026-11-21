@@ -111,9 +111,10 @@ export default function QuickAudit({
     lead: isEn
       ? 'Test any public website against WCAG 2.2 A/AA standards in seconds. Free, automated, and directly in your browser.'
       : 'Prüfe eine beliebige öffentlich erreichbare Website in Sekunden nach WCAG 2.2 A/AA. Kostenlos, automatisiert und direkt im Browser.',
-    urlLabel: isEn ? 'Website URL to audit' : 'Zu prüfende Website-Adresse',
-    urlPlaceholder: isEn ? 'e.g. your-website.com' : 'z. B. deine-website.de',
-    submitIdle: isEn ? 'Quick Audit starten' : 'Quick Audit starten',
+    urlLabel: isEn ? 'Website URL to audit' : 'Website-URL prüfen',
+    urlHint: isEn ? 'Free WCAG 2.2 check' : 'Kostenloser WCAG 2.2 Check',
+    urlPlaceholder: isEn ? 'your-website.com' : 'deine-website.de',
+    submitIdle: isEn ? 'Start Quick Audit' : 'Quick Audit starten',
     submitScanning: isEn ? 'Website wird geprüft...' : 'Website wird geprüft...',
     trustStandard: isEn ? 'Standard: WCAG 2.2 A/AA' : 'Standard: WCAG 2.2 A/AA',
     trustPrivacy: isEn ? 'GDPR-compliant · Zero storage' : '100% DSGVO-konform · Keine Speicherung',
@@ -431,15 +432,19 @@ export default function QuickAudit({
           {/* Form View (Idle or Scanning) */}
           {status !== 'results' && (
             <form onSubmit={handleSubmit} noValidate className="quick-audit-form">
-              <div className="audit-input-bar">
-                <label htmlFor={`${componentId}-url`} className="sr-only">
+              <div className="audit-field-header">
+                <label htmlFor={`${componentId}-url`} className="audit-visible-label">
                   {t.urlLabel}
                 </label>
+                <span className="audit-field-hint mono">{t.urlHint}</span>
+              </div>
+
+              <div className="audit-input-bar">
                 <div className="audit-input-wrapper">
                   <span className="input-prefix-icon" aria-hidden="true">
                     <svg
-                      width="20"
-                      height="20"
+                      width="18"
+                      height="18"
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
@@ -452,6 +457,11 @@ export default function QuickAudit({
                       <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
                     </svg>
                   </span>
+                  {!/^https?:\/\//i.test(url) && (
+                    <span className="input-protocol-prefix mono" aria-hidden="true">
+                      https://
+                    </span>
+                  )}
                   <input
                     type="url"
                     id={`${componentId}-url`}

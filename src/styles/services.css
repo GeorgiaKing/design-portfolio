@@ -9,6 +9,8 @@
 
 .service-hero-grid>*{min-width:0}
 .responsive-content>*{min-width:0}.device-1 .responsive-art,.device-2 .responsive-art{width:100%;aspect-ratio:auto}
+@media(max-width:920px){.benefit-grid,.deliverable-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}}
+@media(max-width:760px){.deliverable-grid,.benefit-grid{grid-template-columns:1fr}}
 @media(max-width:440px){.design-step-0{padding:72px 12px}.related-services a{flex-wrap:wrap;gap:10px 12px}}
 
 .demo-stage{grid-template-columns:minmax(0,1fr)}.responsive-browser{min-width:0}

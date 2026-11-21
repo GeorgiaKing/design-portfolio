@@ -59,13 +59,73 @@
   flex: 1;
 }
 
-.map-window-title span,
-.cal-window-title span {
+.map-window-title span {
   overflow-wrap: anywhere;
+}
+
+.cal-window-title span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .map-window-dots {
   flex-shrink: 0;
+}
+
+/* Desktop Hero & MapCard polish (>= 961px) */
+@media (min-width: 961px) {
+  .hero-v2-art {
+    padding-bottom: 72px;
+  }
+
+  .hero-v2-art .tag-access {
+    bottom: 0;
+  }
+}
+
+/* Hide redundant coordinates inside narrow sidebars so city name never truncates */
+.contact-grid .map-window-coord,
+.contact-page-layout .map-window-coord {
+  display: none;
+}
+
+/* Cookie Dialog: enforce true viewport centering */
+dialog.cookie-dialog {
+  margin: auto;
+  inset: 0;
+  max-height: min(88dvh, 760px);
+}
+
+/* ModernSelect: never truncate long selected option labels on narrow viewports */
+.modern-select-trigger {
+  min-height: 50px;
+  height: auto;
+}
+
+.modern-select-trigger-content {
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  min-width: 0;
+}
+
+.modern-select-trigger-text {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  line-height: 1.35;
+}
+
+/* Wabiy Code Window: preserve clean JSX indentation instead of awkward column-0 tag wraps */
+.code-window {
+  overflow-x: auto;
+}
+
+.code-window code {
+  display: block;
+  white-space: pre;
+  overflow-wrap: normal;
 }
 
 /* --------------------------------------------------------------------------
@@ -237,13 +297,22 @@
   .process-intro {
     position: static;
   }
+
+  /* Restore last separator asterisk in expertise-strip when wrapped */
+  .expertise-strip i:last-of-type {
+    display: inline;
+  }
+
+  .expertise-strip .container {
+    gap: 10px 14px;
+  }
 }
 
 /* --------------------------------------------------------------------------
-   SMALL TABLET & LARGE PHONE (<= 720px)
+   TABLET FORM & BOOKING GRID (<= 860px)
    -------------------------------------------------------------------------- */
-@media (max-width: 720px) {
-  /* Stack 2-column form inputs cleanly earlier */
+@media (max-width: 860px) {
+  /* Stack 2-column form inputs cleanly on 768px tablet & mobile */
   .form-row {
     grid-template-columns: minmax(0, 1fr);
     gap: 16px;
@@ -260,7 +329,6 @@
     overflow-wrap: break-word;
   }
 
-  /* Modern Select wrapping & menu sizing */
   .modern-select-menu {
     max-height: min(320px, 50dvh);
   }
@@ -268,6 +336,11 @@
   .modern-select-badge {
     font-size: 12px;
     padding: 2px 7px;
+  }
+
+  /* Cal.com iframe height so full month grid displays comfortably without mid-row clipping */
+  .cal-frame-container {
+    height: 760px;
   }
 
   /* Map & Cal cards */
@@ -288,13 +361,8 @@
   }
 
   .cal-window-header {
-    flex-wrap: wrap;
     gap: 8px;
     padding: 10px 14px;
-  }
-
-  .cal-window-title {
-    white-space: normal;
   }
 }
 
@@ -310,7 +378,11 @@
     padding: 64px 0;
   }
 
-  /* Career Timeline: anchor node dot cleanly to li so wrapping badges never collide */
+  /* Career Timeline: indent list by 14px so left:-14px node sits cleanly inside gutter */
+  ol.career-timeline {
+    padding-left: 14px;
+  }
+
   .career-timeline > li {
     position: relative;
     grid-template-columns: minmax(0, 1fr);
@@ -333,6 +405,12 @@
     padding: 6px 0 32px 0;
   }
 
+  .career-entry::before {
+    left: -1px;
+    top: 0;
+    bottom: 0;
+  }
+
   .career-timeline > li:last-child .career-entry {
     padding-bottom: 12px;
   }
@@ -343,6 +421,12 @@
     left: -14px;
     width: 27px;
     height: 27px;
+  }
+
+  .code-window {
+    font-size: 13px;
+    line-height: 1.75;
+    padding: 16px;
   }
 
   /* ContrastLab cursor safety */
@@ -460,6 +544,10 @@
     max-width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
+  }
+
+  .cal-window-badge {
+    display: none;
   }
 }
 
