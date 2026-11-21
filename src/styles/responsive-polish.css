@@ -1,0 +1,532 @@
+/* ==========================================================================
+   COMPREHENSIVE MOBILE, TABLET & CROSS-VIEWPORT RESPONSIVE POLISH
+   Loaded last to unify breakpoints and eliminate overlaps or overflow.
+   ========================================================================== */
+
+/* 1. Global Grid Child Shrink Safety (prevents inner iframes/code/selects from blowing out grids) */
+.hero-v2-grid > *,
+.about-grid > *,
+.contact-grid > *,
+.contact-page-layout > *,
+.booking-page-grid > *,
+.faq-grid > *,
+.article-layout > *,
+.wabiy-hero-grid > *,
+.wabiy-intro-grid > *,
+.wabiy-code-feature > *,
+.service-hero-grid > *,
+.service-process-grid > *,
+.service-faq-grid > *,
+.service-scope > *,
+.service-change > *,
+.form-row > *,
+.split-heading > * {
+  min-width: 0;
+}
+
+/* Clean alignment for Home contact-details action row & MapCard button */
+.contact-details-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px 18px;
+  margin-top: 6px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  width: 100%;
+}
+
+.contact-details .button,
+.contact-details .contact-cta-btn,
+.map-window .map-directions-button {
+  margin-top: 0;
+  min-height: 44px;
+  font-size: 14px;
+  padding: 10px 18px;
+  gap: 10px;
+}
+
+/* MapCard & CalWindow baseline polish across all widths */
+.map-window,
+.cal-window {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.map-window-title,
+.cal-window-title {
+  min-width: 0;
+  flex: 1;
+}
+
+.map-window-title span,
+.cal-window-title span {
+  overflow-wrap: anywhere;
+}
+
+.map-window-dots {
+  flex-shrink: 0;
+}
+
+/* --------------------------------------------------------------------------
+   TABLET & LARGE MOBILE (<= 960px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 960px) {
+  .container {
+    width: min(100% - 40px, 760px);
+  }
+
+  /* Navigation drawer height guard on short screens */
+  .site-header nav.is-open {
+    max-height: calc(100dvh - 100px);
+    overflow-y: auto;
+  }
+
+  /* HERO SECTION MOBILE ORDER:
+     1. Headline -> 2. Intro -> 3. Georgia's Photo -> 4. Buttons -> 5. Signature */
+  .hero-v2 {
+    padding-top: 22px;
+  }
+
+  .hero-v2-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+    padding: 16px 0 24px;
+  }
+
+  .hero-v2-copy {
+    display: contents;
+  }
+
+  .hero-v2-copy h1 {
+    order: 1;
+    font-size: clamp(2.45rem, 10.5vw, 4rem);
+    line-height: 1.04;
+    margin-bottom: 0;
+  }
+
+  .hero-v2-intro {
+    order: 2;
+    max-width: 100%;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .hero-v2-art {
+    order: 3;
+    width: min(370px, 100%);
+    margin: 10px auto 4px;
+    padding: 10px 10px 56px;
+  }
+
+  .hero-photo-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .hero-photo-card > img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 4.6;
+    max-height: 360px;
+    object-fit: cover;
+    object-position: center 5%;
+  }
+
+  .hero-v2-art .tag-access {
+    bottom: 6px;
+    left: 50%;
+    right: auto;
+    top: auto;
+    transform: translateX(-50%) rotate(-1.5deg);
+    animation: floatAccessMobile 5s ease-in-out infinite alternate;
+    width: max-content;
+    max-width: calc(100% - 16px);
+    padding: 10px 14px;
+  }
+
+  @keyframes floatAccessMobile {
+    0% {
+      transform: translateX(-50%) rotate(-1.5deg) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) rotate(-1deg) translateY(-6px);
+    }
+    100% {
+      transform: translateX(-50%) rotate(-2deg) translateY(2px);
+    }
+  }
+
+  .hero-actions {
+    order: 4;
+    margin-top: 6px;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .hero-signature {
+    order: 5;
+    margin-top: 8px;
+  }
+
+  /* QuickAudit: Keep tool headline + URL input BEFORE mascot on mobile */
+  .quick-audit-companion {
+    order: 0;
+  }
+
+  .companion-bird-box {
+    min-height: 150px;
+  }
+
+  /* Contact Section & Contact Page collapse earlier to avoid cramped Maps/Form */
+  .contact-grid,
+  .contact-page-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 42px;
+  }
+
+  .contact-details {
+    padding: 32px 0 0;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    width: 100%;
+  }
+
+  .contact-details .email-link {
+    font-size: clamp(1.4rem, 5.5vw, 1.95rem);
+    overflow-wrap: anywhere;
+  }
+
+  .map-window-coord {
+    display: none;
+  }
+
+  .map-window-title {
+    white-space: normal;
+    line-height: 1.35;
+  }
+
+  /* About, FAQ, Career, ContrastLab, Wabiy adjustments */
+  .about-grid,
+  .faq-grid,
+  .wabiy-intro-grid,
+  .wabiy-code-feature {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 36px;
+  }
+
+  .wabiy-hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .wabiy-hero-bird {
+    min-height: auto;
+    padding-block: 16px;
+  }
+
+  .service-hero-grid,
+  .service-process-grid,
+  .service-faq-grid,
+  .service-scope {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+
+  .process-intro {
+    position: static;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   SMALL TABLET & LARGE PHONE (<= 720px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 720px) {
+  /* Stack 2-column form inputs cleanly earlier */
+  .form-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .form-label {
+    flex-wrap: wrap;
+    gap: 4px 10px;
+  }
+
+  .checkbox-label {
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: break-word;
+  }
+
+  /* Modern Select wrapping & menu sizing */
+  .modern-select-menu {
+    max-height: min(320px, 50dvh);
+  }
+
+  .modern-select-badge {
+    font-size: 12px;
+    padding: 2px 7px;
+  }
+
+  /* Map & Cal cards */
+  .map-frame-container {
+    height: 230px;
+  }
+
+  .map-window-footer,
+  .cal-window-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .map-window .map-directions-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cal-window-header {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px 14px;
+  }
+
+  .cal-window-title {
+    white-space: normal;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   MOBILE PHONES (<= 640px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .container {
+    width: calc(100% - 32px);
+  }
+
+  .section {
+    padding: 64px 0;
+  }
+
+  /* Career Timeline: anchor node dot cleanly to li so wrapping badges never collide */
+  .career-timeline > li {
+    position: relative;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    border-left: 1px solid var(--line);
+    padding-left: 20px;
+  }
+
+  .career-date {
+    padding: 4px 0 8px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .career-entry {
+    position: static;
+    border-left: 0;
+    padding: 6px 0 32px 0;
+  }
+
+  .career-timeline > li:last-child .career-entry {
+    padding-bottom: 12px;
+  }
+
+  .career-node,
+  .career-current .career-node {
+    top: 4px;
+    left: -14px;
+    width: 27px;
+    height: 27px;
+  }
+
+  /* ContrastLab cursor safety */
+  .lab-example {
+    min-height: 170px;
+    padding: 28px 18px 48px;
+  }
+
+  .lab-cursor {
+    right: 16px;
+    bottom: 10px;
+    font-size: 28px;
+  }
+
+  /* Contact section padding & CTA alignment */
+  .contact-section {
+    padding: 60px 0;
+  }
+
+  .contact-form-container,
+  .contact-card {
+    padding: 20px 16px;
+    border-radius: 14px;
+  }
+
+  .contact-details-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contact-details .contact-cta-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Footer big headline + arrow spacing */
+  .footer-big-link {
+    font-size: clamp(1.85rem, 8.2vw, 2.8rem);
+    padding-right: 60px;
+    overflow-wrap: break-word;
+  }
+
+  .footer-arrow {
+    width: 46px;
+    height: 46px;
+    bottom: 4px;
+  }
+
+  .footer-arrow svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* Service demo spacing */
+  .design-step-0 {
+    padding: 72px 12px;
+  }
+
+  .related-services a {
+    flex-wrap: wrap;
+    gap: 10px 12px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   COMPACT PHONES (<= 480px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-v2-art {
+    width: 100%;
+    padding: 8px 6px 56px;
+  }
+
+  .cal-consent-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cal-consent-actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cookie-banner-actions {
+    width: 100%;
+  }
+
+  .cookie-banner-actions .button {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .testimonials-header .testimonials-trust-badge {
+    width: 100%;
+  }
+
+  .card-top {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* Prevent Turnstile (300px) from overflowing narrow viewports */
+  .audit-turnstile-wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   VERY NARROW PHONES (<= 380px, e.g. 320px–375px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 380px) {
+  .container {
+    width: calc(100% - 24px);
+  }
+
+  .site-header {
+    width: calc(100% - 16px);
+  }
+
+  .site-header .header-inner {
+    padding: 8px 10px;
+    gap: 6px;
+  }
+
+  .site-header .brand-mark {
+    width: 36px;
+    height: 38px;
+  }
+
+  .site-header .brand-name {
+    font-size: 14.5px;
+    letter-spacing: -0.04em;
+  }
+
+  .header-tools {
+    gap: 4px;
+  }
+
+  .bionic-toggle,
+  .theme-toggle,
+  .menu-button {
+    width: 34px;
+    height: 34px;
+  }
+
+  .hero-v2-copy h1 {
+    font-size: clamp(2.1rem, 10.2vw, 2.75rem);
+  }
+
+  .headline-accent {
+    white-space: normal;
+  }
+
+  .hero-v2-art .tag-access {
+    font-size: 12.5px;
+    padding: 8px 12px;
+  }
+
+  .turnstile-slot {
+    transform: scale(0.92);
+    transform-origin: left center;
+  }
+
+  .about-facts {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-v2-art .tag-access {
+    transform: translateX(-50%) rotate(-1.5deg) !important;
+  }
+}
