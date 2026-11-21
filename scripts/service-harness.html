@@ -1,0 +1,23 @@
+<!doctype html><html lang="de"><meta charset="utf-8"><meta name="robots" content="noindex"><title>Leistungsseiten prüfen</title><style>body{font:14px system-ui;padding:20px}button{font:inherit;padding:15px}pre{white-space:pre-wrap}iframe{height:950px;display:block}</style><h1>Leistungsseiten & Interaktionen</h1><button id="run">Prüfung starten</button><p id="summary" role="status">Bereit.</p><details><summary>Protokoll</summary><pre id="results">[]</pre></details><iframe title="Leistungsseite" id="frame"></iframe><script>
+const paths=['/leistungen/digitale-barrierefreiheit/','/leistungen/ux-design/','/leistungen/webentwicklung/','/leistungen/strategie-testing/','/en/services/digital-accessibility/','/en/services/ux-design/','/en/services/web-development/','/en/services/strategy-testing/'];
+const frame=document.querySelector('#frame'),run=document.querySelector('#run'),summary=document.querySelector('#summary'),output=document.querySelector('#results');
+run.onclick=async()=>{run.disabled=true;const all=[];let error=null;const originalTheme=localStorage.getItem('gk-theme');
+try{for(const width of [320,390,768,1024,1440])for(const theme of ['light','dark'])for(const path of paths){
+summary.textContent=`${all.length} Zustände geprüft · ${path} · ${width} · ${theme}`;localStorage.setItem('gk-theme',theme);frame.style.width=width+'px';
+await new Promise(resolve=>{frame.onload=resolve;frame.src=path});const doc=frame.contentDocument,win=frame.contentWindow;await doc.fonts.ready;
+await new Promise((resolve,reject)=>{const start=performance.now();function hydrated(){if(!doc.querySelector('astro-island[ssr]'))resolve();else if(performance.now()-start>15000)reject(Error('Hydration timeout'));else requestAnimationFrame(hydrated)}hydrated()});
+const axe=doc.createElement('script');axe.src='/__qa-axe.js';await new Promise((resolve,reject)=>{axe.onload=resolve;axe.onerror=reject;doc.head.appendChild(axe)});
+// Open disclosures to include content that is initially collapsed.
+doc.querySelectorAll('.service-page details').forEach(d=>d.open=true);
+for(const button of [...doc.querySelectorAll('.demo-switch button')]){button.click();await new Promise(resolve=>win.requestAnimationFrame(()=>win.requestAnimationFrame(resolve)));
+await Promise.all(doc.getAnimations().filter(a=>a.effect?.getTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{}))); const state=button.textContent,caption=doc.querySelector('.demo-caption').textContent,pressed=button.getAttribute('aria-pressed');
+const smallText=[...doc.querySelectorAll('body *')].filter(e=>[...e.childNodes].some(n=>n.nodeType===3&&n.textContent.trim())&&e.getBoundingClientRect().width>0&&parseFloat(win.getComputedStyle(e).fontSize)<14&&!e.closest('svg,script,style,.sr-only')).map(e=>({text:e.textContent.trim().slice(0,70),font:win.getComputedStyle(e).fontSize}));
+const audit=await win.axe.run(doc,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa','best-practice']}});
+const violations=audit.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({html:n.html,summary:n.failureSummary}))}));
+const clipped=[...doc.querySelectorAll('.demo-stage,.demo-stage *')].filter(e=>{const r=e.getBoundingClientRect(),s=doc.querySelector('.demo-stage').getBoundingClientRect();return r.width>0&&(r.right>s.right+1||r.left<s.left-1)}).map(e=>e.className);
+all.push({path,width,theme,state,caption,pressed,smallText,overflow:doc.documentElement.scrollWidth>win.innerWidth,clipped,violations,incomplete:audit.incomplete.map(v=>v.id)});output.textContent=JSON.stringify(all,null,2);
+}
+}}catch(e){error=e.message}finally{if(originalTheme)localStorage.setItem('gk-theme',originalTheme);else localStorage.removeItem('gk-theme');run.disabled=false}
+summary.textContent=JSON.stringify({completed:all.length,expected:220,violations:all.filter(r=>r.violations.length),overflow:all.filter(r=>r.overflow),smallText:all.filter(r=>r.smallText.length),clipped:all.filter(r=>r.clipped.length),interactionFailures:all.filter(r=>r.pressed!=='true'||!r.caption),error})};
+</script></html>
+

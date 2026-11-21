@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" fill="none">
+  <!-- Idle pose and artwork from Wabiy Frontend/src/components/Home/AnimatedBird.tsx. -->
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#5EEAD4"/><stop offset="40%" stop-color="#2DD4BF"/><stop offset="100%" stop-color="#14B8A6"/></linearGradient>
+    <linearGradient id="wingGrad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#0D9488"/><stop offset="100%" stop-color="#0F766E"/></linearGradient>
+    <radialGradient id="bellyGrad"><stop offset="0%" stop-color="#CCFBF1" stop-opacity=".8"/><stop offset="100%" stop-color="#99F6E4" stop-opacity=".3"/></radialGradient>
+    <radialGradient id="highlight"><stop offset="0%" stop-color="#FFF" stop-opacity=".6"/><stop offset="100%" stop-color="#FFF" stop-opacity="0"/></radialGradient>
+  </defs>
+  <circle cx="100" cy="110" r="58" fill="url(#bodyGrad)" style="filter:drop-shadow(0 6px 16px #14b8a659)"/>
+  <ellipse cx="100" cy="125" rx="42" ry="48" fill="url(#bellyGrad)"/>
+  <ellipse cx="85" cy="95" rx="28" ry="35" fill="url(#highlight)" opacity=".6"/>
+  <g style="filter:drop-shadow(0 2px 4px #0f766e4d)">
+    <ellipse cx="60" cy="115" rx="18" ry="45" fill="url(#wingGrad)" transform="rotate(-25 60 115)"/>
+    <ellipse cx="140" cy="115" rx="18" ry="45" fill="url(#wingGrad)" transform="rotate(25 140 115)"/>
+  </g>
+  <circle cx="100" cy="65" r="35" fill="url(#bodyGrad)" style="filter:drop-shadow(0 3px 8px #14b8a640)"/>
+  <ellipse cx="90" cy="55" rx="16" ry="18" fill="url(#highlight)"/>
+  <path d="M 100 75 L 100 85 L 95 80 Z M 100 75 L 100 85 L 105 80 Z" fill="#FB923C" style="filter:drop-shadow(0 1px 2px #fb923c66)"/>
+  <g id="left-eye">
+    <ellipse cx="85" cy="62" rx="10" ry="12" fill="white"/>
+    <ellipse cx="85" cy="63" rx="7" ry="8" fill="#0D9488"/>
+    <ellipse cx="85" cy="63" rx="4" ry="5" fill="#1A1A1A"/>
+    <ellipse cx="87" cy="61" rx="2.5" ry="3" fill="white"/>
+    <ellipse cx="83" cy="64" rx="1.5" ry="2" fill="white" opacity=".6"/>
+  </g>
+  <use href="#left-eye" x="30"/>
+  <path d="M88 165v13m24-13v13" stroke="#F97316" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="m83 178-3 4m8-4v5m5-5 3 4m11-4-3 4m8-4v5m5-5 3 4" stroke="#EA580C" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 100 38 Q 98 30 100 26" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

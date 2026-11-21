@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-08",
+  "reportType": "verified-browser-run-summary",
+  "engine": "axe-core 4.14.0",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa",
+    "best-practice"
+  ],
+  "paths": [
+    "/",
+    "/agb/",
+    "/barrierefreiheit/",
+    "/datenschutz/",
+    "/en/",
+    "/en/about/",
+    "/en/accessibility/",
+    "/en/insights/",
+    "/en/insights/accessibility-in-practice/",
+    "/en/insights/welcome/",
+    "/en/legal-notice/",
+    "/en/privacy/",
+    "/en/services/digital-accessibility/",
+    "/en/services/strategy-testing/",
+    "/en/services/ux-design/",
+    "/en/services/web-development/",
+    "/en/terms/",
+    "/en/wabiy/",
+    "/impressum/",
+    "/impulse/",
+    "/impulse/barrierefreiheit-im-alltag/",
+    "/impulse/willkommen/",
+    "/leistungen/digitale-barrierefreiheit/",
+    "/leistungen/strategie-testing/",
+    "/leistungen/ux-design/",
+    "/leistungen/webentwicklung/",
+    "/ueber-mich/",
+    "/wabiy/",
+    "/404/"
+  ],
+  "widths": [
+    320,
+    390,
+    1440
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "summary": {
+    "completed": 174,
+    "expected": 174,
+    "casesWithDetectedViolations": 0,
+    "horizontalOverflowCases": 0,
+    "error": null
+  },
+  "evidence": "Summary observed directly from the completed browser harness. The full per-node protocol was not retained by the export; this file records the verified run summary, not full axe output.",
+  "limitations": [
+    "Automated checks do not establish WCAG conformance.",
+    "Indeterminate contrast cases need manual review.",
+    "Comprehensive screenreader and user testing remain outstanding.",
+    "Inherited PDF documents have not been confirmed accessible."
+  ],
+  "manualChecks": [
+    "Mobile navigation: open, close with Escape",
+    "Career filters: click and Space, education becomes visible",
+    "DE/EN switch preserves corresponding subpage",
+    "Theme persists across page navigation",
+    "Original Wabiy bird responds to Enter and Space",
+    "Animation pause switches to original still artwork",
+    "No observed browser warnings or script errors"
+  ]
+}

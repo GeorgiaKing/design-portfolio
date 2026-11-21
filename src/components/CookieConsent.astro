@@ -1,0 +1,199 @@
+---
+import { language, href } from '../i18n';
+
+const lang = language(Astro.url.pathname);
+const isEn = lang === 'en';
+const t = (de: string, enText: string) => (isEn ? enText : de);
+const privacyHref = href(isEn ? '/en/privacy/' : '/datenschutz/', lang);
+---
+
+<!-- Cookie Banner (Bottom Bar) -->
+<div id="cookie-banner" class="cookie-banner" role="region" aria-label={t('Cookie- und Datenschutzeinstellungen', 'Cookie and privacy settings')} hidden>
+  <div class="container cookie-banner-inner">
+    <div class="cookie-banner-copy">
+      <p class="cookie-banner-title">
+        <span class="status-dot" aria-hidden="true"></span>
+        <strong>{t('Transparenz & Datenschutz', 'Transparency & Privacy')}</strong>
+      </p>
+      <p class="cookie-banner-text">
+        {
+          t(
+            'Diese Website verwendet technisch notwendige Funktionen sowie optionale externe Dienste (Google Maps für die Anfahrt und Cal.com für die Online-Terminbuchung). Du kannst selbst entscheiden, welche Dienste du zulassen möchtest.',
+            'This website uses technically necessary functions as well as optional external services (Google Maps for directions and Cal.com for online booking). You can decide which services you want to allow.'
+          )
+        }
+        <a href={privacyHref} class="cookie-inline-link">{t('Mehr erfahren in der Datenschutzerklärung', 'Learn more in the privacy policy')}</a>.
+      </p>
+    </div>
+
+    <div class="cookie-banner-actions">
+      <button type="button" id="cookie-accept-all" class="button button-mint cookie-btn">
+        {t('Alle akzeptieren', 'Accept all')}
+      </button>
+      <button type="button" id="cookie-accept-essential" class="button button-outline cookie-btn">
+        {t('Nur essenzielle', 'Essential only')}
+      </button>
+      <button type="button" id="cookie-open-custom" class="cookie-text-btn">
+        {t('Einstellungen anpassen', 'Customize settings')}
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Detailed Cookie Preferences Modal (Native Dialog) -->
+<dialog id="cookie-dialog" class="cookie-dialog" aria-labelledby="cookie-dialog-title" closedby="any">
+  <div class="cookie-dialog-content">
+    <div class="cookie-dialog-header">
+      <div>
+        <p class="eyebrow" style="margin-bottom: 6px;">
+          <span class="status-dot"></span>
+          {t('DATENSCHUTZ-PRÄFERENZEN', 'PRIVACY PREFERENCES')}
+        </p>
+        <h2 id="cookie-dialog-title" class="cookie-dialog-h2">
+          {t('Cookie- & Dienst-Einstellungen', 'Cookie & Service Settings')}
+        </h2>
+      </div>
+      <button type="button" id="cookie-dialog-close-btn" class="cookie-dialog-close" aria-label={t('Einstellungen schließen', 'Close settings')}>
+        ✕
+      </button>
+    </div>
+
+    <p class="cookie-dialog-intro">
+      {
+        t(
+          'Hier kannst du festlegen, welche Kategorien von Technologien und Diensten du auf dieser Website aktivieren möchtest. Deine Auswahl wird lokal im Browser gespeichert und kann jederzeit über den Link im Footer geändert werden.',
+          'Here you can specify which categories of technologies and services you wish to activate on this website. Your selection is saved locally in your browser and can be changed anytime via the link in the footer.'
+        )
+      }
+    </p>
+
+    <form id="cookie-preferences-form" method="dialog" class="cookie-form">
+      <!-- Category 1: Essential -->
+      <div class="cookie-category-card">
+        <div class="cookie-category-header">
+          <div class="cookie-category-title-group">
+            <span class="cookie-category-badge">{t('Immer aktiv', 'Always active')}</span>
+            <strong>{t('1. Technisch essenzielle Funktionen', '1. Technically essential functions')}</strong>
+          </div>
+          <input type="checkbox" id="cat-essential" checked disabled aria-label={t('Essenziell (immer aktiv)', 'Essential (always active)')} class="checkbox-input" />
+        </div>
+        <p class="cookie-category-desc">
+          {
+            t(
+              'Erforderlich für den sicheren Betrieb der Website und zur Speicherung deiner persönlichen Website-Einstellungen (wie Hell-/Dunkel-Modus „gk-theme“ und deine Cookie-Entscheidung „gk-consent“). Es werden keine Werbedaten erhoben oder weitergegeben.',
+              'Required for safe operation of the website and saving your preferences (such as dark/light mode "gk-theme" and your cookie consent "gk-consent"). No marketing data is collected or shared.'
+            )
+          }
+        </p>
+      </div>
+
+      <!-- Category 2: External Services -->
+      <div class="cookie-category-card">
+        <div class="cookie-category-header">
+          <div class="cookie-category-title-group">
+            <span class="cookie-category-badge cookie-badge-optional">{t('Optional', 'Optional')}</span>
+            <label for="cat-external" class="cookie-label-clickable">
+              <strong>{t('2. Externe Dienste (Google Maps & Cal.com)', '2. External services (Google Maps & Cal.com)')}</strong>
+            </label>
+          </div>
+          <input type="checkbox" id="cat-external" class="checkbox-input" />
+        </div>
+        <p class="cookie-category-desc">
+          {
+            t(
+              'Ermöglicht das direkte Laden interaktiver Inhalte von Drittanbietern: Den Online-Terminkalender zur 30-minütigen Gesprächsbuchung via Cal.com sowie die Google-Maps-Karte zur Anfahrtsplanung in Schwäbisch Hall. Beim Laden können Daten (insbesondere deine IP-Adresse) an die Server der Anbieter übertragen werden.',
+              'Enables direct loading of interactive content from third parties: The online booking calendar for 30-minute consultations via Cal.com and Google Maps directions in Schwäbisch Hall. Loading may transmit data (notably your IP address) to the providers’ servers.'
+            )
+          }
+        </p>
+      </div>
+
+      <!-- Dialog Action Buttons -->
+      <div class="cookie-dialog-actions">
+        <button type="submit" id="cookie-save-choices" class="button button-mint">
+          {t('Auswahl speichern', 'Save choices')}
+        </button>
+        <button type="button" id="cookie-modal-accept-all" class="button button-outline">
+          {t('Alle aktivieren', 'Enable all')}
+        </button>
+      </div>
+    </form>
+  </div>
+</dialog>
+
+<script is:inline>
+(() => {
+  const STORAGE_KEY = 'gk-consent';
+  const banner = document.getElementById('cookie-banner');
+  const dialog = document.getElementById('cookie-dialog');
+  const catExternal = document.getElementById('cat-external');
+  const acceptAllBtn = document.getElementById('cookie-accept-all');
+  const acceptEssentialBtn = document.getElementById('cookie-accept-essential');
+  const openCustomBtn = document.getElementById('cookie-open-custom');
+  const modalAcceptAllBtn = document.getElementById('cookie-modal-accept-all');
+  const form = document.getElementById('cookie-preferences-form');
+  const closeDialogBtn = document.getElementById('cookie-dialog-close-btn');
+
+  function getConsent() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) return JSON.parse(raw);
+    } catch (e) {}
+    return null;
+  }
+
+  function setConsent(external) {
+    const consent = {
+      essential: true,
+      external: Boolean(external),
+      date: new Date().toISOString(),
+    };
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(consent));
+    } catch (e) {}
+
+    if (banner) banner.hidden = true;
+    if (dialog && dialog.open) dialog.close();
+
+    // Dispatch event so components update immediately without reloading
+    window.dispatchEvent(new CustomEvent('gk-consent-updated', { detail: consent }));
+  }
+
+  const existing = getConsent();
+  if (!existing) {
+    if (banner) banner.hidden = false;
+  } else {
+    if (catExternal) catExternal.checked = Boolean(existing.external);
+  }
+
+  acceptAllBtn?.addEventListener('click', () => setConsent(true));
+  acceptEssentialBtn?.addEventListener('click', () => setConsent(false));
+  modalAcceptAllBtn?.addEventListener('click', () => setConsent(true));
+
+  openCustomBtn?.addEventListener('click', () => {
+    const current = getConsent();
+    if (catExternal) catExternal.checked = current ? Boolean(current.external) : false;
+    dialog?.showModal();
+  });
+
+  closeDialogBtn?.addEventListener('click', () => {
+    dialog?.close();
+  });
+
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    setConsent(catExternal ? catExternal.checked : false);
+  });
+
+  // Global listener for footer button
+  document.addEventListener('click', (e) => {
+    const target = e.target.closest('#open-cookie-settings');
+    if (target) {
+      e.preventDefault();
+      const current = getConsent();
+      if (catExternal) catExternal.checked = current ? Boolean(current.external) : false;
+      dialog?.showModal();
+    }
+  });
+})();
+</script>

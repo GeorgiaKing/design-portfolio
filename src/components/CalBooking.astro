@@ -1,0 +1,132 @@
+---
+import Icon from './Icon.astro';
+
+interface Props {
+  lang?: 'de' | 'en';
+  class?: string;
+}
+
+const { lang = 'de', class: className = '' } = Astro.props;
+const isEn = lang === 'en';
+
+const calUrl = 'https://cal.com/georgia-koenig/30min';
+const iframeTitle = isEn
+  ? 'Online booking calendar for a 30-minute consultation with Georgia König on Cal.com'
+  : 'Online-Terminkalender für ein 30-minütiges Erstgespräch mit Georgia König auf Cal.com';
+---
+
+<div class:list={['cal-booking-wrapper', className]}>
+  <div class="cal-window">
+    <div class="cal-window-header">
+      <div class="map-window-dots" aria-hidden="true">
+        <span class="map-dot dot-red"></span>
+        <span class="map-dot dot-yellow"></span>
+        <span class="map-dot dot-green"></span>
+      </div>
+      <div class="cal-window-title">
+        <Icon name="diagonal" size={16} />
+        <span>cal.com/georgia-koenig/30min</span>
+      </div>
+      <span class="mono cal-window-badge">30 MIN / FREE</span>
+    </div>
+
+    <!-- 2-Click Privacy Consent Placeholder (shown when external consent not given) -->
+    <div id="cal-consent-card" class="cal-consent-card" hidden>
+      <div class="cal-consent-icon" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+      </div>
+      <h3>{isEn ? 'Load interactive booking calendar' : 'Interaktiven Terminkalender laden'}</h3>
+      <p>
+        {
+          isEn
+            ? 'To choose a date directly on this page, the external booking service Cal.com (Cal.com, Inc.) can be loaded. In doing so, your IP address is processed by Cal.com.'
+            : 'Um einen Wunschtermin direkt auf dieser Seite auszuwählen, kann der externe Buchungsdienst Cal.com (Cal.com, Inc.) geladen werden. Dabei wird deine IP-Adresse an Cal.com übermittelt.'
+        }
+      </p>
+      <div class="cal-consent-actions">
+        <button type="button" id="cal-enable-embed-btn" class="button button-mint">
+          {isEn ? 'Load calendar' : 'Kalender hier laden'}
+        </button>
+        <a href={calUrl} target="_blank" rel="noopener noreferrer" class="button button-outline">
+          <span>{isEn ? 'Open directly on cal.com' : 'Direkt auf cal.com öffnen'}</span>
+          <Icon name="diagonal" size={16} />
+        </a>
+      </div>
+    </div>
+
+    <!-- Embedded Iframe Container -->
+    <div id="cal-frame-container" class="cal-frame-container">
+      <iframe
+        id="cal-embed-iframe"
+        data-src={calUrl}
+        title={iframeTitle}
+        class="cal-iframe"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <div class="cal-window-footer">
+      <div class="cal-footer-info">
+        <strong>{isEn ? '30-minute initial conversation' : '30 Minuten Erstgespräch Barrierefreiheit & UX'}</strong>
+        <span>{isEn ? 'Via Google Meet, Zoom or phone · 100% free & non-binding' : 'Per Video-Call oder Telefon · 100% kostenlos & unverbindlich'}</span>
+      </div>
+      <a href={calUrl} target="_blank" rel="noopener noreferrer" class="text-link cal-external-link">
+        <span>{isEn ? 'Open booking on cal.com ↗' : 'Terminkalender auf cal.com öffnen ↗'}</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+(() => {
+  const STORAGE_KEY = 'gk-consent';
+  const consentCard = document.getElementById('cal-consent-card');
+  const frameContainer = document.getElementById('cal-frame-container');
+  const iframe = document.getElementById('cal-embed-iframe');
+  const enableBtn = document.getElementById('cal-enable-embed-btn');
+
+  function updateCalState() {
+    let allowed = false;
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        allowed = Boolean(parsed.external);
+      }
+    } catch (e) {}
+
+    if (allowed) {
+      if (consentCard) consentCard.hidden = true;
+      if (frameContainer) frameContainer.style.display = 'block';
+      if (iframe && !iframe.getAttribute('src')) {
+        iframe.setAttribute('src', iframe.getAttribute('data-src') || '');
+      }
+    } else {
+      if (consentCard) consentCard.hidden = false;
+      if (frameContainer) frameContainer.style.display = 'none';
+    }
+  }
+
+  enableBtn?.addEventListener('click', () => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      const consent = raw ? JSON.parse(raw) : { essential: true };
+      consent.external = true;
+      consent.date = new Date().toISOString();
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(consent));
+      window.dispatchEvent(new CustomEvent('gk-consent-updated', { detail: consent }));
+    } catch (e) {}
+    updateCalState();
+  });
+
+  window.addEventListener('gk-consent-updated', updateCalState);
+  updateCalState();
+})();
+</script>
+

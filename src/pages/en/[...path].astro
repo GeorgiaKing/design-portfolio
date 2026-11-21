@@ -1,0 +1,30 @@
+---
+import { routePairs } from '../../i18n';
+import Home from '../../views/Home.astro';
+import Wabiy from '../../views/Wabiy.astro';
+import ContactView from '../../views/ContactView.astro';
+import BookingView from '../../views/BookingView.astro';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import Layout from '../../layouts/Layout.astro';
+import Bird from '../../components/Bird.astro';
+import Service from '../leistungen/[slug].astro';
+import { servicesEn } from '../../data-en';
+import { englishPages } from '../../english-pages';
+import { articlesEn } from '../../articles-en';
+import { href } from '../../i18n';
+import {person} from '../../data';
+export function getStaticPaths() {return Object.entries(routePairs).map(([de,en])=>({params:{path:en.replace(/^\/en\//,'').replace(/\/$/,'')||undefined},props:{de}}));}
+const {de}=Astro.props;
+const pageKeys:Record<string,keyof typeof englishPages>={'/ueber-mich/':'about','/impressum/':'legal-notice','/datenschutz/':'privacy','/barrierefreiheit/':'accessibility','/agb/':'terms'};
+const page=pageKeys[de]?englishPages[pageKeys[de]]:undefined;
+const service=de.startsWith('/leistungen/')?servicesEn.find(s=>de===`/leistungen/${s.slug}/`):undefined;
+const article=de.startsWith('/impulse/')?articlesEn.find(a=>de===`/impulse/${a.slug}/`):undefined;
+---
+{de==='/'&&<Home/>}
+{de==='/wabiy/'&&<Wabiy/>}
+{de==='/kontakt/'&&<ContactView/>}
+{de==='/termin/'&&<BookingView/>}
+{page&&<ArticleLayout title={page.title} description={page.description} intro={page.intro} eyebrow="GEORGIA KÖNIG / HUMAN. DIGITAL. ACCESSIBLE.">{de==='/barrierefreiheit/'&&<Bird/>}<div set:html={page.body}/></ArticleLayout>}
+{service&&<Service service={service}/>}
+{de==='/impulse/'&&<Layout title="Insights on UX & accessibility – Georgia König" description="Thoughts and practical insights from Georgia König on UX design, digital accessibility and digital experiences for everyone."><section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumbs"><a href="/en/">Home</a><span aria-hidden="true">/</span><span aria-current="page">Insights</span></nav><p class="eyebrow">THOUGHTS / PERSPECTIVES / PRACTICE</p><h1>Simpler. Clearer.<br/>For everyone.</h1><p class="intro">Thoughts on digital experiences that help people. And small steps that make a difference.</p></div></section><section class="section"><div class="container article-cards">{articlesEn.map(a=><a class="article-card" href={href(`/impulse/${a.slug}/`,'en')}><span class="mono">{a.category} · {a.reading}</span><h2>{a.title}</h2><p>{a.description}</p><span class="text-link">Read insight <span aria-hidden="true">↗</span></span></a>)}</div></section></Layout>}
+{article&&<ArticleLayout title={article.title} description={article.description} eyebrow={`${article.category} / ${article.reading}`} intro={article.description} links={[{label:'All insights',href:'/en/insights/'},{label:'About Georgia',href:'/en/about/'}]} schema={{'@type':'BlogPosting',headline:article.title,description:article.description,datePublished:article.date,dateModified:'2026-11-08',author:{'@id':person.url+'/#georgia'},mainEntityOfPage:person.url+href(`/impulse/${article.slug}/`,'en')}}><p class="mono">GEORGIA KÖNIG · <time datetime={article.date}>{new Date(article.date).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Berlin'})}</time></p><div set:html={article.content}/><p style="margin-top:35px"><a href="/en/insights/">← All insights</a></p></ArticleLayout>}

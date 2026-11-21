@@ -1,0 +1,3569 @@
+{
+  "initialSummary": {
+    "completed": 220,
+    "expected": 220,
+    "violations": [],
+    "overflow": [],
+    "smallText": [],
+    "clipped": [
+      {
+        "path": "/leistungen/webentwicklung/",
+        "width": 320,
+        "theme": "light",
+        "state": "Tablet",
+        "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+        "pressed": "true",
+        "smallText": [],
+        "overflow": false,
+        "clipped": [
+          "responsive-browser device-1",
+          "browser-chrome",
+          "",
+          "demo-enter responsive-content",
+          "",
+          "demo-small-label",
+          "example-heading",
+          "responsive-art",
+          ""
+        ],
+        "violations": [],
+        "incomplete": [
+          "color-contrast",
+          "label-content-name-mismatch"
+        ]
+      },
+      {
+        "path": "/en/services/web-development/",
+        "width": 320,
+        "theme": "light",
+        "state": "Tablet",
+        "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+        "pressed": "true",
+        "smallText": [],
+        "overflow": false,
+        "clipped": [
+          "responsive-browser device-1",
+          "browser-chrome",
+          "",
+          "demo-enter responsive-content",
+          "",
+          "demo-small-label",
+          "example-heading",
+          "responsive-art",
+          ""
+        ],
+        "violations": [],
+        "incomplete": [
+          "color-contrast",
+          "label-content-name-mismatch"
+        ]
+      },
+      {
+        "path": "/leistungen/webentwicklung/",
+        "width": 320,
+        "theme": "dark",
+        "state": "Tablet",
+        "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+        "pressed": "true",
+        "smallText": [],
+        "overflow": false,
+        "clipped": [
+          "responsive-browser device-1",
+          "browser-chrome",
+          "",
+          "demo-enter responsive-content",
+          "",
+          "demo-small-label",
+          "example-heading",
+          "responsive-art",
+          ""
+        ],
+        "violations": [],
+        "incomplete": [
+          "color-contrast",
+          "label-content-name-mismatch"
+        ]
+      },
+      {
+        "path": "/en/services/web-development/",
+        "width": 320,
+        "theme": "dark",
+        "state": "Tablet",
+        "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+        "pressed": "true",
+        "smallText": [],
+        "overflow": false,
+        "clipped": [
+          "responsive-browser device-1",
+          "browser-chrome",
+          "",
+          "demo-enter responsive-content",
+          "",
+          "demo-small-label",
+          "example-heading",
+          "responsive-art",
+          ""
+        ],
+        "violations": [],
+        "incomplete": [
+          "color-contrast",
+          "label-content-name-mismatch"
+        ]
+      }
+    ],
+    "interactionFailures": [],
+    "error": null
+  },
+  "webRetestSummary": {
+    "completed": 60,
+    "expected": 60,
+    "violations": [],
+    "overflow": [],
+    "smallText": [],
+    "clipped": [],
+    "interactionFailures": [],
+    "error": null
+  },
+  "finalSummary": {
+    "completed": 220,
+    "violations": 0,
+    "smallText": 0,
+    "overflow": 0,
+    "clipped": 0,
+    "interactionFailures": 0
+  },
+  "results": [
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 320,
+      "theme": "light",
+      "state": "Ausgangslage",
+      "caption": "Ein unbeschriftetes Symbol lässt offen, was als Nächstes passiert. Die Markierung zeigt, wo eine Barriere entstehen kann.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 320,
+      "theme": "light",
+      "state": "Klarer gestaltet",
+      "caption": "Ein eindeutiger Text erklärt die Aktion. Sichtbare Zustände und eine klare Reihenfolge unterstützen die Orientierung.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 320,
+      "theme": "light",
+      "state": "Verstehen",
+      "caption": "Zuerst zählt das Ziel der Menschen. Beobachtungen und Fragen bilden die Grundlage für den Entwurf.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 320,
+      "theme": "light",
+      "state": "Strukturieren",
+      "caption": "Ein Wireframe ordnet Inhalte und Schritte. So lässt sich der Ablauf besprechen, bevor Details ausgearbeitet werden.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 320,
+      "theme": "light",
+      "state": "Gestalten",
+      "caption": "Aus der Struktur wird eine greifbare Oberfläche. Feedback hilft, den Entwurf gezielt weiterzuentwickeln.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 320,
+      "theme": "light",
+      "state": "Desktop",
+      "caption": "Auf großen Bildschirmen stehen Inhalt und visuelle Orientierung nebeneinander.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 320,
+      "theme": "light",
+      "state": "Tablet",
+      "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 320,
+      "theme": "light",
+      "state": "Mobil",
+      "caption": "Auf dem Smartphone folgen die Inhalte einer Spalte. Schrift und Bedienelemente bleiben gut lesbar.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 320,
+      "theme": "light",
+      "state": "Einstieg",
+      "caption": "Prüffrage: Ist der erste Schritt verständlich und auch per Tastatur erreichbar?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 320,
+      "theme": "light",
+      "state": "Eingabe",
+      "caption": "Prüffrage: Sind Pflichtangaben klar? Was passiert, wenn eine Eingabe fehlt?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 320,
+      "theme": "light",
+      "state": "Rückmeldung",
+      "caption": "Prüffrage: Erfahren Menschen verständlich, ob ihre Anfrage angekommen ist?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 320,
+      "theme": "light",
+      "state": "Starting point",
+      "caption": "An unlabelled icon leaves the next step unclear. The annotation highlights a potential barrier.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 320,
+      "theme": "light",
+      "state": "Clearer design",
+      "caption": "A meaningful label explains the action. Visible states and a clear sequence support orientation.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 320,
+      "theme": "light",
+      "state": "Understand",
+      "caption": "Start with people’s goals. Observations and questions inform the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 320,
+      "theme": "light",
+      "state": "Structure",
+      "caption": "A wireframe organises content and steps. It makes the journey discussable before refining the details.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 320,
+      "theme": "light",
+      "state": "Design",
+      "caption": "The structure becomes a tangible interface. Feedback helps refine the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 320,
+      "theme": "light",
+      "state": "Desktop",
+      "caption": "On larger screens, content and visual orientation sit side by side.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 320,
+      "theme": "light",
+      "state": "Tablet",
+      "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 320,
+      "theme": "light",
+      "state": "Mobile",
+      "caption": "On a smartphone, content follows a single column. Text and controls remain easy to read.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 320,
+      "theme": "light",
+      "state": "Start",
+      "caption": "Test question: Is the first step understandable and reachable with a keyboard?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 320,
+      "theme": "light",
+      "state": "Input",
+      "caption": "Test question: Are required fields clear? What happens when an input is missing?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 320,
+      "theme": "light",
+      "state": "Feedback",
+      "caption": "Test question: Do people receive a clear explanation of whether their request arrived?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Ausgangslage",
+      "caption": "Ein unbeschriftetes Symbol lässt offen, was als Nächstes passiert. Die Markierung zeigt, wo eine Barriere entstehen kann.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Klarer gestaltet",
+      "caption": "Ein eindeutiger Text erklärt die Aktion. Sichtbare Zustände und eine klare Reihenfolge unterstützen die Orientierung.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Verstehen",
+      "caption": "Zuerst zählt das Ziel der Menschen. Beobachtungen und Fragen bilden die Grundlage für den Entwurf.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Strukturieren",
+      "caption": "Ein Wireframe ordnet Inhalte und Schritte. So lässt sich der Ablauf besprechen, bevor Details ausgearbeitet werden.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Gestalten",
+      "caption": "Aus der Struktur wird eine greifbare Oberfläche. Feedback hilft, den Entwurf gezielt weiterzuentwickeln.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Desktop",
+      "caption": "Auf großen Bildschirmen stehen Inhalt und visuelle Orientierung nebeneinander.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Tablet",
+      "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Mobil",
+      "caption": "Auf dem Smartphone folgen die Inhalte einer Spalte. Schrift und Bedienelemente bleiben gut lesbar.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Einstieg",
+      "caption": "Prüffrage: Ist der erste Schritt verständlich und auch per Tastatur erreichbar?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Eingabe",
+      "caption": "Prüffrage: Sind Pflichtangaben klar? Was passiert, wenn eine Eingabe fehlt?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Rückmeldung",
+      "caption": "Prüffrage: Erfahren Menschen verständlich, ob ihre Anfrage angekommen ist?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Starting point",
+      "caption": "An unlabelled icon leaves the next step unclear. The annotation highlights a potential barrier.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Clearer design",
+      "caption": "A meaningful label explains the action. Visible states and a clear sequence support orientation.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Understand",
+      "caption": "Start with people’s goals. Observations and questions inform the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Structure",
+      "caption": "A wireframe organises content and steps. It makes the journey discussable before refining the details.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Design",
+      "caption": "The structure becomes a tangible interface. Feedback helps refine the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Desktop",
+      "caption": "On larger screens, content and visual orientation sit side by side.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Tablet",
+      "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Mobile",
+      "caption": "On a smartphone, content follows a single column. Text and controls remain easy to read.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Start",
+      "caption": "Test question: Is the first step understandable and reachable with a keyboard?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Input",
+      "caption": "Test question: Are required fields clear? What happens when an input is missing?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 320,
+      "theme": "dark",
+      "state": "Feedback",
+      "caption": "Test question: Do people receive a clear explanation of whether their request arrived?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 390,
+      "theme": "light",
+      "state": "Ausgangslage",
+      "caption": "Ein unbeschriftetes Symbol lässt offen, was als Nächstes passiert. Die Markierung zeigt, wo eine Barriere entstehen kann.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 390,
+      "theme": "light",
+      "state": "Klarer gestaltet",
+      "caption": "Ein eindeutiger Text erklärt die Aktion. Sichtbare Zustände und eine klare Reihenfolge unterstützen die Orientierung.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 390,
+      "theme": "light",
+      "state": "Verstehen",
+      "caption": "Zuerst zählt das Ziel der Menschen. Beobachtungen und Fragen bilden die Grundlage für den Entwurf.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 390,
+      "theme": "light",
+      "state": "Strukturieren",
+      "caption": "Ein Wireframe ordnet Inhalte und Schritte. So lässt sich der Ablauf besprechen, bevor Details ausgearbeitet werden.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 390,
+      "theme": "light",
+      "state": "Gestalten",
+      "caption": "Aus der Struktur wird eine greifbare Oberfläche. Feedback hilft, den Entwurf gezielt weiterzuentwickeln.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 390,
+      "theme": "light",
+      "state": "Desktop",
+      "caption": "Auf großen Bildschirmen stehen Inhalt und visuelle Orientierung nebeneinander.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 390,
+      "theme": "light",
+      "state": "Tablet",
+      "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 390,
+      "theme": "light",
+      "state": "Mobil",
+      "caption": "Auf dem Smartphone folgen die Inhalte einer Spalte. Schrift und Bedienelemente bleiben gut lesbar.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 390,
+      "theme": "light",
+      "state": "Einstieg",
+      "caption": "Prüffrage: Ist der erste Schritt verständlich und auch per Tastatur erreichbar?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 390,
+      "theme": "light",
+      "state": "Eingabe",
+      "caption": "Prüffrage: Sind Pflichtangaben klar? Was passiert, wenn eine Eingabe fehlt?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 390,
+      "theme": "light",
+      "state": "Rückmeldung",
+      "caption": "Prüffrage: Erfahren Menschen verständlich, ob ihre Anfrage angekommen ist?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 390,
+      "theme": "light",
+      "state": "Starting point",
+      "caption": "An unlabelled icon leaves the next step unclear. The annotation highlights a potential barrier.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 390,
+      "theme": "light",
+      "state": "Clearer design",
+      "caption": "A meaningful label explains the action. Visible states and a clear sequence support orientation.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 390,
+      "theme": "light",
+      "state": "Understand",
+      "caption": "Start with people’s goals. Observations and questions inform the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 390,
+      "theme": "light",
+      "state": "Structure",
+      "caption": "A wireframe organises content and steps. It makes the journey discussable before refining the details.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 390,
+      "theme": "light",
+      "state": "Design",
+      "caption": "The structure becomes a tangible interface. Feedback helps refine the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 390,
+      "theme": "light",
+      "state": "Desktop",
+      "caption": "On larger screens, content and visual orientation sit side by side.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 390,
+      "theme": "light",
+      "state": "Tablet",
+      "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 390,
+      "theme": "light",
+      "state": "Mobile",
+      "caption": "On a smartphone, content follows a single column. Text and controls remain easy to read.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 390,
+      "theme": "light",
+      "state": "Start",
+      "caption": "Test question: Is the first step understandable and reachable with a keyboard?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 390,
+      "theme": "light",
+      "state": "Input",
+      "caption": "Test question: Are required fields clear? What happens when an input is missing?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 390,
+      "theme": "light",
+      "state": "Feedback",
+      "caption": "Test question: Do people receive a clear explanation of whether their request arrived?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Ausgangslage",
+      "caption": "Ein unbeschriftetes Symbol lässt offen, was als Nächstes passiert. Die Markierung zeigt, wo eine Barriere entstehen kann.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Klarer gestaltet",
+      "caption": "Ein eindeutiger Text erklärt die Aktion. Sichtbare Zustände und eine klare Reihenfolge unterstützen die Orientierung.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Verstehen",
+      "caption": "Zuerst zählt das Ziel der Menschen. Beobachtungen und Fragen bilden die Grundlage für den Entwurf.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Strukturieren",
+      "caption": "Ein Wireframe ordnet Inhalte und Schritte. So lässt sich der Ablauf besprechen, bevor Details ausgearbeitet werden.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Gestalten",
+      "caption": "Aus der Struktur wird eine greifbare Oberfläche. Feedback hilft, den Entwurf gezielt weiterzuentwickeln.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Desktop",
+      "caption": "Auf großen Bildschirmen stehen Inhalt und visuelle Orientierung nebeneinander.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Tablet",
+      "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Mobil",
+      "caption": "Auf dem Smartphone folgen die Inhalte einer Spalte. Schrift und Bedienelemente bleiben gut lesbar.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Einstieg",
+      "caption": "Prüffrage: Ist der erste Schritt verständlich und auch per Tastatur erreichbar?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Eingabe",
+      "caption": "Prüffrage: Sind Pflichtangaben klar? Was passiert, wenn eine Eingabe fehlt?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Rückmeldung",
+      "caption": "Prüffrage: Erfahren Menschen verständlich, ob ihre Anfrage angekommen ist?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Starting point",
+      "caption": "An unlabelled icon leaves the next step unclear. The annotation highlights a potential barrier.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Clearer design",
+      "caption": "A meaningful label explains the action. Visible states and a clear sequence support orientation.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Understand",
+      "caption": "Start with people’s goals. Observations and questions inform the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Structure",
+      "caption": "A wireframe organises content and steps. It makes the journey discussable before refining the details.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Design",
+      "caption": "The structure becomes a tangible interface. Feedback helps refine the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Desktop",
+      "caption": "On larger screens, content and visual orientation sit side by side.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Tablet",
+      "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Mobile",
+      "caption": "On a smartphone, content follows a single column. Text and controls remain easy to read.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Start",
+      "caption": "Test question: Is the first step understandable and reachable with a keyboard?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Input",
+      "caption": "Test question: Are required fields clear? What happens when an input is missing?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 390,
+      "theme": "dark",
+      "state": "Feedback",
+      "caption": "Test question: Do people receive a clear explanation of whether their request arrived?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 768,
+      "theme": "light",
+      "state": "Ausgangslage",
+      "caption": "Ein unbeschriftetes Symbol lässt offen, was als Nächstes passiert. Die Markierung zeigt, wo eine Barriere entstehen kann.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 768,
+      "theme": "light",
+      "state": "Klarer gestaltet",
+      "caption": "Ein eindeutiger Text erklärt die Aktion. Sichtbare Zustände und eine klare Reihenfolge unterstützen die Orientierung.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 768,
+      "theme": "light",
+      "state": "Verstehen",
+      "caption": "Zuerst zählt das Ziel der Menschen. Beobachtungen und Fragen bilden die Grundlage für den Entwurf.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 768,
+      "theme": "light",
+      "state": "Strukturieren",
+      "caption": "Ein Wireframe ordnet Inhalte und Schritte. So lässt sich der Ablauf besprechen, bevor Details ausgearbeitet werden.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 768,
+      "theme": "light",
+      "state": "Gestalten",
+      "caption": "Aus der Struktur wird eine greifbare Oberfläche. Feedback hilft, den Entwurf gezielt weiterzuentwickeln.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 768,
+      "theme": "light",
+      "state": "Desktop",
+      "caption": "Auf großen Bildschirmen stehen Inhalt und visuelle Orientierung nebeneinander.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 768,
+      "theme": "light",
+      "state": "Tablet",
+      "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 768,
+      "theme": "light",
+      "state": "Mobil",
+      "caption": "Auf dem Smartphone folgen die Inhalte einer Spalte. Schrift und Bedienelemente bleiben gut lesbar.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 768,
+      "theme": "light",
+      "state": "Einstieg",
+      "caption": "Prüffrage: Ist der erste Schritt verständlich und auch per Tastatur erreichbar?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 768,
+      "theme": "light",
+      "state": "Eingabe",
+      "caption": "Prüffrage: Sind Pflichtangaben klar? Was passiert, wenn eine Eingabe fehlt?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 768,
+      "theme": "light",
+      "state": "Rückmeldung",
+      "caption": "Prüffrage: Erfahren Menschen verständlich, ob ihre Anfrage angekommen ist?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 768,
+      "theme": "light",
+      "state": "Starting point",
+      "caption": "An unlabelled icon leaves the next step unclear. The annotation highlights a potential barrier.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 768,
+      "theme": "light",
+      "state": "Clearer design",
+      "caption": "A meaningful label explains the action. Visible states and a clear sequence support orientation.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 768,
+      "theme": "light",
+      "state": "Understand",
+      "caption": "Start with people’s goals. Observations and questions inform the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 768,
+      "theme": "light",
+      "state": "Structure",
+      "caption": "A wireframe organises content and steps. It makes the journey discussable before refining the details.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 768,
+      "theme": "light",
+      "state": "Design",
+      "caption": "The structure becomes a tangible interface. Feedback helps refine the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 768,
+      "theme": "light",
+      "state": "Desktop",
+      "caption": "On larger screens, content and visual orientation sit side by side.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 768,
+      "theme": "light",
+      "state": "Tablet",
+      "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 768,
+      "theme": "light",
+      "state": "Mobile",
+      "caption": "On a smartphone, content follows a single column. Text and controls remain easy to read.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 768,
+      "theme": "light",
+      "state": "Start",
+      "caption": "Test question: Is the first step understandable and reachable with a keyboard?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 768,
+      "theme": "light",
+      "state": "Input",
+      "caption": "Test question: Are required fields clear? What happens when an input is missing?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 768,
+      "theme": "light",
+      "state": "Feedback",
+      "caption": "Test question: Do people receive a clear explanation of whether their request arrived?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Ausgangslage",
+      "caption": "Ein unbeschriftetes Symbol lässt offen, was als Nächstes passiert. Die Markierung zeigt, wo eine Barriere entstehen kann.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Klarer gestaltet",
+      "caption": "Ein eindeutiger Text erklärt die Aktion. Sichtbare Zustände und eine klare Reihenfolge unterstützen die Orientierung.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Verstehen",
+      "caption": "Zuerst zählt das Ziel der Menschen. Beobachtungen und Fragen bilden die Grundlage für den Entwurf.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Strukturieren",
+      "caption": "Ein Wireframe ordnet Inhalte und Schritte. So lässt sich der Ablauf besprechen, bevor Details ausgearbeitet werden.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Gestalten",
+      "caption": "Aus der Struktur wird eine greifbare Oberfläche. Feedback hilft, den Entwurf gezielt weiterzuentwickeln.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Desktop",
+      "caption": "Auf großen Bildschirmen stehen Inhalt und visuelle Orientierung nebeneinander.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Tablet",
+      "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Mobil",
+      "caption": "Auf dem Smartphone folgen die Inhalte einer Spalte. Schrift und Bedienelemente bleiben gut lesbar.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Einstieg",
+      "caption": "Prüffrage: Ist der erste Schritt verständlich und auch per Tastatur erreichbar?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Eingabe",
+      "caption": "Prüffrage: Sind Pflichtangaben klar? Was passiert, wenn eine Eingabe fehlt?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Rückmeldung",
+      "caption": "Prüffrage: Erfahren Menschen verständlich, ob ihre Anfrage angekommen ist?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Starting point",
+      "caption": "An unlabelled icon leaves the next step unclear. The annotation highlights a potential barrier.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Clearer design",
+      "caption": "A meaningful label explains the action. Visible states and a clear sequence support orientation.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Understand",
+      "caption": "Start with people’s goals. Observations and questions inform the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Structure",
+      "caption": "A wireframe organises content and steps. It makes the journey discussable before refining the details.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Design",
+      "caption": "The structure becomes a tangible interface. Feedback helps refine the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Desktop",
+      "caption": "On larger screens, content and visual orientation sit side by side.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Tablet",
+      "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Mobile",
+      "caption": "On a smartphone, content follows a single column. Text and controls remain easy to read.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Start",
+      "caption": "Test question: Is the first step understandable and reachable with a keyboard?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Input",
+      "caption": "Test question: Are required fields clear? What happens when an input is missing?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 768,
+      "theme": "dark",
+      "state": "Feedback",
+      "caption": "Test question: Do people receive a clear explanation of whether their request arrived?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Ausgangslage",
+      "caption": "Ein unbeschriftetes Symbol lässt offen, was als Nächstes passiert. Die Markierung zeigt, wo eine Barriere entstehen kann.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Klarer gestaltet",
+      "caption": "Ein eindeutiger Text erklärt die Aktion. Sichtbare Zustände und eine klare Reihenfolge unterstützen die Orientierung.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Verstehen",
+      "caption": "Zuerst zählt das Ziel der Menschen. Beobachtungen und Fragen bilden die Grundlage für den Entwurf.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Strukturieren",
+      "caption": "Ein Wireframe ordnet Inhalte und Schritte. So lässt sich der Ablauf besprechen, bevor Details ausgearbeitet werden.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Gestalten",
+      "caption": "Aus der Struktur wird eine greifbare Oberfläche. Feedback hilft, den Entwurf gezielt weiterzuentwickeln.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Desktop",
+      "caption": "Auf großen Bildschirmen stehen Inhalt und visuelle Orientierung nebeneinander.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Tablet",
+      "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Mobil",
+      "caption": "Auf dem Smartphone folgen die Inhalte einer Spalte. Schrift und Bedienelemente bleiben gut lesbar.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Einstieg",
+      "caption": "Prüffrage: Ist der erste Schritt verständlich und auch per Tastatur erreichbar?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Eingabe",
+      "caption": "Prüffrage: Sind Pflichtangaben klar? Was passiert, wenn eine Eingabe fehlt?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Rückmeldung",
+      "caption": "Prüffrage: Erfahren Menschen verständlich, ob ihre Anfrage angekommen ist?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Starting point",
+      "caption": "An unlabelled icon leaves the next step unclear. The annotation highlights a potential barrier.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Clearer design",
+      "caption": "A meaningful label explains the action. Visible states and a clear sequence support orientation.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Understand",
+      "caption": "Start with people’s goals. Observations and questions inform the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Structure",
+      "caption": "A wireframe organises content and steps. It makes the journey discussable before refining the details.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Design",
+      "caption": "The structure becomes a tangible interface. Feedback helps refine the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Desktop",
+      "caption": "On larger screens, content and visual orientation sit side by side.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Tablet",
+      "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Mobile",
+      "caption": "On a smartphone, content follows a single column. Text and controls remain easy to read.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Start",
+      "caption": "Test question: Is the first step understandable and reachable with a keyboard?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Input",
+      "caption": "Test question: Are required fields clear? What happens when an input is missing?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1024,
+      "theme": "light",
+      "state": "Feedback",
+      "caption": "Test question: Do people receive a clear explanation of whether their request arrived?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Ausgangslage",
+      "caption": "Ein unbeschriftetes Symbol lässt offen, was als Nächstes passiert. Die Markierung zeigt, wo eine Barriere entstehen kann.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Klarer gestaltet",
+      "caption": "Ein eindeutiger Text erklärt die Aktion. Sichtbare Zustände und eine klare Reihenfolge unterstützen die Orientierung.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Verstehen",
+      "caption": "Zuerst zählt das Ziel der Menschen. Beobachtungen und Fragen bilden die Grundlage für den Entwurf.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Strukturieren",
+      "caption": "Ein Wireframe ordnet Inhalte und Schritte. So lässt sich der Ablauf besprechen, bevor Details ausgearbeitet werden.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Gestalten",
+      "caption": "Aus der Struktur wird eine greifbare Oberfläche. Feedback hilft, den Entwurf gezielt weiterzuentwickeln.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Desktop",
+      "caption": "Auf großen Bildschirmen stehen Inhalt und visuelle Orientierung nebeneinander.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Tablet",
+      "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Mobil",
+      "caption": "Auf dem Smartphone folgen die Inhalte einer Spalte. Schrift und Bedienelemente bleiben gut lesbar.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Einstieg",
+      "caption": "Prüffrage: Ist der erste Schritt verständlich und auch per Tastatur erreichbar?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Eingabe",
+      "caption": "Prüffrage: Sind Pflichtangaben klar? Was passiert, wenn eine Eingabe fehlt?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Rückmeldung",
+      "caption": "Prüffrage: Erfahren Menschen verständlich, ob ihre Anfrage angekommen ist?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Starting point",
+      "caption": "An unlabelled icon leaves the next step unclear. The annotation highlights a potential barrier.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Clearer design",
+      "caption": "A meaningful label explains the action. Visible states and a clear sequence support orientation.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Understand",
+      "caption": "Start with people’s goals. Observations and questions inform the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Structure",
+      "caption": "A wireframe organises content and steps. It makes the journey discussable before refining the details.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Design",
+      "caption": "The structure becomes a tangible interface. Feedback helps refine the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Desktop",
+      "caption": "On larger screens, content and visual orientation sit side by side.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Tablet",
+      "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Mobile",
+      "caption": "On a smartphone, content follows a single column. Text and controls remain easy to read.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Start",
+      "caption": "Test question: Is the first step understandable and reachable with a keyboard?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Input",
+      "caption": "Test question: Are required fields clear? What happens when an input is missing?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1024,
+      "theme": "dark",
+      "state": "Feedback",
+      "caption": "Test question: Do people receive a clear explanation of whether their request arrived?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Ausgangslage",
+      "caption": "Ein unbeschriftetes Symbol lässt offen, was als Nächstes passiert. Die Markierung zeigt, wo eine Barriere entstehen kann.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Klarer gestaltet",
+      "caption": "Ein eindeutiger Text erklärt die Aktion. Sichtbare Zustände und eine klare Reihenfolge unterstützen die Orientierung.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Verstehen",
+      "caption": "Zuerst zählt das Ziel der Menschen. Beobachtungen und Fragen bilden die Grundlage für den Entwurf.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Strukturieren",
+      "caption": "Ein Wireframe ordnet Inhalte und Schritte. So lässt sich der Ablauf besprechen, bevor Details ausgearbeitet werden.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Gestalten",
+      "caption": "Aus der Struktur wird eine greifbare Oberfläche. Feedback hilft, den Entwurf gezielt weiterzuentwickeln.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Desktop",
+      "caption": "Auf großen Bildschirmen stehen Inhalt und visuelle Orientierung nebeneinander.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Tablet",
+      "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Mobil",
+      "caption": "Auf dem Smartphone folgen die Inhalte einer Spalte. Schrift und Bedienelemente bleiben gut lesbar.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Einstieg",
+      "caption": "Prüffrage: Ist der erste Schritt verständlich und auch per Tastatur erreichbar?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Eingabe",
+      "caption": "Prüffrage: Sind Pflichtangaben klar? Was passiert, wenn eine Eingabe fehlt?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Rückmeldung",
+      "caption": "Prüffrage: Erfahren Menschen verständlich, ob ihre Anfrage angekommen ist?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Starting point",
+      "caption": "An unlabelled icon leaves the next step unclear. The annotation highlights a potential barrier.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Clearer design",
+      "caption": "A meaningful label explains the action. Visible states and a clear sequence support orientation.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Understand",
+      "caption": "Start with people’s goals. Observations and questions inform the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Structure",
+      "caption": "A wireframe organises content and steps. It makes the journey discussable before refining the details.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Design",
+      "caption": "The structure becomes a tangible interface. Feedback helps refine the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Desktop",
+      "caption": "On larger screens, content and visual orientation sit side by side.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Tablet",
+      "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Mobile",
+      "caption": "On a smartphone, content follows a single column. Text and controls remain easy to read.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Start",
+      "caption": "Test question: Is the first step understandable and reachable with a keyboard?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Input",
+      "caption": "Test question: Are required fields clear? What happens when an input is missing?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1440,
+      "theme": "light",
+      "state": "Feedback",
+      "caption": "Test question: Do people receive a clear explanation of whether their request arrived?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Ausgangslage",
+      "caption": "Ein unbeschriftetes Symbol lässt offen, was als Nächstes passiert. Die Markierung zeigt, wo eine Barriere entstehen kann.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/digitale-barrierefreiheit/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Klarer gestaltet",
+      "caption": "Ein eindeutiger Text erklärt die Aktion. Sichtbare Zustände und eine klare Reihenfolge unterstützen die Orientierung.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Verstehen",
+      "caption": "Zuerst zählt das Ziel der Menschen. Beobachtungen und Fragen bilden die Grundlage für den Entwurf.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Strukturieren",
+      "caption": "Ein Wireframe ordnet Inhalte und Schritte. So lässt sich der Ablauf besprechen, bevor Details ausgearbeitet werden.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/ux-design/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Gestalten",
+      "caption": "Aus der Struktur wird eine greifbare Oberfläche. Feedback hilft, den Entwurf gezielt weiterzuentwickeln.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Desktop",
+      "caption": "Auf großen Bildschirmen stehen Inhalt und visuelle Orientierung nebeneinander.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Tablet",
+      "caption": "Auf mittleren Breiten rücken die Elemente zusammen. Der Inhalt behält eine klare Hierarchie.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/webentwicklung/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Mobil",
+      "caption": "Auf dem Smartphone folgen die Inhalte einer Spalte. Schrift und Bedienelemente bleiben gut lesbar.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Einstieg",
+      "caption": "Prüffrage: Ist der erste Schritt verständlich und auch per Tastatur erreichbar?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Eingabe",
+      "caption": "Prüffrage: Sind Pflichtangaben klar? Was passiert, wenn eine Eingabe fehlt?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/leistungen/strategie-testing/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Rückmeldung",
+      "caption": "Prüffrage: Erfahren Menschen verständlich, ob ihre Anfrage angekommen ist?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Starting point",
+      "caption": "An unlabelled icon leaves the next step unclear. The annotation highlights a potential barrier.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/digital-accessibility/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Clearer design",
+      "caption": "A meaningful label explains the action. Visible states and a clear sequence support orientation.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Understand",
+      "caption": "Start with people’s goals. Observations and questions inform the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Structure",
+      "caption": "A wireframe organises content and steps. It makes the journey discussable before refining the details.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/ux-design/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Design",
+      "caption": "The structure becomes a tangible interface. Feedback helps refine the design.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Desktop",
+      "caption": "On larger screens, content and visual orientation sit side by side.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Tablet",
+      "caption": "At medium widths, elements move closer together while retaining a clear hierarchy.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/web-development/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Mobile",
+      "caption": "On a smartphone, content follows a single column. Text and controls remain easy to read.",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Start",
+      "caption": "Test question: Is the first step understandable and reachable with a keyboard?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Input",
+      "caption": "Test question: Are required fields clear? What happens when an input is missing?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "path": "/en/services/strategy-testing/",
+      "width": 1440,
+      "theme": "dark",
+      "state": "Feedback",
+      "caption": "Test question: Do people receive a clear explanation of whether their request arrived?",
+      "pressed": "true",
+      "smallText": [],
+      "overflow": false,
+      "clipped": [],
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ]
+}

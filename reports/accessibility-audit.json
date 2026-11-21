@@ -1,0 +1,733 @@
+{
+  "date": "2026-11-08",
+  "engine": "axe-core",
+  "scope": "WCAG 2 A/AA, WCAG 2.1 A/AA, WCAG 2.2 AA and best practices; automated checks do not establish conformance",
+  "viewports": {
+    "320": [
+      {
+        "path": "/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "html": "<p class=\"eyebrow\"><span class=\"status-dot\"></span> UX DESIGN · ACCESSIBILITY · DEVELOPMENT</p>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<h1 id=\"hero-title\">Digitale Erlebnisse.<br>Für <span class=\"word-all\">alle<svg viewBox=\"0 0 200 20\" aria-hidden=\"true\"><path d=\"M3 15Q90 0 195 8\"></path></svg></span> Menschen.</h1>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span class=\"word-all\">alle<svg viewBox=\"0 0 200 20\" aria-hidden=\"true\"><path d=\"M3 15Q90 0 195 8\"></path></svg></span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<p class=\"hero-intro\">Ich bin Georgia. Ich verbinde gutes Design mit digitaler Barrierefreiheit – für Websites und Anwendungen, die Menschen wirklich weiterbringen.</p>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<a class=\"text-link\" href=\"#leistungen\">",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span>Master of Science · Informatik</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span>Mit Empathie denken.<br><strong>Mit Technologie gestalten.</strong></span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "html": "<strong>Mit Technologie gestalten.</strong>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "html": "<span>GUTE TECHNOLOGIE BEGINNT BEIM MENSCHEN.</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<a href=\"#leistungen\">Weiter entdecken <span aria-hidden=\"true\">↓</span></a>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span aria-hidden=\"true\">↓</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "html": "<span class=\"mono\">GEMEINSAM MIT KARAM HAYANI</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+              },
+              {
+                "html": "<span class=\"wabiy-wordmark\">wabiy<span>.</span></span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/ueber-mich/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "html": "<span class=\"mono\">2016</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/digitale-barrierefreiheit/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/ux-design/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/webentwicklung/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/strategie-testing/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/impulse/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/impulse/barrierefreiheit-im-alltag/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/impulse/willkommen/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/impressum/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/datenschutz/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/barrierefreiheit/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/agb/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/404/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      }
+    ],
+    "390": [
+      {
+        "path": "/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "html": "<p class=\"eyebrow\"><span class=\"status-dot\"></span> UX DESIGN · ACCESSIBILITY · DEVELOPMENT</p>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<h1 id=\"hero-title\">Digitale Erlebnisse.<br>Für <span class=\"word-all\">alle<svg viewBox=\"0 0 200 20\" aria-hidden=\"true\"><path d=\"M3 15Q90 0 195 8\"></path></svg></span> Menschen.</h1>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span class=\"word-all\">alle<svg viewBox=\"0 0 200 20\" aria-hidden=\"true\"><path d=\"M3 15Q90 0 195 8\"></path></svg></span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<p class=\"hero-intro\">Ich bin Georgia. Ich verbinde gutes Design mit digitaler Barrierefreiheit – für Websites und Anwendungen, die Menschen wirklich weiterbringen.</p>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<a class=\"text-link\" href=\"#leistungen\">",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span>Master of Science · Informatik</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span>Mit Empathie denken.<br><strong>Mit Technologie gestalten.</strong></span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "html": "<strong>Mit Technologie gestalten.</strong>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "html": "<span>GUTE TECHNOLOGIE BEGINNT BEIM MENSCHEN.</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<a href=\"#leistungen\">Weiter entdecken <span aria-hidden=\"true\">↓</span></a>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span aria-hidden=\"true\">↓</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "html": "<span class=\"mono\">GEMEINSAM MIT KARAM HAYANI</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+              },
+              {
+                "html": "<span class=\"wabiy-wordmark\">wabiy<span>.</span></span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/ueber-mich/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "html": "<span class=\"mono\">2016</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/digitale-barrierefreiheit/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/ux-design/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/webentwicklung/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/strategie-testing/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/impulse/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/impulse/barrierefreiheit-im-alltag/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/impulse/willkommen/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/impressum/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/datenschutz/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/barrierefreiheit/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/agb/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/404/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span aria-hidden=\"true\">☰</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      }
+    ],
+    "1440": [
+      {
+        "path": "/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<p class=\"eyebrow\"><span class=\"status-dot\"></span> UX DESIGN · ACCESSIBILITY · DEVELOPMENT</p>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<h1 id=\"hero-title\">Digitale Erlebnisse.<br>Für <span class=\"word-all\">alle<svg viewBox=\"0 0 200 20\" aria-hidden=\"true\"><path d=\"M3 15Q90 0 195 8\"></path></svg></span> Menschen.</h1>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span class=\"word-all\">alle<svg viewBox=\"0 0 200 20\" aria-hidden=\"true\"><path d=\"M3 15Q90 0 195 8\"></path></svg></span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<p class=\"hero-intro\">Ich bin Georgia. Ich verbinde gutes Design mit digitaler Barrierefreiheit – für Websites und Anwendungen, die Menschen wirklich weiterbringen.</p>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<a class=\"text-link\" href=\"#leistungen\">",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span>Master of Science · Informatik</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span>Mit Empathie denken.<br><strong>Mit Technologie gestalten.</strong></span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "html": "<strong>Mit Technologie gestalten.</strong>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "html": "<span>GUTE TECHNOLOGIE BEGINNT BEIM MENSCHEN.</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<a href=\"#leistungen\">Weiter entdecken <span aria-hidden=\"true\">↓</span></a>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "html": "<span aria-hidden=\"true\">↓</span>",
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "html": "<span class=\"hero-index\">01 — 06</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/ueber-mich/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "html": "<span class=\"mono\">2016</span>",
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              }
+            ]
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/digitale-barrierefreiheit/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/ux-design/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/webentwicklung/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      },
+      {
+        "path": "/leistungen/strategie-testing/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      },
+      {
+        "path": "/impulse/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      },
+      {
+        "path": "/impulse/barrierefreiheit-im-alltag/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      },
+      {
+        "path": "/impulse/willkommen/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      },
+      {
+        "path": "/impressum/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      },
+      {
+        "path": "/datenschutz/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      },
+      {
+        "path": "/barrierefreiheit/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      },
+      {
+        "path": "/agb/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      },
+      {
+        "path": "/404/",
+        "violations": [],
+        "incomplete": [],
+        "overflow": false
+      }
+    ]
+  }
+}

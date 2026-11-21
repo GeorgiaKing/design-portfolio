@@ -1,0 +1,144 @@
+---
+import '@fontsource-variable/manrope';
+import '@fontsource/dm-mono/400.css';
+import '../styles/global.css';
+import '../styles/redesign.css';
+import '../styles/readability.css';
+import '../styles/brand.css';
+import '../styles/quick-audit.css';
+import '../styles/testimonials.css';
+import Brand from '../components/Brand.astro';
+import {language, href, germanPath, routePairs} from '../i18n';
+import Icon from '../components/Icon.astro';
+import { person } from '../data';
+import CookieConsent from '../components/CookieConsent.astro';
+interface Props { title: string; description: string; noindex?: boolean; schema?: Record<string,unknown> }
+const { title, description, noindex = false, schema } = Astro.props;
+const lang=language(Astro.url.pathname);
+const en=lang==='en';
+const home=href('/',lang);
+const dePath=germanPath(Astro.url.pathname);
+const enPath=routePairs[dePath];
+const canonical = new URL(Astro.url.pathname, person.url).href;
+const graph = [
+ { '@type': 'WebSite', '@id': person.url+'/#website', url: person.url, name: 'Georgia König – Barrierefreie Software', inLanguage: en?'en-GB':'de-DE' },
+ { '@type': 'Person', '@id': person.url+'/#georgia', name: person.name, url: person.url, jobTitle: en?'UX Designer and Accessibility Engineer':'UX-Designerin und Accessibility Engineer', email: person.email, sameAs: ['https://www.linkedin.com/in/georgia-k%C3%B6nig/'], knowsAbout: ['User Experience Design', 'Digitale Barrierefreiheit', 'Software Testing', 'Webentwicklung'], alumniOf: { '@type': 'CollegeOrUniversity', name: 'Hochschule Reutlingen' } },
+ {
+   '@type': 'ProfessionalService',
+   '@id': person.url+'/#business',
+   name: 'Georgia König – Barrierefreie Software',
+   url: person.url,
+   logo: person.url+'/images/brand/logo-light.webp',
+   image: person.url+'/images/georgia-koenig.jpg',
+   telephone: person.phoneHref,
+   email: person.email,
+   founder: { '@id': person.url+'/#georgia' },
+   address: { '@type': 'PostalAddress', streetAddress: 'Neue Straße 5', postalCode: '74523', addressLocality: 'Schwäbisch Hall', addressCountry: 'DE' },
+   aggregateRating: {
+     '@type': 'AggregateRating',
+     ratingValue: '5.0',
+     reviewCount: '3',
+     bestRating: '5',
+     worstRating: '1',
+   },
+   review: [
+     {
+       '@type': 'Review',
+       author: { '@type': 'Person', name: 'Anja Schmidt' },
+       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+       reviewBody: en
+         ? 'Georgia provided tremendous support on my journey to starting my own business. She took work off my hands that I couldn’t have managed alone. For example, she helped me design my logo. I came with an idea, and she turned it into reality. I was thrilled with the very first draft of my logo. Furthermore, she designed and developed my website entirely according to my vision. And even now, she continues to support me with the ongoing evolution of my web presence.'
+         : 'Georgia hat mich auf dem Weg in meine Selbständigkeit sehr unterstützt. Sie hat mir Arbeit abgenommen die ich alleine nicht geschafft hätte. Zum Beispiel hat sie mir geholfen mein Logo zu gestalten. Ich kam mit meiner Idee und sie hat diese in die Tat umgesetzt. Ich war schon mit dem ersten Entwurf meines Logos sehr zufrieden. Des Weiteren hat sie meine Homepage ganz nach meinen Vorstellungen gestaltet & programmiert. Und auch jetzt ist sie für mich noch eine Unterstützung im Bereich der Weitergestaltung meiner Webpräsenz.',
+     },
+     {
+       '@type': 'Review',
+       author: { '@type': 'Person', name: 'Heike' },
+       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+       reviewBody: en
+         ? 'Georgia König offers knowledgeable, empathetic advice. She brings logical thinking, creativity and flexibility, working with her clients to find promising solutions. Highly recommended!'
+         : 'Georgia König berät kompetent und empathisch. Sie ist mit logischem Verstand, Kreativität und Flexibilität bei der Sache und findet gemeinsam mit der Kundschaft erfolgversprechende Lösungen. Klare Empfehlung!',
+     },
+     {
+       '@type': 'Review',
+       author: { '@type': 'Person', name: 'Christine' },
+       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+       reviewBody: en
+         ? 'With no background in IT, I was very grateful that Georgia helped me finally establish an online presence with so much patience and clear explanations.'
+         : 'Als Informatik-Laie war ich sehr froh, dass Georgia mir mit viel Geduld und guten Erklärungen geholfen hat, endlich im Internet vertreten zu sein.',
+     },
+   ],
+ },
+ { '@type': 'WebPage', '@id': canonical+'#page', url: canonical, name: title, description, inLanguage: en?'en-GB':'de-DE', isPartOf: { '@id': person.url+'/#website' }, about: { '@id': person.url+'/#georgia' } },
+ ...(schema ? [schema] : []),
+];
+---
+<!doctype html>
+<html lang={lang}>
+ <head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{title}</title><meta name="description" content={description}/>
+  <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'}/>
+  <link rel="canonical" href={canonical}/><link id="site-favicon" rel="icon" type="image/png" sizes="64x64" href="/images/brand/favicon-light.png"/><link rel="apple-touch-icon" sizes="180x180" href="/images/brand/apple-touch-icon.png"/>
+  <meta name="theme-color" content="#f6f7f5"/>
+  <script is:inline>try{const t=localStorage.getItem('gk-theme');document.documentElement.dataset.theme=t==='light'||t==='dark'?t:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');}catch{document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}const dark=document.documentElement.dataset.theme==='dark';document.querySelector('#site-favicon')?.setAttribute('href',dark?'/images/brand/favicon-dark.png':'/images/brand/favicon-light.png');document.querySelector('meta[name=theme-color]')?.setAttribute('content',dark?'#101517':'#f6f7f5');try{const b=localStorage.getItem('gk-bionic');document.documentElement.dataset.bionic=b==='false'?'false':'true';}catch{document.documentElement.dataset.bionic='true';}</script>
+  {enPath && <><link rel="alternate" hreflang="de" href={person.url+dePath}/><link rel="alternate" hreflang="en" href={person.url+enPath}/><link rel="alternate" hreflang="x-default" href={person.url+dePath}/></>}
+  <meta property="og:type" content="website"/><meta property="og:locale" content={en?"en_GB":"de_DE"}/>
+  <meta property="og:site_name" content="Georgia König"/><meta property="og:title" content={title}/>
+  <meta property="og:description" content={description}/><meta property="og:url" content={canonical}/>
+  <meta property="og:image" content={person.url+(en?'/images/social-card-en.png':'/images/social-card.png')}/><meta property="og:image:alt" content={en?"Georgia König – Digital. Human. For everyone.":"Georgia König – Digital. Menschlich. Für alle."}/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g,'\\u003c')}/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">{en?"Skip to content":"Zum Inhalt springen"}</a>
+  <header class="site-header">
+   <div class="header-inner">
+    <Brand/>
+    <nav id="main-nav" aria-label={en?'Main navigation':'Hauptnavigation'}>
+     <a href={home+'#leistungen'}>{en?'Expertise':'Leistungen'}</a><a href={home+'#werdegang'}>{en?'Journey':'Werdegang'}</a><a href={href('/wabiy/',lang)} class:list={{'active-link':dePath==='/wabiy/'}}>Wabiy<span class="nav-spark" aria-hidden="true">✳</span></a><a href={href('/termin/',lang)} class:list={{'active-link':dePath==='/termin/'}}>{en?'Book call':'Termin'}</a><a href={href('/kontakt/',lang)} class:list={{'active-link':dePath==='/kontakt/'}}>{en?'Contact':'Kontakt'}</a>
+    </nav>
+    <div class="header-tools"><a class="language-switch" href={en?dePath:enPath||'/en/'} lang={en?'de':'en'} hreflang={en?'de':'en'} aria-label={en?'DE – Diese Seite auf Deutsch lesen':'EN – Read this page in English'}>{en?'DE':'EN'}<span aria-hidden="true">↗</span></a>
+     <button type="button" class="bionic-toggle" aria-label={en?'Reading aid: on / off (visual reading support)':'Lesehilfe: An / Aus (visuelle Leseunterstützung)'} aria-pressed="true" title={en?'Reading aid: on / off':'Lesehilfe: An / Aus'}><span class="bionic-toggle-preview" aria-hidden="true"><b>A</b>a</span><span class="sr-only">{en?'Reading aid: on / off':'Lesehilfe: An / Aus'}</span></button>
+     <button type="button" class="theme-toggle" aria-label={en?'Dark colour scheme':'Dunkles Farbschema'} aria-pressed="false"><span class="theme-sun"><Icon name="sun" size={19}/></span><svg class="theme-moon" aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg></button>
+     <a href={href('/kontakt/',lang)} class="nav-contact">{en?"Let's talk":"Lass uns sprechen"}<Icon name="diagonal" size={17}/></a>
+     <button class="menu-button" aria-controls="main-nav" aria-expanded="false" aria-label={en?'Open menu':'Menü öffnen'}><span aria-hidden="true">☰</span><span class="sr-only">{en?'Menu':'Menü'}</span></button>
+    </div>
+   </div>
+  </header>
+  <main id="main" tabindex="-1"><slot/></main>
+  <footer class="site-footer">
+   <div class="container">
+    <div class="footer-invitation"><p class="eyebrow">{en?'YOUR NEXT CHAPTER STARTS HERE':'DEIN NÄCHSTES KAPITEL BEGINNT HIER'}</p><a href="mailto:kontakt@georgia-koenig.de" class="footer-big-link">{en?"Let's make":"Gemeinsam"}<br/>{en?'a difference.':'weiterdenken.'}<span class="footer-arrow"><Icon name="diagonal" size={45}/></span></a></div>
+    <div class="footer-columns"><div><Brand variant="inverse"/><p>{en?'Human-centred design. Accessible technology.':'Design mit Empathie. Technologie für alle.'}</p><span class="footer-location"><span class="status-dot"></span>Schwäbisch Hall & remote</span></div>
+    <div><h2>{en?'Explore':'Entdecken'}</h2><a href={home+'#leistungen'}>{en?'Expertise':'Leistungen'}</a><a href={home+'#werdegang'}>{en?'My journey':'Mein Werdegang'}</a><a href={href('/impulse/',lang)}>{en?'Insights':'Impulse'}</a><a href={href('/wabiy/',lang)}>Wabiy</a></div>
+    <div><h2>{en?'Get in touch':'In Verbindung'}</h2><a href={href('/termin/',lang)}>{en?'Book 30-min call':'Termin buchen (30 Min.)'}</a><a href={href('/kontakt/',lang)}>{en?'Contact & Directions':'Kontakt & Anfahrt'}</a><a href="mailto:kontakt@georgia-koenig.de">kontakt@georgia-koenig.de</a><a href="tel:+4915150242010">+49 1515 0242 010</a><a href="https://www.linkedin.com/in/georgia-k%C3%B6nig/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
+    <div><h2>{en?'Good to know':'Gut zu wissen'}</h2><a href={href('/barrierefreiheit/',lang)}>{en?'Accessibility':'Barrierefreiheit'}</a><a href={href('/datenschutz/',lang)}>{en?'Privacy & cookies':'Datenschutz & Cookies'}</a><button type="button" class="footer-cookie-btn" id="open-cookie-settings">{en?'Cookie preferences':'Cookie-Einstellungen'}</button><a href={href('/impressum/',lang)}>{en?'Legal notice':'Impressum'}</a><a href={href('/agb/',lang)}>{en?'Terms':'AGB'}</a></div></div>
+    <div class="footer-bottom"><span>© {new Date().getFullYear()} Georgia König</span><span class="mono">DESIGNED WITH EMPATHY. BUILT WITH PURPOSE.</span><a href="#main">{en?'Back to top':'Zurück nach oben'} ↑</a></div>
+   </div>
+  </footer>
+  <CookieConsent/>
+  <script>
+   const themeButton=document.querySelector<HTMLButtonElement>('.theme-toggle');
+   const updateThemeButton=()=>{const dark=document.documentElement.dataset.theme==='dark';themeButton?.setAttribute('aria-pressed',String(dark));document.querySelector('#site-favicon')?.setAttribute('href',dark?'/images/brand/favicon-dark.png':'/images/brand/favicon-light.png');document.querySelector('meta[name=theme-color]')?.setAttribute('content',dark?'#101517':'#f6f7f5');};
+   updateThemeButton();
+   themeButton?.addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;try{localStorage.setItem('gk-theme',next);}catch{}updateThemeButton();});
+   matchMedia('(prefers-color-scheme: dark)').addEventListener('change',e=>{let saved=null;try{saved=localStorage.getItem('gk-theme');}catch{}if(!saved){document.documentElement.dataset.theme=e.matches?'dark':'light';updateThemeButton();}});
+   const bionicButton=document.querySelector<HTMLButtonElement>('.bionic-toggle');
+   const updateBionicButton=()=>{const active=document.documentElement.dataset.bionic!=='false';bionicButton?.setAttribute('aria-pressed',String(active));const isEn=document.documentElement.lang==='en';bionicButton?.setAttribute('title',isEn?(active?'Reading aid: on':'Reading aid: off'):(active?'Lesehilfe: An':'Lesehilfe: Aus'));};
+   function applyBionicReading(){const container=document.body;if(!container||container.dataset.bionicApplied==='true')return;container.dataset.bionicApplied='true';const isExcluded=(el:Element|null):boolean=>{while(el&&el!==document.body){const tag=el.tagName;if(tag==='SCRIPT'||tag==='STYLE'||tag==='NOSCRIPT'||tag==='SVG'||tag==='CODE'||tag==='PRE'||tag==='INPUT'||tag==='TEXTAREA'||tag==='SELECT'||tag==='OPTION'||tag==='IFRAME'||tag==='CANVAS'||el.classList.contains('no-bionic')||el.classList.contains('official-brand')||el.classList.contains('bionic-toggle')||el.classList.contains('theme-toggle')||el.classList.contains('language-switch')||el.classList.contains('sr-only')||el.classList.contains('contact-form-container')||el.getAttribute('aria-hidden')==='true'){return true;}el=el.parentElement;}return false;};const walker=document.createTreeWalker(container,NodeFilter.SHOW_TEXT,{acceptNode(node){if(!node.nodeValue||!/\p{L}/u.test(node.nodeValue))return NodeFilter.FILTER_REJECT;if(isExcluded(node.parentElement))return NodeFilter.FILTER_REJECT;return NodeFilter.FILTER_ACCEPT;}});const textNodes:Text[]=[];while(walker.nextNode()){textNodes.push(walker.currentNode as Text);}for(const node of textNodes){const text=node.nodeValue;if(!text||!/\p{L}/u.test(text))continue;const html=text.replace(/(^|[\s\-_/("„'»«\p{Ps}])(\p{L})/gu,'$1<b class="b-char">$2</b>');if(html!==text&&node.parentNode){const span=document.createElement('span');span.className='b-text';span.innerHTML=html;node.parentNode.replaceChild(span,node);}}};
+   updateBionicButton();
+   if(document.documentElement.dataset.bionic!=='false'){applyBionicReading();}
+   bionicButton?.addEventListener('click',()=>{const current=document.documentElement.dataset.bionic!=='false';const next=!current;document.documentElement.dataset.bionic=String(next);try{localStorage.setItem('gk-bionic',String(next));}catch{}updateBionicButton();if(next){applyBionicReading();}});
+   const button = document.querySelector<HTMLButtonElement>('.menu-button');
+   const nav = document.querySelector<HTMLElement>('#main-nav');
+   function closeMenu() { button?.setAttribute('aria-expanded','false'); nav?.classList.remove('is-open'); }
+   button?.addEventListener('click', () => { const open = button.getAttribute('aria-expanded') !== 'true'; button.setAttribute('aria-expanded',String(open)); nav?.classList.toggle('is-open',open); });
+   nav?.querySelectorAll('a').forEach(a => a.addEventListener('click',closeMenu));
+   document.addEventListener('keydown', e => { if(e.key === 'Escape' && button?.getAttribute('aria-expanded') === 'true') { closeMenu(); button.focus(); } });
+   window.matchMedia('(min-width: 1001px)').addEventListener('change',closeMenu);
+   const legacyAnchors: Record<string,string> = { '#home':'main', '#about':'ueber-mich', '#service':'leistungen', '#experience':'werdegang', '#portfolio':'einblicke', '#review':'referenzen', '#contact':'kontakt', '#insights':'einblicke' };
+   const destination = legacyAnchors[window.location.hash];
+   if(destination && window.location.pathname === '/') { history.replaceState(null,'',`/#${destination}`); document.getElementById(destination)?.scrollIntoView(); }
+  </script>
+ </body>
+</html>

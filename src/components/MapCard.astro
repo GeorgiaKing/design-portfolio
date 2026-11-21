@@ -1,0 +1,68 @@
+---
+import Icon from "./Icon.astro";
+
+interface Props {
+  lang?: "de" | "en";
+  class?: string;
+}
+
+const { lang = "de", class: className = "" } = Astro.props;
+const isEn = lang === "en";
+
+const title = isEn
+  ? "Google Maps showing Georgia König location in Schwäbisch Hall"
+  : "Google Maps Karte mit Standort von Georgia König in Schwäbisch Hall";
+const routeHref =
+  "https://www.google.com/maps/dir/?api=1&destination=Neue+Stra%C3%9Fe+5,+74523+Schw%C3%A4bisch+Hall";
+---
+
+<div class:list={["map-window", className]}>
+  <div class="map-window-header">
+    <div class="map-window-dots" aria-hidden="true">
+      <span class="map-dot dot-red"></span>
+      <span class="map-dot dot-yellow"></span>
+      <span class="map-dot dot-green"></span>
+    </div>
+    <div class="map-window-title">
+      <Icon name="location" size={16} />
+      <span>Neue Straße 5, 74523 Schwäbisch Hall</span>
+    </div>
+    <span class="mono map-window-coord" aria-hidden="true"
+      >49.1125° N, 9.7373° E</span
+    >
+  </div>
+
+  <div class="map-frame-container">
+    <iframe
+      src="https://maps.google.com/maps?q=Neue+Stra%C3%9Fe+5,+74523+Schw%C3%A4bisch+Hall&t=&z=15&ie=UTF8&iwloc=&output=embed"
+      title={title}
+      class="map-iframe"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div class="map-window-footer">
+    <div class="map-info">
+      <strong>Georgia König – Barrierefreie Software</strong>
+      <span
+        >{
+          isEn
+            ? "Central in Schwäbisch Hall · In-person & remote"
+            : "Zentral in Schwäbisch Hall · Vor Ort & remote"
+        }</span
+      >
+    </div>
+    <a
+      href={routeHref}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="button button-outline map-directions-button"
+      aria-label={isEn
+        ? "Get directions to Neue Straße 5 in Google Maps (opens in new tab)"
+        : "Route zur Neuen Straße 5 in Google Maps planen (öffnet in neuem Tab)"}
+    >
+      <span>{isEn ? "Get directions" : "Route planen"}</span>
+      <Icon name="diagonal" size={15} />
+    </a>
+  </div>
+</div>

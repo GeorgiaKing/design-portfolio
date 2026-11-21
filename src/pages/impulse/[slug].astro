@@ -1,0 +1,11 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import { articles } from '../../articles';
+import { person } from '../../data';
+export function getStaticPaths() { return articles.map(article=>({params:{slug:article.slug},props:{article}})); }
+const { article } = Astro.props;
+const date = new Date(article.date).toLocaleDateString('de-DE',{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Berlin'});
+---
+<ArticleLayout title={article.title} description={article.description} eyebrow={`${article.category} / ${article.reading}`} intro={article.description} links={[{label:'Alle Impulse',href:'/impulse/'},{label:'Über Georgia',href:'/ueber-mich/'}]} schema={{'@type':'BlogPosting',headline:article.title,description:article.description,datePublished:article.date,dateModified:article.slug==='willkommen'?'2026-11-08':article.date,author:{'@id':person.url+'/#georgia'},mainEntityOfPage:`${person.url}/impulse/${article.slug}/`}}>
+ <p class="mono">GEORGIA KÖNIG · <time datetime={article.date}>{date}</time></p><div set:html={article.content}/><p style="margin-top:35px"><a href="/impulse/">← Alle Impulse</a></p>
+</ArticleLayout>

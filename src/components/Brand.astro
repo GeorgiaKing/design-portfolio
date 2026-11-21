@@ -1,0 +1,13 @@
+---
+import {href,language} from '../i18n';
+interface Props { variant?: 'auto' | 'inverse' }
+const {variant='auto'}=Astro.props;
+const en=language(Astro.url.pathname)==='en';
+---
+<a class:list={['brand','official-brand',{'brand-inverse':variant==='inverse'}]} href={href('/',en?'en':'de')}>
+ <span class="brand-mark" aria-hidden="true">
+  {variant==='inverse'?<img class="brand-logo-fixed" src="/images/brand/logo-dark.webp" alt="" width="160" height="165"/>:<><img class="brand-logo-light" src="/images/brand/logo-light.webp" alt="" width="160" height="165"/><img class="brand-logo-dark" src="/images/brand/logo-dark.webp" alt="" width="160" height="165"/></>}
+ </span>
+ <span class="brand-name">georgia könig<span class="brand-sub">HUMAN. DIGITAL. ACCESSIBLE.</span></span>
+ <span class="sr-only">{en?' – Home':' – Startseite'}</span>
+</a>

@@ -1,0 +1,11 @@
+---
+import Layout from './Layout.astro';
+import {language,href} from '../i18n';
+const lang=language(Astro.url.pathname);const en=lang==='en';
+interface Props { title: string; description: string; eyebrow?: string; intro?: string; links?: {label:string;href:string}[]; noindex?:boolean; schema?:Record<string,unknown> }
+const { title, description, eyebrow = 'GEORGIA KÖNIG', intro, links = [], noindex = false, schema } = Astro.props;
+---
+<Layout title={`${title} – Georgia König`} description={description} noindex={noindex} schema={schema}>
+ <section class="page-hero"><div class="container"><nav class="breadcrumb" aria-label={en?"Breadcrumbs":"Brotkrümelnavigation"}><a href={href("/",lang)}>{en?"Home":"Startseite"}</a><span aria-hidden="true">/</span><span aria-current="page">{title}</span></nav><p class="eyebrow">{eyebrow}</p><h1>{title}</h1>{intro && <p class="intro">{intro}</p>}</div></section>
+ <section class="section"><div class="container article-layout"><aside class="article-sidebar"><p class="mono">{en?"ON THIS PAGE":"ORIENTIERUNG"}</p><nav aria-label={en?"On this page":"Seitennavigation"}>{links.map(l=><a href={l.href}>{l.label}</a>)}<a href={href("/#kontakt",lang)}>{en?"Get in touch ↗":"Kontakt aufnehmen ↗"}</a><a href={href("/",lang)}>{en?"Back home ←":"Zur Startseite ←"}</a></nav></aside><article class="prose"><slot/></article></div></section>
+</Layout>

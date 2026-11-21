@@ -1,0 +1,220 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import CalBooking from '../components/CalBooking.astro';
+import { language, href } from '../i18n';
+import { person } from '../data';
+
+const lang = language(Astro.url.pathname);
+const isEn = lang === 'en';
+const t = (de: string, enText: string) => (isEn ? enText : de);
+
+const faqsBooking = isEn
+  ? [
+      {
+        q: 'How can I prepare for our 30-minute conversation?',
+        a: 'No special preparation is required. If you already have a website, prototype or specific questions about WCAG or UX design, having the link ready is helpful. We will look at it together during the call.',
+      },
+      {
+        q: 'How does the video call work?',
+        a: 'After booking, you automatically receive a confirmation email with a video meeting link (Google Meet). If you prefer a phone call, simply let me know or enter your phone number.',
+      },
+      {
+        q: 'Can I reschedule or cancel the appointment?',
+        a: 'Yes, easily at any time. Your confirmation email contains a direct link to reschedule or cancel the appointment with a single click.',
+      },
+      {
+        q: 'Is the initial consultation really free of charge?',
+        a: 'Yes, 100% free and without obligation. The goal is to get to know each other, understand your requirements and give you initial clarity on sensible next steps.',
+      },
+    ]
+  : [
+      {
+        q: 'Wie bereite ich mich auf das 30-Minuten-Gespräch vor?',
+        a: 'Du brauchst keine aufwendige Vorbereitung. Wenn du bereits eine bestehende Website, einen Prototyp oder konkrete Fragen zu Barrierefreiheit oder UX-Design hast, halte den Link gerne bereit. Wir betrachten diesen gemeinsam im Gespräch.',
+      },
+      {
+        q: 'Wie läuft der Video-Call technisch ab?',
+        a: 'Nach der Buchung erhältst du automatisch eine Bestätigungs-E-Mail mit dem Zugangslink zum Video-Call (Google Meet). Wenn du stattdessen ein klassisches Telefonat bevorzugst, gib das einfach bei der Buchung an.',
+      },
+      {
+        q: 'Kann ich den Termin verschieben oder absagen?',
+        a: 'Ja, jederzeit unkompliziert. In deiner Bestätigungs-E-Mail findest du einen direkten Link, um den Termin mit einem Klick zu verschieben oder zu stornieren.',
+      },
+      {
+        q: 'Ist das Erstgespräch wirklich kostenlos?',
+        a: 'Ja, vollständig kostenlos und unverbindlich. Es dient dem gegenseitigen Kennenlernen, der Einordnung deines Anliegens und einer ersten Orientierung für sinnvolle nächste Schritte.',
+      },
+    ];
+
+const title = t(
+  'Termin buchen – Georgia König',
+  'Book an Appointment – Georgia König'
+);
+const description = t(
+  'Buche hier dein kostenloses 30-minütiges Erstgespräch mit Georgia König zu digitaler Barrierefreiheit, UX-Design oder Webentwicklung via Cal.com.',
+  'Book a free 30-minute consultation with Georgia König on digital accessibility, UX/UI design or web development via Cal.com.'
+);
+
+const schema = {
+  '@type': 'WebPage',
+  name: title,
+  description: description,
+  url: Astro.url.href,
+  about: {
+    '@id': person.url + '/#georgia',
+  },
+};
+---
+
+<Layout title={title} description={description} schema={schema}>
+  <!-- Hero Section -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label={t('Brotkrümelnavigation', 'Breadcrumbs')}>
+        <a href={href('/', lang)}>{t('Startseite', 'Home')}</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">{t('Termin buchen', 'Book appointment')}</span>
+      </nav>
+
+      <p class="eyebrow">
+        <span class="status-dot"></span>
+        07 / {t('ONLINE-TERMINKALENDER / CAL.COM', 'ONLINE CALENDAR / CAL.COM')}
+      </p>
+
+      <h1>
+        {t('30 Minuten für dein Vorhaben.', '30 minutes for your project.')}<br />
+        <span class="headline-accent">
+          {t('Persönlich & unverbindlich.', 'Personal & non-binding.')}
+          <span class="headline-asterisk" aria-hidden="true">✳</span>
+        </span>
+      </h1>
+
+      <p class="intro">
+        {
+          t(
+            'Wähle im Kalender deinen Wunschtermin für ein kostenloses Erstgespräch zur digitalen Barrierefreiheit, UX-Design oder Webentwicklung. Wir sprechen über deine Ausgangslage und klären erste Fragen.',
+            'Choose your preferred time in the calendar below for a free consultation on digital accessibility, UX design or web development. We will discuss your current state and clarify first questions.'
+          )
+        }
+      </p>
+    </div>
+  </section>
+
+  <!-- Value Strip -->
+  <div class="expertise-strip">
+    <div class="container">
+      <span>{t('ERSTGESPRÄCH DETAILS', 'CONSULTATION DETAILS')}</span>
+      <span>{t('30 Minuten Gesprächszeit', '30 minutes duration')}</span>
+      <i aria-hidden="true">✳</i>
+      <span>{t('Video-Call oder Telefon', 'Video call or phone')}</span>
+      <i aria-hidden="true">✳</i>
+      <span>{t('100 % unverbindlich & kostenlos', '100% free & non-binding')}</span>
+    </div>
+  </div>
+
+  <!-- Booking Main Section -->
+  <section class="section">
+    <div class="container booking-page-grid">
+      <!-- Calendar Area -->
+      <div class="booking-calendar-col">
+        <div class="section-heading-compact">
+          <p class="eyebrow">{t('SCHRITT 1 / TERMIN WÄHLEN', 'STEP 1 / CHOOSE DATE & TIME')}</p>
+          <h2>{t('Wunschtermin im', 'Select your time in')}<br /><span>{t('Kalender auswählen', 'the calendar')}</span></h2>
+          <p>
+            {
+              t(
+                'Klicke auf einen passenden Tag und eine freie Uhrzeit. Nach der Buchung erhältst du umgehend eine Bestätigung mit dem Kalendereintrag.',
+                'Click on a convenient day and available time. After booking, you will immediately receive a confirmation with your calendar invitation.'
+              )
+            }
+          </p>
+        </div>
+
+        <CalBooking lang={lang} />
+      </div>
+
+      <!-- Information & Steps Sidebar -->
+      <aside class="booking-info-col" aria-label={t('Informationen zum Gesprächsablauf', 'Information about the consultation')}>
+        <div class="contact-card">
+          <p class="mono">{t('SO FUNKTIONIERT ES', 'HOW IT WORKS')}</p>
+          <h3>{t('Drei einfache Schritte', 'Three simple steps')}</h3>
+
+          <ol class="booking-steps-list">
+            <li>
+              <span class="step-num">01</span>
+              <div>
+                <strong>{t('Termin anklicken', 'Select time')}</strong>
+                <p>{t('Wähle im Online-Kalender einen Tag und eine Uhrzeit aus, die dir gut passen.', 'Choose a day and time in the calendar that works best for you.')}</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-num">02</span>
+              <div>
+                <strong>{t('Details angeben', 'Provide details')}</strong>
+                <p>{t('Gib deinen Namen, deine E-Mail-Adresse und optional den Link zu deiner Website an.', 'Enter your name, email address and optionally a link to your website.')}</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-num">03</span>
+              <div>
+                <strong>{t('Einladung erhalten', 'Receive invite')}</strong>
+                <p>{t('Du erhältst sofort eine Bestätigung mit Google-Meet-Link per E-Mail.', 'You immediately receive a confirmation email with a Google Meet video link.')}</p>
+              </div>
+            </li>
+          </ol>
+
+          <div class="contact-card-divider"></div>
+
+          <div class="booking-alt-box">
+            <p class="mono" style="color: var(--accent); margin-bottom: 6px;">{t('LIEBER SCHRIFTLICH?', 'PREFER WRITING?')}</p>
+            <p style="font-size: 14px; color: var(--muted); margin-bottom: 14px;">
+              {
+                t(
+                  'Du möchtest erst ein paar Zeilen schreiben oder eine Datei senden? Nutze einfach das Kontaktformular.',
+                  'Would you rather send a short note or request details in writing? Simply use the contact form.'
+                )
+              }
+            </p>
+            <a href={href('/kontakt/', lang)} class="button button-outline" style="width: 100%; justify-content: center;">
+              <span>{t('Zum Kontaktformular', 'To the contact form')}</span>
+              <Icon name="arrow" size={16} />
+            </a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Booking FAQ Section -->
+  <section class="section faq-section" style="border-top: 1px solid var(--line);">
+    <div class="container faq-grid">
+      <div>
+        <p class="eyebrow">{t('GUT ZU WISSEN', 'GOOD TO KNOW')}</p>
+        <h2>{t('Häufige Fragen zur', 'Frequently asked')}<br />{t('Terminbuchung.', 'booking questions.')}</h2>
+        <p>
+          {
+            t(
+              'Hier findest du Antworten zur Vorbereitung, zum Ablauf und zur Technik. Bei weiteren Fragen schreibe mir gerne eine kurze Nachricht.',
+              'Here you will find answers about preparation, format and tech. Feel free to contact me with any further questions.'
+            )
+          }
+        </p>
+      </div>
+      <div class="faq-list">
+        {
+          faqsBooking.map((f) => (
+            <details>
+              <summary>
+                {f.q}
+                <Icon name="plus" size={20} />
+              </summary>
+              <p>{f.a}</p>
+            </details>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Layout>
+

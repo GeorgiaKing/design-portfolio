@@ -1,0 +1,5128 @@
+[
+  {
+    "path": "/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span>Empathie trifft Expertise.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<small>DESIGN × ACCESSIBILITY</small>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MEIN ANSATZ</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathie.<br>Klarheit.<br><span>Wirkung.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Wirkung.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Menschen verstehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Zuhören, Fragen stellen und Bedürfnisse erkennen.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Zusammenhänge sehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Design, Technologie und Zugänglichkeit verbinden.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Gezielt verbessern</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Ideen greifbar machen und Lösungen weiterdenken.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Projects</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span>DevOps</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-stage-label mono\">MEET YOUR ACCESSIBILITY COMPANION</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">Ein kleines Hallo? Klick auf Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/agb/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/barrierefreiheit/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/datenschutz/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span>Empathy meets expertise.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<small>DESIGN × ACCESSIBILITY</small>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MY APPROACH</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathy.<br>Clarity.<br><span>Impact.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Impact.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Understand people</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Listen, ask questions and understand needs.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Connect the dots</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Connect design, technology and accessibility.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Make meaningful improvements</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Make ideas tangible and keep improving solutions.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>UX Design</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span>DevOps</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-stage-label mono\">MEET YOUR ACCESSIBILITY COMPANION</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">A little hello? Click on Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/about/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/accessibility/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/accessibility-in-practice/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/welcome/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/legal-notice/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/privacy/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/digital-accessibility/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/strategy-testing/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/ux-design/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/web-development/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/terms/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/wabiy/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impressum/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/barrierefreiheit-im-alltag/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/willkommen/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/digitale-barrierefreiheit/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/strategie-testing/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/ux-design/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/webentwicklung/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/ueber-mich/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/wabiy/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/404/",
+    "width": 320,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span>Empathie trifft Expertise.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<small>DESIGN × ACCESSIBILITY</small>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MEIN ANSATZ</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathie.<br>Klarheit.<br><span>Wirkung.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Wirkung.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Menschen verstehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Zuhören, Fragen stellen und Bedürfnisse erkennen.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Zusammenhänge sehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Design, Technologie und Zugänglichkeit verbinden.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Gezielt verbessern</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Ideen greifbar machen und Lösungen weiterdenken.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Projects</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span>DevOps</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-stage-label mono\">MEET YOUR ACCESSIBILITY COMPANION</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">Ein kleines Hallo? Klick auf Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/agb/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/barrierefreiheit/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/datenschutz/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span>Empathy meets expertise.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<small>DESIGN × ACCESSIBILITY</small>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MY APPROACH</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathy.<br>Clarity.<br><span>Impact.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Impact.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Understand people</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Listen, ask questions and understand needs.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Connect the dots</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Connect design, technology and accessibility.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Make meaningful improvements</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Make ideas tangible and keep improving solutions.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>UX Design</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span>DevOps</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-stage-label mono\">MEET YOUR ACCESSIBILITY COMPANION</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">A little hello? Click on Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/about/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/accessibility/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/accessibility-in-practice/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/welcome/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/legal-notice/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/privacy/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/digital-accessibility/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/strategy-testing/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/ux-design/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/web-development/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/terms/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/wabiy/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impressum/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/barrierefreiheit-im-alltag/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/willkommen/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/digitale-barrierefreiheit/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/strategie-testing/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/ux-design/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/webentwicklung/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/ueber-mich/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/wabiy/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/404/",
+    "width": 320,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span>Empathie trifft Expertise.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MEIN ANSATZ</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathie.<br>Klarheit.<br><span>Wirkung.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Wirkung.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Menschen verstehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Zuhören, Fragen stellen und Bedürfnisse erkennen.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Zusammenhänge sehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Design, Technologie und Zugänglichkeit verbinden.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Gezielt verbessern</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Ideen greifbar machen und Lösungen weiterdenken.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-stage-label mono\">MEET YOUR ACCESSIBILITY COMPANION</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">Ein kleines Hallo? Klick auf Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/agb/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/barrierefreiheit/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/datenschutz/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span>Empathy meets expertise.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MY APPROACH</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathy.<br>Clarity.<br><span>Impact.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Impact.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Understand people</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Listen, ask questions and understand needs.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Connect the dots</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Connect design, technology and accessibility.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Make meaningful improvements</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Make ideas tangible and keep improving solutions.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-stage-label mono\">MEET YOUR ACCESSIBILITY COMPANION</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">A little hello? Click on Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/about/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/accessibility/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/accessibility-in-practice/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/welcome/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/legal-notice/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/privacy/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/digital-accessibility/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/strategy-testing/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/ux-design/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/web-development/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/terms/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/wabiy/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impressum/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/barrierefreiheit-im-alltag/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/willkommen/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/digitale-barrierefreiheit/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/strategie-testing/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/ux-design/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/webentwicklung/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/ueber-mich/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/wabiy/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/404/",
+    "width": 390,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span>Empathie trifft Expertise.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MEIN ANSATZ</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathie.<br>Klarheit.<br><span>Wirkung.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Wirkung.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Menschen verstehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Zuhören, Fragen stellen und Bedürfnisse erkennen.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Zusammenhänge sehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Design, Technologie und Zugänglichkeit verbinden.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Gezielt verbessern</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Ideen greifbar machen und Lösungen weiterdenken.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-stage-label mono\">MEET YOUR ACCESSIBILITY COMPANION</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">Ein kleines Hallo? Klick auf Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/agb/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/barrierefreiheit/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/datenschutz/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span>Empathy meets expertise.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MY APPROACH</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathy.<br>Clarity.<br><span>Impact.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Impact.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Understand people</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Listen, ask questions and understand needs.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Connect the dots</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Connect design, technology and accessibility.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Make meaningful improvements</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Make ideas tangible and keep improving solutions.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-stage-label mono\">MEET YOUR ACCESSIBILITY COMPANION</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">A little hello? Click on Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/about/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/accessibility/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/accessibility-in-practice/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/welcome/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/legal-notice/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/privacy/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/digital-accessibility/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/strategy-testing/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/ux-design/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/web-development/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/terms/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/wabiy/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Open menu\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menu</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impressum/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/barrierefreiheit-im-alltag/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/willkommen/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/digitale-barrierefreiheit/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/strategie-testing/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/ux-design/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/webentwicklung/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/ueber-mich/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/wabiy/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/404/",
+    "width": 390,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">☰</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "nodes": [
+          {
+            "html": "<button class=\"menu-button\" aria-controls=\"main-nav\" aria-expanded=\"false\" aria-label=\"Menü öffnen\"><span aria-hidden=\"true\">☰</span><span class=\"sr-only\">Menü</span></button>",
+            "summary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span class=\"hero-art-coordinate mono\" aria-hidden=\"true\">49.1125° N / 9.7373° E</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MEIN ANSATZ</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathie.<br>Klarheit.<br><span>Wirkung.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Wirkung.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Menschen verstehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Zuhören, Fragen stellen und Bedürfnisse erkennen.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Zusammenhänge sehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Design, Technologie und Zugänglichkeit verbinden.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Gezielt verbessern</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Ideen greifbar machen und Lösungen weiterdenken.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">Ein kleines Hallo? Klick auf Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/agb/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/barrierefreiheit/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/datenschutz/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span class=\"hero-art-coordinate mono\" aria-hidden=\"true\">49.1125° N / 9.7373° E</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MY APPROACH</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathy.<br>Clarity.<br><span>Impact.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Impact.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Understand people</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Listen, ask questions and understand needs.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Connect the dots</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Connect design, technology and accessibility.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Make meaningful improvements</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Make ideas tangible and keep improving solutions.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">A little hello? Click on Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/about/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/accessibility/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/accessibility-in-practice/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/welcome/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/legal-notice/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/privacy/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/digital-accessibility/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/strategy-testing/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/ux-design/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/web-development/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/terms/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/wabiy/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impressum/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/barrierefreiheit-im-alltag/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/willkommen/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/digitale-barrierefreiheit/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/strategie-testing/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/ux-design/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/webentwicklung/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/ueber-mich/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/wabiy/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/404/",
+    "width": 1440,
+    "theme": "light",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span class=\"hero-art-coordinate mono\" aria-hidden=\"true\">49.1125° N / 9.7373° E</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MEIN ANSATZ</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathie.<br>Klarheit.<br><span>Wirkung.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Wirkung.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Menschen verstehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Zuhören, Fragen stellen und Bedürfnisse erkennen.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Zusammenhänge sehen</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Design, Technologie und Zugänglichkeit verbinden.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Gezielt verbessern</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Ideen greifbar machen und Lösungen weiterdenken.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">Ein kleines Hallo? Klick auf Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/agb/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/barrierefreiheit/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/datenschutz/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<span class=\"hero-art-coordinate mono\" aria-hidden=\"true\">49.1125° N / 9.7373° E</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          },
+          {
+            "html": "<p class=\"eyebrow\">MY APPROACH</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p class=\"about-manifesto\">Empathy.<br>Clarity.<br><span>Impact.</span></p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>Impact.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"mono\">HUMAN FIRST. ALWAYS.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">01</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Understand people</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Listen, ask questions and understand needs.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">02</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Connect the dots</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Connect design, technology and accessibility.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span class=\"principle-number\">03</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<strong>Make meaningful improvements</strong>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<p>Make ideas tangible and keep improving solutions.</p>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "html": "<span>QA</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+          },
+          {
+            "html": "<span class=\"bird-instruction\">A little hello? Click on Wabiy.</span>",
+            "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/en/about/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/accessibility/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/accessibility-in-practice/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/insights/welcome/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/legal-notice/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/privacy/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/digital-accessibility/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/strategy-testing/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/ux-design/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/services/web-development/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/terms/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/en/wabiy/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "en",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/impressum/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/barrierefreiheit-im-alltag/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/impulse/willkommen/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/digitale-barrierefreiheit/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/strategie-testing/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/ux-design/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/leistungen/webentwicklung/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/ueber-mich/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  },
+  {
+    "path": "/wabiy/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "html": "<span aria-hidden=\"true\">↓</span>",
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "path": "/404/",
+    "width": 1440,
+    "theme": "dark",
+    "smallText": [],
+    "educationOverflow": false,
+    "documentLanguage": "de",
+    "violations": [],
+    "incomplete": [],
+    "overflow": false
+  }
+]

@@ -1,0 +1,6 @@
+---
+import WabiyBird from './WabiyBird';
+import {language} from '../i18n';
+const lang=language(Astro.url.pathname);
+---
+<div class="bird-companion"><WabiyBird lang={lang} client:visible/><div><p class="eyebrow">WABIY / ACCESSIBILITY COMPANION</p><h2>{lang==='de'?'Kleine Flügel. Große Mission.':'Little wings. A big mission.'}</h2><p>{lang==='de'?'Gemeinsam machen wir das Web zugänglicher.':'Together, we make the web more accessible.'}</p></div></div>

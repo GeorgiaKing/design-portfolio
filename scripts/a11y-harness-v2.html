@@ -1,0 +1,14 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Website-Prüfung · DE/EN · Light/Dark</title><style>body{font:14px system-ui;background:#f6f8f6;color:#152b29;padding:20px}button{font:inherit;padding:15px 20px}pre{white-space:pre-wrap;font-size:11px}iframe{display:block;height:950px;border:1px solid #77958a;margin-top:20px}#summary{padding:20px;background:#e6efde;margin:20px 0}</style></head><body><h1>Website-Prüfung</h1><p>Alle Seiten · 320 / 390 / 1440 Pixel · Light & Dark · axe-core</p><button id="run">Vollständige Prüfung starten</button><p id="summary" role="status">Bereit.</p><details><summary>Prüfprotokoll</summary><pre id="results">[]</pre></details><iframe id="frame" title="Zu prüfende Website"></iframe><script>
+const paths=PATHS_PLACEHOLDER;
+const run=document.querySelector('#run'),frame=document.querySelector('#frame'),output=document.querySelector('#results'),summary=document.querySelector('#summary');
+run.onclick=async()=>{
+ run.disabled=true;const originalTheme=localStorage.getItem('gk-theme');const all=[];let failure;
+ try {for(const width of [320,390,1440])for(const theme of ['light','dark'])for(const path of paths){localStorage.setItem('gk-theme',theme);frame.style.width=width+'px';summary.textContent=`Prüfung ${all.length+1}/${paths.length*6}: ${path} · ${width}px · ${theme}`;
+  await new Promise(resolve=>{frame.onload=resolve;frame.src=path});await frame.contentDocument.fonts.ready;const script=frame.contentDocument.createElement('script');script.src='/__qa-axe.js';await new Promise((resolve,reject)=>{script.onload=resolve;script.onerror=reject;frame.contentDocument.head.appendChild(script)});
+  const audit=await frame.contentWindow.axe.run(frame.contentDocument,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa','best-practice']}});
+  const violations=audit.violations.map(v=>({id:v.id,impact:v.impact,nodes:v.nodes.map(n=>({html:n.html,summary:n.failureSummary}))}));
+  all.push({path,width,theme,documentLanguage:frame.contentDocument.documentElement.lang,violations,incomplete:audit.incomplete.map(v=>({id:v.id,nodes:v.nodes.map(n=>({html:n.html,summary:n.failureSummary}))})),overflow:frame.contentDocument.documentElement.scrollWidth>frame.contentWindow.innerWidth});
+  output.textContent=JSON.stringify(all,null,2);
+ }}catch(e){failure=e.message;}finally{if(originalTheme)localStorage.setItem('gk-theme',originalTheme);else localStorage.removeItem('gk-theme');run.disabled=false;}
+ summary.textContent=JSON.stringify({completed:all.length,expected:paths.length*6,violations:all.filter(r=>r.violations.length).map(({path,width,theme,violations})=>({path,width,theme,violations})),overflow:all.filter(r=>r.overflow).map(({path,width,theme})=>({path,width,theme})),error:failure||null});
+};</script></body></html>

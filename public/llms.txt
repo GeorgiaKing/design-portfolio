@@ -1,0 +1,51 @@
+# Georgia König – Barrierefreie Software
+
+> Georgia König ist UX-Designerin, Accessibility Engineer und Informatikerin (M.Sc.) aus Schwäbisch Hall, Deutschland. Sie begleitet Unternehmen, Selbstständige und Initiativen bei nutzerzentrierten und zugänglichen digitalen Angeboten. Die Zusammenarbeit ist auch remote möglich.
+
+Dies ist eine ergänzende, menschen- und maschinenlesbare Orientierung. Maßgeblich sind die verlinkten Inhalte der Website. Stand: 2026-11-08. Sprachen: Deutsch und Englisch.
+
+## Profil
+
+- [Startseite](https://georgia-koenig.de/): Überblick, Leistungen, Referenzen und Kontakt.
+- [Über Georgia](https://georgia-koenig.de/ueber-mich/): Beruflicher Werdegang und Studium. Master of Science in Human-centered Computing, Hochschule Reutlingen. Seit Januar 2026 selbstständig als Georgia König – Barrierefreie Software.
+
+- [Werdegang](https://georgia-koenig.de/#werdegang): Berufliche Stationen und Ausbildung, umschaltbar auf der Startseite.
+- [Wabiy auf dieser Website](https://georgia-koenig.de/wabiy/): Georgias Zusammenarbeit mit Karam Hayani und Überblick zu Audits, Code, Medien und Lernen.
+
+## Leistungen
+
+- [Digitale Barrierefreiheit](https://georgia-koenig.de/leistungen/digitale-barrierefreiheit/): Barrieren verstehen, Bestandsaufnahme, Handlungsempfehlungen und Begleitung der Umsetzung.
+- [UX & UI Design](https://georgia-koenig.de/leistungen/ux-design/): User Research, Informationsarchitektur, Wireframes und Prototypen.
+- [Websites & Entwicklung](https://georgia-koenig.de/leistungen/webentwicklung/): Individuelle responsive Websites mit zugänglicher Struktur und technischen SEO-Grundlagen.
+- [Strategie & Softwarequalität](https://georgia-koenig.de/leistungen/strategie-testing/): Digitale Strategie, Anforderungen, Testing und Qualitätssicherung.
+
+## Wissen
+
+- [Impulse](https://georgia-koenig.de/impulse/): Gedanken zu UX und Accessibility.
+- [Kleine Barrieren. Große Wirkung.](https://georgia-koenig.de/impulse/barrierefreiheit-im-alltag/): Einführung zu Kontrasten, Tastaturbedienung und Alternativtexten.
+
+## Kontakt und Transparenz
+
+- [Kontakt & Anfahrt](https://georgia-koenig.de/kontakt/): Barrierefreies Kontaktformular, Anfahrt mit Google Maps und direkte Kontaktaufnahme.
+- E-Mail: kontakt@georgia-koenig.de
+- Telefon: +49 1515 0242 010
+- Standort: Schwäbisch Hall, Deutschland.
+- [Impressum](https://georgia-koenig.de/impressum/): Anbieterkennzeichnung und vollständige Kontaktdaten.
+- [Datenschutz](https://georgia-koenig.de/datenschutz/): Datenverarbeitung, Hosting und Cookies.
+- [Barrierefreiheit](https://georgia-koenig.de/barrierefreiheit/): Prüfstand, Einschränkungen und Feedbackkanal.
+
+## Optional
+
+- [Wabiy](https://wabiy.com/): Eigenständiges Projekt zu digitaler Barrierefreiheit, an dem Georgia gemeinsam mit Karam Hayani arbeitet. Keine Aussage über Unternehmensbeteiligungen oder Organfunktionen.
+- [LinkedIn](https://www.linkedin.com/in/georgia-k%C3%B6nig/): Berufliches Profil.
+
+Keine rechtliche Konformitätsgarantie und keine vollständige WCAG-Zertifizierung. Keine erfundenen Preise oder Referenzprojekte. Umfang und Konditionen werden individuell vereinbart. Die PDF-Downloads haben Stand 2025; der aktuelle HTML-Werdegang ist separat verlinkt.
+
+## English
+
+- [English home](https://georgia-koenig.de/en/): Profile, expertise, complete career timeline and contact.
+- [About](https://georgia-koenig.de/en/about/): Experience and academic background.
+- [Wabiy](https://georgia-koenig.de/en/wabiy/): Shared project, platform and approach.
+- [Insights](https://georgia-koenig.de/en/insights/): UX and accessibility articles.
+- [Contact](https://georgia-koenig.de/en/contact/): Accessible contact form, Google Maps directions and direct inquiry options.
+- [Privacy](https://georgia-koenig.de/en/privacy/) and [accessibility](https://georgia-koenig.de/en/accessibility/): English information.

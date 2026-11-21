@@ -1,0 +1,252 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import ContactForm from '../components/ContactForm';
+import MapCard from '../components/MapCard.astro';
+import { language, href } from '../i18n';
+import { person } from '../data';
+
+const lang = language(Astro.url.pathname);
+const isEn = lang === 'en';
+const t = (de: string, enText: string) => (isEn ? enText : de);
+
+const faqsContact = isEn
+  ? [
+      {
+        q: 'How does the free initial consultation work?',
+        a: 'We talk for about 30 minutes (via video call or phone) about your current project, website or questions regarding digital accessibility and UX design. We review your goals and identify realistic next steps.',
+      },
+      {
+        q: 'What information is helpful for an initial inquiry?',
+        a: 'A link to your current website or prototype, an idea of your timeframe, and what your main goal is (e.g. WCAG conformance, website relaunch, or UX consultation). If you do not have details yet, that is completely fine.',
+      },
+      {
+        q: 'Are on-site meetings possible in Schwäbisch Hall?',
+        a: 'Yes, absolutely. For clients in and around Schwäbisch Hall, Heilbronn, Stuttgart or Hohenlohe, we can meet in person. For all other regions in Germany, Austria and Switzerland, we work seamlessly remotely.',
+      },
+      {
+        q: 'Do I receive a non-binding offer after our talk?',
+        a: 'Yes. After our initial conversation, you will receive a transparent, tailored offer with clear scopes and milestones so you can decide with full clarity.',
+      },
+    ]
+  : [
+      {
+        q: 'Wie läuft das kostenlose Erstgespräch ab?',
+        a: 'In einem etwa 30-minütigen Gespräch (per Video-Call oder Telefon) betrachten wir deine aktuelle Website, dein geplantes Projekt oder deine Fragen zur digitalen Barrierefreiheit. Wir klären deine Ziele und besprechen erste sinnvolle Schritte.',
+      },
+      {
+        q: 'Welche Informationen sind für eine Anfrage hilfreich?',
+        a: 'Hilfreich ist der Link zu deiner aktuellen Website oder zu Entwürfen, eine grobe Vorstellung des Zeitrahmens sowie das Hauptziel (z. B. WCAG-Konformität, Website-Neugestaltung oder UX-Beratung). Wenn du noch ganz am Anfang stehst, finden wir das gemeinsam heraus.',
+      },
+      {
+        q: 'Sind persönliche Treffen in Schwäbisch Hall möglich?',
+        a: 'Ja, sehr gerne. Für Kund:innen aus Schwäbisch Hall, Heilbronn, Hohenlohe, Stuttgart und Umgebung können wir uns persönlich treffen. Für überregionale Projekte arbeiten wir unkompliziert per Videokonferenz zusammen.',
+      },
+      {
+        q: 'Erhalte ich nach dem Gespräch ein unverbindliches Angebot?',
+        a: 'Ja. Nach unserer Abstimmung erstelle ich ein transparentes und individuelles Angebot mit klaren Leistungspaketen und Meilensteinen, auf dessen Basis du in Ruhe entscheiden kannst.',
+      },
+    ];
+
+const title = t(
+  'Kontakt & Anfahrt – Georgia König',
+  'Contact & Directions – Georgia König'
+);
+const description = t(
+  'Nimm Kontakt auf mit Georgia König in Schwäbisch Hall. Barrierefreies Kontaktformular, Telefon, E-Mail und Anfahrt via Google Maps.',
+  'Get in touch with Georgia König in Schwäbisch Hall. Accessible contact form, phone, email and directions via Google Maps.'
+);
+
+const schema = {
+  '@type': 'ContactPage',
+  name: title,
+  description: description,
+  url: Astro.url.href,
+  mainEntity: {
+    '@type': 'ProfessionalService',
+    name: 'Georgia König – Barrierefreie Software',
+    telephone: person.phoneHref,
+    email: person.email,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Neue Straße 5',
+      postalCode: '74523',
+      addressLocality: 'Schwäbisch Hall',
+      addressCountry: 'DE',
+    },
+  },
+};
+---
+
+<Layout title={title} description={description} schema={schema}>
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label={t('Brotkrümelnavigation', 'Breadcrumbs')}>
+        <a href={href('/', lang)}>{t('Startseite', 'Home')}</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">{t('Kontakt & Anfahrt', 'Contact & Directions')}</span>
+      </nav>
+
+      <p class="eyebrow">
+        <span class="status-dot"></span>
+        06 / {t('KONTAKT & AUSTAUSCH', 'CONTACT & COLLABORATION')}
+      </p>
+
+      <h1>
+        {t('Lass uns ins', "Let's connect and")}<br />
+        <span class="headline-accent">
+          {t('Gespräch kommen.', 'make a difference.')}
+          <span class="headline-asterisk" aria-hidden="true">✳</span>
+        </span>
+      </h1>
+
+      <p class="intro">
+        {
+          t(
+            'Ob Barrierefreiheits-Audit, UX-Design oder Webentwicklung – ich freue mich auf deine Nachricht und dein Vorhaben. Vor Ort in Schwäbisch Hall oder remote in ganz Deutschland.',
+            'Whether you need an accessibility audit, UX design or web development: I look forward to hearing about your project. On site in Schwäbisch Hall or remotely anywhere.'
+          )
+        }
+      </p>
+    </div>
+  </section>
+
+  <!-- Value Pillars -->
+  <div class="expertise-strip">
+    <div class="container">
+      <span>{t('DEINE ANFRAGE', 'YOUR INQUIRY')}</span>
+      <span>{t('30 Min. Erstgespräch kostenlos', 'Free 30-min consultation')}</span>
+      <i aria-hidden="true">✳</i>
+      <span>{t('Antwort in 24–48h', 'Reply within 24–48h')}</span>
+      <i aria-hidden="true">✳</i>
+      <span>{t('Vor Ort & Remote', 'On site & remote')}</span>
+    </div>
+  </div>
+
+  <!-- Main Content Grid -->
+  <section class="section">
+    <div class="container contact-page-layout">
+      <!-- Left: Contact Form -->
+      <div class="contact-page-form-col">
+        <div class="section-heading-compact">
+          <p class="eyebrow">{t('SCHREIB MIR EINE NACHRICHT', 'SEND ME A MESSAGE')}</p>
+          <h2>{t('Wie kann ich dich', 'How can I support')}<br /><span>{t('unterstützen?', 'your project?')}</span></h2>
+          <p>
+            {
+              t(
+                'Nutze dieses barrierefreie Formular für deine Nachricht. Alle Angaben werden verschlüsselt übertragen und vertraulich behandelt.',
+                'Use this accessible form to send your message. All information is transmitted securely and treated confidentially.'
+              )
+            }
+          </p>
+        </div>
+
+        <ContactForm lang={lang} client:load idPrefix="contact-page" />
+      </div>
+
+      <!-- Right: Direct Channels, Address & Google Maps -->
+      <aside class="contact-page-info-col" aria-label={t('Kontaktdaten und Anfahrt', 'Contact details and directions')}>
+        <!-- Direct channels card -->
+        <div class="contact-card">
+          <div class="booking-teaser-card" style="margin-bottom: 20px; padding: 18px; border-radius: 11px; background: var(--surface-2); border: 1px solid var(--line);">
+            <p class="mono" style="color: var(--accent); margin-bottom: 6px; font-size: 14px;">{t('SCHNELLER WEG / 30 MIN', 'QUICK ACCESS / 30 MIN')}</p>
+            <strong style="display: block; font-size: 16px; margin-bottom: 6px; color: var(--ink);">{t('Lieber direkt online buchen?', 'Prefer booking directly online?')}</strong>
+            <p style="font-size: 14px; color: var(--muted); margin-bottom: 12px; line-height: 1.6;">{t('Wähle im Online-Kalender direkt deinen Wunschtermin für ein kostenloses Erstgespräch.', 'Pick your preferred time in our online calendar for a free initial consultation.')}</p>
+            <a href={href('/termin/', lang)} class="button button-mint" style="width: 100%; justify-content: center; min-height: 44px; font-size: 14px;">
+              <span>{t('Zum Online-Terminkalender', 'Open booking calendar')}</span>
+              <Icon name="diagonal" size={16} />
+            </a>
+          </div>
+
+          <p class="mono">{t('DIREKTER KONTAKT', 'DIRECT CONTACT')}</p>
+          <h3>{t('Auf kurzem Weg', 'Get in touch directly')}</h3>
+
+          <div class="contact-channel-list">
+            <a href="mailto:kontakt@georgia-koenig.de" class="contact-channel-item">
+              <span class="channel-icon"><Icon name="arrow" size={18} /></span>
+              <div>
+                <strong>E-Mail</strong>
+                <span>kontakt@georgia-koenig.de</span>
+              </div>
+            </a>
+
+            <a href="tel:+4915150242010" class="contact-channel-item">
+              <span class="channel-icon"><Icon name="plus" size={18} /></span>
+              <div>
+                <strong>{t('Telefon', 'Phone')}</strong>
+                <span>+49 1515 0242 010</span>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/georgia-k%C3%B6nig/" target="_blank" rel="noopener noreferrer" class="contact-channel-item">
+              <span class="channel-icon"><Icon name="diagonal" size={18} /></span>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>{t('Profil von Georgia König ↗', 'Georgia König profile ↗')}</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="contact-card-divider"></div>
+
+          <!-- Postal address -->
+          <div class="contact-address-block">
+            <strong class="address-title">{t('Standort & Postanschrift', 'Location & Postal Address')}</strong>
+            <address>
+              Georgia König – Barrierefreie Software<br />
+              Neue Straße 5<br />
+              74523 Schwäbisch Hall<br />
+              {t('Deutschland', 'Germany')}
+            </address>
+            <p class="contact-hours">
+              <span class="status-dot"></span>
+              {t('Termine nach Vereinbarung · Mo–Fr', 'Appointments by arrangement · Mon–Fri')}
+            </p>
+          </div>
+        </div>
+
+        <!-- Google Maps Window Embed -->
+        <div class="contact-map-wrapper">
+          <p class="mono map-section-label">
+            <Icon name="location" size={16} />
+            {t('ANFAHRT & STANDORT IN SCHWÄBISCH HALL', 'DIRECTIONS & LOCATION IN SCHWÄBISCH HALL')}
+          </p>
+          <MapCard lang={lang} />
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Contact FAQ Section -->
+  <section class="section faq-section" style="border-top: 1px solid var(--line);">
+    <div class="container faq-grid">
+      <div>
+        <p class="eyebrow">{t('FRAGEN ZUR ZUSAMMENARBEIT', 'QUESTIONS ABOUT WORKING TOGETHER')}</p>
+        <h2>{t('Häufige Fragen vor', 'Frequently asked')}<br />{t('dem ersten Schritt.', 'questions.')}</h2>
+        <p>
+          {
+            t(
+              'Hier findest du Antworten zum Ablauf und zur Vorbereitung. Bei allen weiteren Fragen melde dich jederzeit gerne.',
+              'Here are answers about the process and preparation. Feel free to reach out anytime with other questions.'
+            )
+          }
+        </p>
+      </div>
+      <div class="faq-list">
+        {
+          faqsContact.map((f) => (
+            <details>
+              <summary>
+                {f.q}
+                <Icon name="plus" size={20} />
+              </summary>
+              <p>{f.a}</p>
+            </details>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Layout>
+

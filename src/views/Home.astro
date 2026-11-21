@@ -1,0 +1,241 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import Career from '../components/Career.astro';
+import ContrastLab from '../components/ContrastLab';
+import ContactForm from '../components/ContactForm';
+import QuickAudit from '../components/QuickAudit';
+import MapCard from '../components/MapCard.astro';
+import {Image} from 'astro:assets';
+import portrait from '../assets/georgia-koenig.jpg';
+import {services,faqs} from '../data';
+import {servicesEn,faqsEn} from '../data-en';
+import {language,href} from '../i18n';
+const lang=language(Astro.url.pathname);const en=lang==='en';
+const t=(de:string,enText:string)=>en?enText:de;
+const ss=en?servicesEn:services;const ff=en?faqsEn:faqs;
+---
+<Layout title={t('Georgia König – UX Design & digitale Barrierefreiheit','Georgia König – UX design & digital accessibility')} description={t('Digitale Erlebnisse für alle. Georgia König verbindet UX Design, Informatik und digitale Barrierefreiheit. Aus Schwäbisch Hall, auch remote.','Digital experiences for everyone. Georgia König connects UX design, computer science and digital accessibility. Based in Schwäbisch Hall, working remotely.')} schema={{'@type':'FAQPage',mainEntity:ff.map(f=>({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}}))}}>
+ <section class="hero-v2" aria-labelledby="hero-title"><div class="hero-mesh" aria-hidden="true"></div><div class="container">
+  <div class="hero-v2-grid"><div class="hero-v2-copy"><h1 id="hero-title">{t('Digital.','Digital.')}<br/>{t('Menschlich.','Human.')}<br/><span class="headline-accent">{t('Für alle.','For everyone.')}<span class="headline-asterisk" aria-hidden="true">✳</span></span></h1>
+   <p class="hero-v2-intro">{t('Hi, ich bin Georgia. Ich gestalte digitale Erlebnisse, die Menschen verstehen. Und entwickle Lösungen, die niemanden aus dem Blick verlieren.','Hi, I’m Georgia. I design digital experiences that make sense to people. And build solutions that keep everyone in mind.')}</p>
+   <div class="hero-actions">
+    <a class="button button-mint hero-main-cta" href="#kontakt"><span>{t('Lass uns etwas bewegen','Let’s make a difference')}</span><Icon name="diagonal" size={19}/></a>
+    <a class="button button-outline hero-second-cta" href={href('/termin/',lang)}><span>{t('30 Min. Erstgespräch','Book 30-min call')}</span><Icon name="diagonal" size={16}/></a>
+   </div>
+   <div class="hero-signature"><span class="signature-line" aria-hidden="true"></span><span>Georgia König <span class="mono">/ M.SC. HUMAN-CENTERED COMPUTING</span></span></div>
+  </div><div class="hero-v2-art"><div class="photo-card-halo" aria-hidden="true"></div><div class="hero-photo-card"><div class="photo-card-top"><span class="mono">GEORGIA KÖNIG</span><span class="photo-card-badge mono" aria-hidden="true"><span class="beacon-pulse"><span class="beacon-core"></span><span class="beacon-ring"></span></span>ACTIVE ✳</span></div><Image src={portrait} alt={t('Georgia König lächelt in die Kamera.','Georgia König smiling at the camera.')} widths={[480,720,960]} sizes="(max-width:800px) 85vw, 40vw" width={720} height={842} format="webp" loading="eager" fetchpriority="high"/><div class="photo-card-caption"><span>{t('Empathie trifft Expertise.','Empathy meets expertise.')}</span><Icon name="access" size={22}/></div></div>
+   <div class="hero-tech-tag tag-access"><span class="tag-check"><Icon name="check" size={17}/></span><span>{t('Für Menschen gemacht.','Made for people.')}<small>DESIGN × ACCESSIBILITY</small></span></div>
+  </div></div>
+  <div class="hero-v2-bottom"><span><span class="status-dot"/>{t('Gute Technologie beginnt beim Menschen.','Good technology begins with people.')}</span><span class="mono">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+ </div></section>
+ <div class="expertise-strip"><div class="container"><span>{t('Design mit Perspektive.','Design with perspective.')}</span><span>UX & UI</span><i aria-hidden="true">✳</i><span>Accessibility</span><i aria-hidden="true">✳</i><span>Development</span><i aria-hidden="true">✳</i><span>Software Quality</span></div></div>
+
+ <section id="leistungen" class="section"><div class="container"><div class="section-heading"><div><p class="eyebrow">01 / {t('WAS ICH FÜR DICH TUN KANN','HOW I CAN HELP')}</p><h2>{t('Gute Ideen verdienen','Good ideas deserve')}<br/><span class="muted-heading">{t('bessere Erlebnisse.','better experiences.')}</span></h2></div><p>{t('Von der ersten Frage bis zum letzten Feinschliff. Ich verbinde die Bedürfnisse deiner Nutzer:innen mit Design, das funktioniert.','From the first question to the final detail. I connect your users’ needs with design that works.')}</p></div><div class="services-grid">{ss.map(s=><a class="service-card" href={href(`/leistungen/${s.slug}/`,lang)}><div class="service-top"><span class="service-icon"><Icon name={s.icon} size={28}/></span><span class="mono">/{s.number}</span></div><h3>{s.title}</h3><p>{s.description}</p><div class="service-bottom"><span>{s.tags[0]}</span><span class="circle-arrow"><Icon name="diagonal" size={20}/></span></div></a>)}</div></div></section>
+
+ <section id="ueber-mich" class="section about-section"><div class="container about-grid"><div class="about-principles"><p class="eyebrow">{t('MEIN ANSATZ','MY APPROACH')}</p><p class="about-manifesto">{t('Empathie.','Empathy.')}<br/>{t('Klarheit.','Clarity.')}<br/><span>{t('Wirkung.','Impact.')}</span></p><div class="principles-divider"><span aria-hidden="true">✳</span><span class="mono">HUMAN FIRST. ALWAYS.</span></div><ol class="principles-list"><li><span class="principle-number">01</span><div><strong>{t('Menschen verstehen','Understand people')}</strong><p>{t('Zuhören, Fragen stellen und Bedürfnisse erkennen.','Listen, ask questions and understand needs.')}</p></div></li><li><span class="principle-number">02</span><div><strong>{t('Zusammenhänge sehen','Connect the dots')}</strong><p>{t('Design, Technologie und Zugänglichkeit verbinden.','Connect design, technology and accessibility.')}</p></div></li><li><span class="principle-number">03</span><div><strong>{t('Gezielt verbessern','Make meaningful improvements')}</strong><p>{t('Ideen greifbar machen und Lösungen weiterdenken.','Make ideas tangible and keep improving solutions.')}</p></div></li></ol></div><div class="about-copy"><p class="eyebrow">02 / {t('DER MENSCH HINTER DEM CODE','THE PERSON BEHIND THE CODE')}</p><h2>{t('Informatikerin im Kopf.','Computer scientist at heart.')}<br/><span class="muted-heading">{t('Gestalterin im Herzen.','Designer by instinct.')}</span></h2><p class="lead">{t('Hi, ich bin Georgia. Schön, dass du da bist.','Hi, I’m Georgia. It’s good to have you here.')}</p><p>{t('Mich begeistert, was passiert, wenn Technologie das Leben einfacher macht. Deshalb denke ich digitale Produkte vom Menschen aus – mit Neugier, Empathie und einem Blick für die Details.','I love what happens when technology makes life easier. That is why I approach digital products through the people who use them, with curiosity, empathy and attention to detail.')}</p><p>{t('Mein Hintergrund in Informatik, Software Testing und UX-Design hilft mir dabei, die richtigen Fragen zu stellen. Heute bringe ich diese Perspektiven als selbstständige UX-Designerin und Accessibility Engineer zusammen.','My background in computer science, software testing and UX design helps me ask the right questions. Today I combine these perspectives as an independent UX designer and accessibility engineer.')}</p><div class="about-facts"><div><strong>M.Sc.</strong><span>Human-centered Computing</span></div><div><strong>{t('Seit 2013','Since 2013')}</strong><span>{t('in der Welt der Informatik','exploring computer science')}</span></div></div><a class="text-link" href={href('/ueber-mich/',lang)}>{t('Mehr über mich','More about me')}<Icon name="arrow" size={19}/></a></div></div></section>
+
+ <Career/>
+
+ <section id="einblicke" class="section portfolio-section" aria-labelledby="portfolio-heading"><div class="container"><div class="section-heading"><div><p class="eyebrow">04 / {t('WAS ICH KANN · WABIY & LIVE AUDIT','WHAT I DO · WABIY & LIVE AUDIT')}</p><h2 id="portfolio-heading">{t('Ein Web, das niemanden','A web that leaves')}<br/><span class="muted-heading">{t('zurücklässt.','no one behind.')}</span></h2></div><p>{t('Gemeinsam mit Karam Hayani arbeite ich an Wabiy: Eine Plattform, die Barrieren sichtbar macht, Lösungen verständlich erklärt und Teams bei der Umsetzung unterstützt. Teste den automatisierten WCAG 2.2 Schnellcheck direkt hier live.','Together with Karam Hayani, I work on Wabiy: A platform that makes barriers visible, explains solutions and supports teams in putting them into practice. Test the automated WCAG 2.2 quick audit live right here.')}</p></div><QuickAudit lang={lang} storyHref={href('/wabiy/',lang)} client:visible /><div class="portfolio-documents"><a href="/downloads/Georgia_Koenig_Lebenslauf_2025.pdf"><Icon name="download"/><span><strong>{t('Mein Lebenslauf','My CV')}</strong><small>{t('Beruflicher Weg & Qualifikationen · PDF, 2025','Experience & qualifications · German PDF, 2025')}</small></span><Icon name="diagonal" size={21}/></a><a href="/downloads/Georgia_Koenig_Qualifikationsprofil_2025.pdf"><Icon name="download"/><span><strong>{t('Mein Qualifikationsprofil','My skills profile')}</strong><small>{t('Projekte, Aufgaben & Tools · PDF, 2025','Projects, tasks & tools · German PDF, 2025')}</small></span><Icon name="diagonal" size={21}/></a></div></div></section>
+
+ <section class="section lab-section"><div class="container"><div class="section-heading"><div><p class="eyebrow">ACCESSIBILITY IN ACTION</p><h2>{t('Ein kleines Detail.','A small detail.')}<br/>{t('Ein großer Unterschied.','A big difference.')}</h2></div><p>{t('Zugänglichkeit wird spürbar, wenn Menschen Inhalte leichter erkennen und verstehen können. Probier es selbst aus.','Accessibility becomes tangible when people can read and understand content more easily. Try it for yourself.')}</p></div><ContrastLab lang={lang} client:visible/></div></section>
+
+ <section id="referenzen" class="section testimonials" aria-labelledby="referenzen-heading">
+  <div class="container">
+    <div class="testimonials-header">
+      <div>
+        <p class="eyebrow">05 / {t('ZUSAMMENARBEIT, DIE VERBINDET','COLLABORATION THAT CONNECTS')}</p>
+        <h2 id="referenzen-heading">{t('Gute Arbeit ist persönlich.','Good work is personal.')}<br/><span class="muted-heading">{t('Echte Stimmen aus Projekten.','Real feedback from client projects.')}</span></h2>
+      </div>
+      <div class="testimonials-trust-badge">
+        <div class="trust-stars" role="img" aria-label={t('Bewertung: 5 von 5 Sternen aus verifizierten Kundenprojekten','Rating: 5 out of 5 stars from verified client projects')}>
+          <span class="stars-visual" aria-hidden="true">★★★★★</span>
+          <span class="stars-score mono">5.0</span>
+        </div>
+        <span class="trust-label mono">{t('VERIFIZIERTE KUNDENSTIMMEN','VERIFIED CLIENT REVIEWS')}</span>
+      </div>
+    </div>
+
+    {en&&<p class="translation-note">{t('Testimonials translated from German.','Testimonials translated from German.')}</p>}
+
+    <div class="enterprise-testimonials-grid">
+      <!-- 01: Anja Schmidt -->
+      <figure class="testimonial-card">
+        <div class="card-top">
+          <div class="card-rating" role="img" aria-label={t('5 von 5 Sternen','5 out of 5 stars')}>
+            <span aria-hidden="true">★★★★★</span>
+          </div>
+          <span class="project-tag mono">{t('LOGO & WEBSITE','LOGO & WEBSITE')}</span>
+        </div>
+        <blockquote>
+          <p>{t(
+            '„Georgia hat mich auf dem Weg in meine Selbständigkeit sehr unterstützt. Sie hat mir Arbeit abgenommen die ich alleine nicht geschafft hätte. Zum Beispiel hat sie mir geholfen mein Logo zu gestalten. Ich kam mit meiner Idee und sie hat diese in die Tat umgesetzt. Ich war schon mit dem ersten Entwurf meines Logos sehr zufrieden. Des Weiteren hat sie meine Homepage ganz nach meinen Vorstellungen gestaltet & programmiert. Und auch jetzt ist sie für mich noch eine Unterstützung im Bereich der Weitergestaltung meiner Webpräsenz.“',
+            '“Georgia provided tremendous support on my journey to starting my own business. She took work off my hands that I couldn’t have managed alone. For example, she helped me design my logo. I came with an idea, and she turned it into reality. I was thrilled with the very first draft of my logo. Furthermore, she designed and developed my website entirely according to my vision. And even now, she continues to support me with the ongoing evolution of my web presence.”'
+          )}</p>
+        </blockquote>
+        <figcaption>
+          <div class="client-avatar" aria-hidden="true">
+            <span class="avatar-letter">A</span>
+          </div>
+          <div class="client-info">
+            <strong class="client-name">Anja Schmidt</strong>
+            <span class="client-role">{t('Selbstständige Gründerin','Independent Founder')}</span>
+          </div>
+        </figcaption>
+      </figure>
+
+      <!-- 02: Heike -->
+      <figure class="testimonial-card">
+        <div class="card-top">
+          <div class="card-rating" role="img" aria-label={t('5 von 5 Sternen','5 out of 5 stars')}>
+            <span aria-hidden="true">★★★★★</span>
+          </div>
+          <span class="project-tag mono">{t('BERATUNG & UX','CONSULTING & UX')}</span>
+        </div>
+        <blockquote>
+          <p>{t(
+            '„Georgia König berät kompetent und empathisch. Sie ist mit logischem Verstand, Kreativität und Flexibilität bei der Sache und findet gemeinsam mit der Kundschaft erfolgversprechende Lösungen. Klare Empfehlung!“',
+            '“Georgia König offers knowledgeable, empathetic advice. She brings logical thinking, creativity and flexibility, working with her clients to find promising solutions. Highly recommended!”'
+          )}</p>
+        </blockquote>
+        <figcaption>
+          <div class="client-avatar" aria-hidden="true">
+            <span class="avatar-letter">H</span>
+          </div>
+          <div class="client-info">
+            <strong class="client-name">Heike</strong>
+            <a class="client-link" href="https://www.wellness-wanderung.de/" target="_blank" rel="noopener noreferrer">
+              <span>Wellness-Wanderung</span>
+              <Icon name="diagonal" size={13} aria-hidden="true"/>
+              <span class="sr-only">({t('öffnet in neuem Tab','opens in new tab')})</span>
+            </a>
+          </div>
+        </figcaption>
+      </figure>
+
+      <!-- 03: Christine -->
+      <figure class="testimonial-card">
+        <div class="card-top">
+          <div class="card-rating" role="img" aria-label={t('5 von 5 Sternen','5 out of 5 stars')}>
+            <span aria-hidden="true">★★★★★</span>
+          </div>
+          <span class="project-tag mono">{t('WEBENTWICKLUNG','WEB DEVELOPMENT')}</span>
+        </div>
+        <blockquote>
+          <p>{t(
+            '„Als Informatik-Laie war ich sehr froh, dass Georgia mir mit viel Geduld und guten Erklärungen geholfen hat, endlich im Internet vertreten zu sein.“',
+            '“With no background in IT, I was very grateful that Georgia helped me finally establish an online presence with so much patience and clear explanations.”'
+          )}</p>
+        </blockquote>
+        <figcaption>
+          <div class="client-avatar" aria-hidden="true">
+            <span class="avatar-letter">C</span>
+          </div>
+          <div class="client-info">
+            <strong class="client-name">Christine</strong>
+            <a class="client-link" href="https://www.wandern-mit-christine.de/" target="_blank" rel="noopener noreferrer">
+              <span>Wandern mit Christine</span>
+              <Icon name="diagonal" size={13} aria-hidden="true"/>
+              <span class="sr-only">({t('öffnet in neuem Tab','opens in new tab')})</span>
+            </a>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="testimonials-footer-strip">
+      <div class="trust-guarantee">
+        <span class="guarantee-dot" aria-hidden="true"></span>
+        <span>{t('100% authentische Erfahrungen aus echter Zusammenarbeit & langfristiger Betreuung.','100% authentic feedback from real collaborations and ongoing partnerships.')}</span>
+      </div>
+      <a href={href('/termin/',lang)} class="text-link">
+        <span>{t('Lass uns über dein Projekt sprechen','Let’s talk about your project')}</span>
+        <Icon name="arrow" size={17} aria-hidden="true"/>
+      </a>
+    </div>
+  </div>
+</section>
+
+ <section class="section faq-section"><div class="container faq-grid"><div><p class="eyebrow">{t('GUT ZU WISSEN','GOOD TO KNOW')}</p><h2>{t('Noch Fragen?','Any questions?')}<br/>{t('Hier beginnt Klarheit.','Start with clarity.')}</h2><p>{t('Oder schreib mir einfach. Ich freue mich auf dein Vorhaben.','Or simply send me a message. I’d love to hear about your plans.')}</p></div><div class="faq-list">{ff.map(f=><details><summary>{f.q}<Icon name="plus" size={20}/></summary><p>{f.a}</p></details>)}</div></div></section>
+
+ <section id="kontakt" class="contact-section"><div class="container contact-grid"><div><p class="eyebrow">06 / {t('LASS UNS ETWAS BEWEGEN','LET’S MAKE A DIFFERENCE')}</p><h2>{t('Deine Idee verdient','Your idea deserves')}<br/>{t('einen guten Anfang.','a good beginning.')}</h2><p>{t('Eine neue Website, eine bessere User Experience oder weniger digitale Barrieren? Erzähl mir von deinem Vorhaben oder vereinbare ein kostenloses Erstgespräch.','A new website, a better user experience or fewer digital barriers? Tell me about your plans or request a free initial conversation.')}</p><ContactForm lang={lang} client:visible idPrefix="home-contact"/><span class="contact-note">{t('Persönlich. Unverbindlich. Auf Augenhöhe.','Personal. No obligation. On equal terms.')}</span></div><div class="contact-details"><span class="mono">{t('ICH FREUE MICH AUF DEINE NACHRICHT.','I’D LOVE TO HEAR FROM YOU.')}</span><a class="email-link" href="mailto:kontakt@georgia-koenig.de">kontakt@<br/>georgia-koenig.de <Icon name="diagonal" size={26}/></a><a href="tel:+4915150242010">+49 1515 0242 010</a><span><Icon name="location" size={17}/>Neue Straße 5 · 74523 Schwäbisch Hall</span><a href="https://www.linkedin.com/in/georgia-k%C3%B6nig/" target="_blank" rel="noopener noreferrer">{t('Auf LinkedIn verbinden','Connect on LinkedIn')}<Icon name="diagonal" size={16}/></a><MapCard lang={lang}/><div style="display:flex;gap:15px;align-items:center;flex-wrap:wrap;margin-top:18px"><a href={href('/termin/',lang)} class="button button-mint" style="min-height:44px;font-size:14px;padding:10px 16px;gap:10px"><span>{t('30 Min. Erstgespräch buchen','Book 30-min consultation')}</span><Icon name="diagonal" size={16}/></a><a href={href('/kontakt/',lang)} class="text-link"><span>{t('Zur Kontaktseite & FAQ','Contact page & FAQ')}</span><Icon name="arrow" size={16}/></a></div></div></div></section>
+
+<script>
+  // Interactive 3D Card Tilt & Ambient Specular Gleam
+  const artStage = document.querySelector<HTMLElement>('.hero-v2-art');
+  const card = document.querySelector<HTMLElement>('.hero-photo-card');
+  if (artStage && card) {
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (!prefersReduced.matches) {
+      let bounds: DOMRect | null = null;
+      let rafId: number | null = null;
+      let currentX = 0;
+      let currentY = 0;
+      let targetX = 0;
+      let targetY = 0;
+      let isHovered = false;
+
+      const updateBounds = () => {
+        bounds = card.getBoundingClientRect();
+      };
+
+      const lerp = (start: number, end: number, factor: number) => start + (end - start) * factor;
+
+      const render = () => {
+        if (!isHovered) {
+          targetX = 0;
+          targetY = 0;
+        }
+        currentX = lerp(currentX, targetX, 0.12);
+        currentY = lerp(currentY, targetY, 0.12);
+
+        if (isHovered || Math.abs(currentX) > 0.02 || Math.abs(currentY) > 0.02) {
+          const rotX = -currentY * 8;
+          const rotY = currentX * 10;
+          card.style.setProperty('--tilt-x', rotX.toFixed(2) + 'deg');
+          card.style.setProperty('--tilt-y', rotY.toFixed(2) + 'deg');
+          card.classList.add('is-tilting');
+          rafId = requestAnimationFrame(render);
+        } else {
+          card.classList.remove('is-tilting');
+          card.style.removeProperty('--tilt-x');
+          card.style.removeProperty('--tilt-y');
+          rafId = null;
+        }
+      };
+
+      artStage.addEventListener('pointerenter', () => {
+        updateBounds();
+        isHovered = true;
+        if (!rafId) rafId = requestAnimationFrame(render);
+      });
+
+      artStage.addEventListener('pointermove', (e: Event) => {
+        const pe = e as PointerEvent;
+        if (!bounds) updateBounds();
+        if (!bounds) return;
+        const mouseX = pe.clientX - bounds.left;
+        const mouseY = pe.clientY - bounds.top;
+        targetX = Math.max(-1, Math.min(1, (mouseX / bounds.width - 0.5) * 2));
+        targetY = Math.max(-1, Math.min(1, (mouseY / bounds.height - 0.5) * 2));
+        
+        const percX = Math.round((mouseX / bounds.width) * 100);
+        const percY = Math.round((mouseY / bounds.height) * 100);
+        card.style.setProperty('--mouse-x', percX + '%');
+        card.style.setProperty('--mouse-y', percY + '%');
+
+        if (!rafId) rafId = requestAnimationFrame(render);
+      });
+
+      artStage.addEventListener('pointerleave', () => {
+        isHovered = false;
+      });
+
+      window.addEventListener('resize', () => {
+        if (isHovered) updateBounds();
+      }, { passive: true });
+    }
+  }
+</script>
+</Layout>
